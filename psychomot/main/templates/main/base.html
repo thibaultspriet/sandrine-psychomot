@@ -1,0 +1,69 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandrine Psychomotricienne</title>
+    <link rel="stylesheet" href="{% static 'main/css/base.css' %}">
+    {% block head %}{% endblock %}
+</head>
+<body>
+    <header class="base-header">
+        <nav class="coordinates">
+            <ul class="list-coordinates">
+                <li><a href="tel:0615742382"><img src="{% static 'main/img/phone-call.svg' %}" alt="phone" class="tel">06 15 74 23 82</a></li>
+                <li><a href="mailto:thibaultspriet@hotmail.fr"><img src="{% static 'main/img/email.svg' %}" alt="email" class="mail">sandrine.dubois.psychomot@sfr.fr</a></li>
+                <li><a href="#"><img src="{% static 'main/img/location.svg' %}" alt="location" class="location">81 rue de l'enclos 59820 Tucheville</a></li>
+            </ul>
+        </nav>
+        <nav class="rubriques">
+            <div class="toggle-menu">
+                <img src="{% static 'main/img/hamburger.svg' %}" alt="menu" class="hamburger">
+            </div>
+            <ul class="list-rubriques">
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">Présentation</a></li>
+                <li><a href="#">Psychomotricité</a></li>
+                <li><a href="#">Sophrologie-Yoga</a></li>
+                <li><a href="#">Rendez-Vous</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+
+    <footer>
+        <div class="footer-infos">
+            <ul class="footer-liens footer-infos-item">
+                <li class="footer-title">Liens utiles</li>
+                <li><a href="#">Résodys</a></li>
+                <li><a href="#">Dyspraxies France</a></li>
+                <li><a href="#">F.F.D.Y.S.</a></li>
+                <li><a href="#">INSHEA</a></li>
+                <li><a href="#">Centre de ressources autisme</a></li>
+            </ul>
+            <ul class="footer-coordinate footer-infos-item">
+                <li class="footer-title">Coordonnées</li>
+                <li><a href="tel:0615742382" class="tel"><img src="{% static 'main/img/phone-call.svg' %}" alt="phone" class="tel">: 06 15 74 23 82</a></li>
+                <li><a href="mailto:thibaultspriet@hotmail.fr" class="mail"><img src="{% static 'main/img/email.svg' %}" alt="email" class="mail">: sandrine.dubois.psychomot@sfr.fr</a></li>
+                <li><a href="#" class="addresse"><img src="{% static 'main/img/location.svg' %}" alt="location" class="location">: 81 rue de l'enclos 59820 Tucheville</a></li>
+            </ul>
+            <div class="footer-rdv footer-infos-item">
+                <h1 class="footer-title">Rendez-vous</h1>
+                <p>Jours de consultation :<br>Lundi, Mardi, Jeudi, Vendredi</p>
+                <a href="#" class="btn footer-btn">Prendre rendez-vous</a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>2020 par Thibault SPRIET</p>
+        </div>
+
+    </footer>
+
+    <script src="{% static 'js/jquerry.js' %}"></script>
+    {% block script %}{% endblock %}
+</body>
+</html>
