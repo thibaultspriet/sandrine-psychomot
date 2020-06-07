@@ -143,22 +143,46 @@ li{
 /* Menu téléphone */
 @media only screen and (max-width:$bp580){
     .rubriques{
+
         .hamburger{
             display: block;
+            cursor: pointer;
         }
 
         .list-rubriques{
             display: none;
         }
 
+        
+
         .list-rubriques.active{
             display: flex;
             flex-direction: column;
+            animation: toggleMenu 1s ease both;
+            transform-origin: 0 0;
             li{
                 font-size: 1.5em;
                 margin-bottom: 0.5em;
             }
         }
+    }
+}
+
+/* Animation */
+@keyframes toggleMenu{
+    from{
+        transform: scaleY(0);
+    }to{
+        transform: scale(100%);
+    }
+}
+
+@keyframes revealLink{
+    0%{
+        transform: translatex(50vw);
+    }
+    100%{
+        transform: translatex(0);
     }
 }
 
