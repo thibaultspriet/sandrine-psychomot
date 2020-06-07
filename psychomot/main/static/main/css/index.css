@@ -122,6 +122,7 @@ h1 {
 
 .psychomotricienne .psychomotricite ul li .container-cross .line1, .psychomotricienne .psychomotricite ul li .container-cross .line2 {
   position: absolute;
+  pointer-events: none;
   height: .1em;
   left: .2em;
   right: .2em;
@@ -140,6 +141,13 @@ h1 {
 
 .psychomotricienne .psychomotricite ul li .description {
   display: none;
+  /* transform-origin: top; */
+}
+
+.psychomotricienne .psychomotricite ul li .description.active {
+  display: block;
+  -webkit-animation: displayDescription .5s ease forwards;
+          animation: displayDescription .5s ease forwards;
 }
 
 .psychomotricienne .role {
@@ -263,5 +271,31 @@ h1 {
 .map h1 {
   text-align: center;
   font-size: 2em;
+}
+
+/* Animation */
+@-webkit-keyframes displayDescription {
+  from {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: scale(100%);
+            transform: scale(100%);
+    opacity: 1;
+  }
+}
+@keyframes displayDescription {
+  from {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: scale(100%);
+            transform: scale(100%);
+    opacity: 1;
+  }
 }
 /*# sourceMappingURL=index.css.map */

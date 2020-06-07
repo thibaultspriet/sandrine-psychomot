@@ -27,9 +27,11 @@
             <ul>
                 <li>
                     <div class="container-cross"><div class="line1"></div><div class="line2"></div></div>La psychomotricité
-                    <div class="description"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus natus exercitationem optio tenetur omnis officiis atque dolorum porro nam esse odit doloremque velit, iste repudiandae cum blanditiis iusto incidunt modi.
+                    <div class="description">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus natus exercitationem optio tenetur omnis officiis atque dolorum porro nam esse odit doloremque velit, iste repudiandae cum blanditiis iusto incidunt modi.
                     Molestiae veniam autem esse vel quam, ex eum voluptatum delectus vero porro dolore! Quo consequatur pariatur sequi molestiae blanditiis neque ducimus animi voluptate harum commodi, atque velit, assumenda ipsam consequuntur.
-                    Explicabo aspernatur tenetur voluptatum temporibus voluptates sequi sint cumque quis consequatur quaerat rerum enim velit, sapiente quibusdam? Nulla ex aliquid odio, tempora cupiditate doloremque sint, ipsum, est dolorem perferendis nihil?</p></div>
+                    Explicabo aspernatur tenetur voluptatum temporibus voluptates sequi sint cumque quis consequatur quaerat rerum enim velit, sapiente quibusdam? Nulla ex aliquid odio, tempora cupiditate doloremque sint, ipsum, est dolorem perferendis nihil?</p>
+                    </div>
                 </li>
                 <li>
                     <div class="container-cross"><div class="line1"></div><div class="line2"></div></div>La psychomotricienne
@@ -98,6 +100,10 @@
         <h1>Me situer</h1>
         <iframe width="100%" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJB4Kp5ezZwkcRdMtn6AKhNkQ&key=AIzaSyAr1FvQn5YNoRkrlR_7vJLtYsnQHGZdNsY" allowfullscreen></iframe>
     </section>
+{% endblock %}
+
+{% block script %}
+<script src="{% static 'main/js/toggledescription.js' %}"></script>
 {% endblock %}
 
 

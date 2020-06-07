@@ -1,14 +1,9 @@
 @charset "UTF-8";
-
-/* Fonts */
-
-
 /* Global variables */
 /* Global default settings */
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Poppins';
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }

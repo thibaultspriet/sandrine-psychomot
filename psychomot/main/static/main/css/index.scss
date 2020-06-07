@@ -95,6 +95,7 @@ h1{
                     margin-right: 2em;
                     .line1,.line2{
                         position: absolute;
+                        pointer-events: none;
                         height: .1em;
                         left: .2em;
                         right: .2em;
@@ -110,7 +111,13 @@ h1{
                 }
                 .description{
                     display: none;
+                    /* transform-origin: top; */
+                    &.active{
+                        display: block;
+                        animation: displayDescription .5s ease forwards;
+                    }
                 }
+
     
             }
 
@@ -215,6 +222,18 @@ h1{
     h1{
         text-align: center;
         font-size: 2em;
+    }
+}
+
+
+/* Animation */
+@keyframes displayDescription{
+    from{
+        transform: scale(0);
+        opacity: 0;
+    }to{
+        transform: scale(100%);
+        opacity: 1;
     }
 }
 
