@@ -160,6 +160,7 @@ h1{
     }
     .card-container{
         display: flex;
+        flex-wrap: wrap;
         margin-bottom: 2em;
     }
     .card{
@@ -222,6 +223,106 @@ h1{
     h1{
         text-align: center;
         font-size: 2em;
+    }
+}
+
+
+/* Responsive */
+@media only screen and (max-width:1060px){
+    .presentation{
+        .container-portrait{
+            height: auto;
+        }
+        .container-presentation{
+            align-self: flex-start;
+        }
+    }
+}
+
+
+@media only screen and (max-width:960px){
+    .psychomotricienne{
+        .separateur-vertical{
+            display: none;
+        }
+        .psychomotricite ul{
+            width: 90%;
+        }
+        .description p{
+            width: 100%;
+        }
+    } 
+        
+}
+
+
+@media only screen and (max-width:900px){
+    .presentation{
+        .container-presentation{
+            p{
+                margin-top: 1em;
+                width: 90%;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:760px){
+    .presentation{
+        .container-portrait{
+            width: 30%;
+        }
+        .container-presentation{
+            flex: 1;
+            h1{
+                font-size: 2em;
+                white-space: nowrap;
+                margin: auto;
+                margin-bottom: 0;
+            }
+            
+        }
+    }
+}
+
+@media only screen and (max-width:700px){
+    .psychomotricienne{
+        flex-direction: column;
+        align-items: center;
+
+        .psychomotricite{
+            width: 80%;
+            margin: auto;
+        }
+    }
+    
+}
+
+@media only screen and (max-width:600px){
+    .pourqui{
+        .card-container{
+            flex-direction: column;
+            align-items: center;
+            .card{
+                width: 70%;
+                margin-bottom: 1em;
+            }
+
+            .separateur-gauche,.separateur-droite{
+                display: none;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:500px){
+    .presentation{
+        flex-direction: column;
+        align-items: center;
+        .container-presentation{
+            width: 90%;
+            margin: auto;
+        }
     }
 }
 
