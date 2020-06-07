@@ -1,0 +1,267 @@
+/* Global variables */
+h1 {
+  font-family: 'Dancing';
+}
+
+/* Main */
+.presentation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.presentation .container-portrait, .presentation .container-presentation {
+  width: 50%;
+}
+
+.presentation .container-portrait {
+  height: 700px;
+  overflow: hidden;
+}
+
+.presentation .container-portrait [alt="portrait"] {
+  width: 100%;
+}
+
+.presentation .container-presentation {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  text-align: center;
+}
+
+.presentation .container-presentation h1 {
+  font-size: 4em;
+  margin-bottom: .5em;
+}
+
+.presentation .container-presentation h2 {
+  font-size: 1.2em;
+  opacity: .7;
+  font-style: italic;
+}
+
+.presentation .container-presentation p {
+  text-align: justify;
+  width: 70%;
+  margin: auto;
+  margin-top: 5em;
+  opacity: .7;
+}
+
+/* Psychomotricienne */
+.psychomotricienne {
+  background-color: rgba(227, 197, 148, 0.37);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.psychomotricienne .psychomotricite, .psychomotricienne .role {
+  width: 50%;
+}
+
+.psychomotricienne .separateur-vertical {
+  position: absolute;
+  width: 1px;
+  top: 6em;
+  bottom: 70px;
+  left: 50%;
+  background-color: gray;
+}
+
+.psychomotricienne .psychomotricite {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.psychomotricienne .psychomotricite h1 {
+  margin-top: 1em;
+  font-size: 2em;
+}
+
+.psychomotricienne .psychomotricite p {
+  width: 70%;
+  margin: auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.psychomotricienne .psychomotricite ul {
+  width: 70%;
+}
+
+.psychomotricienne .psychomotricite ul li {
+  width: 100%;
+  margin: auto;
+  border-radius: 10px;
+  margin-bottom: 1em;
+  padding: 1em;
+  background-color: #EAD1AA;
+}
+
+.psychomotricienne .psychomotricite ul li .container-cross {
+  cursor: pointer;
+  border-radius: 10px;
+  height: 1em;
+  width: 1em;
+  background-color: #9818D6;
+  position: relative;
+  display: inline-block;
+  margin-right: 2em;
+}
+
+.psychomotricienne .psychomotricite ul li .container-cross .line1, .psychomotricienne .psychomotricite ul li .container-cross .line2 {
+  position: absolute;
+  height: .1em;
+  left: .2em;
+  right: .2em;
+  top: .5em;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  background-color: white;
+}
+
+.psychomotricienne .psychomotricite ul li .container-cross .line2 {
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  -webkit-transform: rotateZ(-90deg);
+          transform: rotateZ(-90deg);
+}
+
+.psychomotricienne .psychomotricite ul li .description {
+  display: none;
+}
+
+.psychomotricienne .role {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.psychomotricienne .role h1 {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-size: 2em;
+}
+
+.psychomotricienne .role li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 1em;
+}
+
+.psychomotricienne .role li .icon {
+  width: 60px;
+  margin-right: 2em;
+}
+
+/* Pour qui */
+.pourqui h1 {
+  text-align: center;
+  font-size: 2em;
+  text-transform: uppercase;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+.pourqui .card-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 2em;
+}
+
+.pourqui .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 33%;
+}
+
+.pourqui .card .container-cover {
+  height: 200px;
+  overflow: hidden;
+  margin-bottom: 1em;
+  -webkit-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+}
+
+.pourqui .card .container-cover:hover {
+  -webkit-transform: scale(1.1) rotate(5deg);
+          transform: scale(1.1) rotate(5deg);
+}
+
+.pourqui .card .container-cover img {
+  display: block;
+  margin: auto;
+}
+
+.pourqui .card.card-center {
+  position: relative;
+}
+
+.pourqui .card.card-center .separateur-gauche, .pourqui .card.card-center .separateur-droite {
+  position: absolute;
+  width: 1px;
+  background-color: #EAD1AA;
+  top: 200px;
+  bottom: 0;
+}
+
+.pourqui .card.card-center .separateur-gauche {
+  left: 0;
+}
+
+.pourqui .card.card-center .separateur-droite {
+  right: 0;
+}
+
+.pourqui h3 {
+  color: #EAD1AA;
+  margin-bottom: 0.5em;
+}
+
+.pourqui .separateur-horizontal {
+  width: 90%;
+  height: 1px;
+  margin: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: #EAD1AA;
+}
+
+.pourqui h3, .pourqui p {
+  margin-left: 1em;
+}
+
+/* Me situer */
+.map h1 {
+  text-align: center;
+  font-size: 2em;
+}
+/*# sourceMappingURL=index.css.map */
