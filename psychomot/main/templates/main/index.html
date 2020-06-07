@@ -1,4 +1,76 @@
 {% extends 'main/base.html' %}
+{% load static %}
+
+{% block head %}
+    <link rel="stylesheet" href="{% static 'main/css/index.css' %}">
+{% endblock %}
+
+{% block content %}
+    <main class="presentation">
+        <div class="container-portrait">
+            <img src="" alt="">
+        </div>
+        <div class="container-presentation">
+            <h1>Sandrine Dubois</h1>
+            <h2>Psychomotricienne</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut dolorem perferendis quod consectetur adipisci? Omnis aliquam eaque, delectus odit placeat minima itaque similique temporibus, error, necessitatibus eligendi deserunt a fugiat!
+            Quia voluptatem nostrum dolorum, hic aspernatur ipsa molestias dolor asperiores illum ipsam fugiat omnis placeat natus mollitia veniam exercitationem facilis! Consequuntur, eveniet ipsam quas exercitationem ipsa voluptate? Tempore, itaque ex.
+            Voluptates id cumque vero aliquam natus magnam repellat repudiandae, aliquid placeat ab molestiae ex quaerat dicta eius laboriosam dolorem consectetur nam a veniam. Dolorem, quae ipsum? Consectetur mollitia aliquid quam?
+        </div>
+    </main>
+
+    <section class="psychomotricienne">
+        <div class="separateur-vertical"></div>
+        <div class="psychomotricite">
+            <h1>Psychomotricienne Lille</h1>
+            <p>Premièrement, la psychomotricité s’intéresse à l’individu dans sa globalité. Elle s’appuie en effet sur les liens étroits qui unissent le corps et le psychisme</p>
+            <ul>
+                <li>La psychomotricité</li>
+                <li>La psychomotricienne</li>
+                <li>Le champ de compétence</li>
+                <li>Les objectifs</li>
+            </ul>
+        </div>
+        <div class="role">
+            <h1>Le rôle de la psychomotricienne</h1>
+            <ul>
+                <li><img src="" alt="" class="icon"><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p></li>
+                <li><img src="" alt="" class="icon"><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p></li>
+                <li><img src="" alt="" class="icon"><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p></li>
+                <li><img src="" alt="" class="icon"><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p></li>
+                <li><img src="" alt="" class="icon"><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p></li>
+                <li><img src="" alt="" class="icon"><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p></li>
+            </ul>
+        </div>
+    </section>
+    <section class="pourqui">
+        <h1>à qui s'adresse la psychomotricité ?</h1>
+        <div class="card-container">
+            <div class="card">
+                <div class="container-cover"></div>
+                <h3>Parents - Bébés</h3>
+                <hr>
+                <p>Relations précoces - Développement psychomoteur - Guidance parentale</p>
+            </div>
+            <div class="card">
+                <div class="container-cover"></div>
+                <h3>Enfants - Adolescents</h3>
+                <hr>
+                <p>Apprentissages - Comportements - Rééducation</p>
+            </div>
+            <div class="card">
+                <div class="container-cover"></div>
+                <h3>Adultes</h3>
+                <hr>
+                <p>Gestion des émotions - Maladies, handicaps - Vécu corporel douloureux</p>
+            </div>
+        </div>
+    </section>
+    <section class="map">
+        <h1>Me situer</h1>
+        <iframe width="100%" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJB4Kp5ezZwkcRdMtn6AKhNkQ&key=AIzaSyAr1FvQn5YNoRkrlR_7vJLtYsnQHGZdNsY" allowfullscreen></iframe>
+    </section>
+{% endblock %}
 
 
 
