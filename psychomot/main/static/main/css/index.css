@@ -140,14 +140,7 @@ h1 {
 }
 
 .psychomotricienne .psychomotricite ul li .description {
-  display: none;
-  /* transform-origin: top; */
-}
-
-.psychomotricienne .psychomotricite ul li .description.active {
-  display: block;
-  -webkit-animation: displayDescription .5s ease forwards;
-          animation: displayDescription .5s ease forwards;
+  overflow: hidden;
 }
 
 .psychomotricienne .role {
@@ -180,6 +173,7 @@ h1 {
 }
 
 .psychomotricienne .role li .icon {
+  opacity: 0;
   width: 60px;
   margin-right: 2em;
 }
@@ -370,32 +364,6 @@ h1 {
   .presentation .container-presentation {
     width: 90%;
     margin: auto;
-  }
-}
-
-/* Animation */
-@-webkit-keyframes displayDescription {
-  from {
-    -webkit-transform: scale(0);
-            transform: scale(0);
-    opacity: 0;
-  }
-  to {
-    -webkit-transform: scale(100%);
-            transform: scale(100%);
-    opacity: 1;
-  }
-}
-@keyframes displayDescription {
-  from {
-    -webkit-transform: scale(0);
-            transform: scale(0);
-    opacity: 0;
-  }
-  to {
-    -webkit-transform: scale(100%);
-            transform: scale(100%);
-    opacity: 1;
   }
 }
 /*# sourceMappingURL=index.css.map */

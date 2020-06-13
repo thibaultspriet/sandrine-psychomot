@@ -110,20 +110,10 @@ h1{
                     }
                 }
                 .description{
-                    display: none;
-                    /* transform-origin: top; */
-                    &.active{
-                        display: block;
-                        animation: displayDescription .5s ease forwards;
-                    }
+                    overflow: hidden;
                 }
-
-    
             }
-
         }
-        
-        
     }
 
     .role{
@@ -140,8 +130,9 @@ h1{
             align-items: center;
             margin-bottom: 1em;
             .icon{
+                opacity: 0;
                 width: 60px;
-                margin-right: 2em;
+                margin-right: 2em; 
             }
 
         }
@@ -327,14 +318,5 @@ h1{
 }
 
 
-/* Animation */
-@keyframes displayDescription{
-    from{
-        transform: scale(0);
-        opacity: 0;
-    }to{
-        transform: scale(100%);
-        opacity: 1;
-    }
-}
+
 
