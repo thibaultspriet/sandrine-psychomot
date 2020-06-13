@@ -143,23 +143,22 @@ li{
 /* Menu téléphone */
 @media only screen and (max-width:$bp580){
     .rubriques{
-
+        position: relative;
+        height: 50px;
+        overflow: hidden;
         .hamburger{
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 100;
             display: block;
             cursor: pointer;
         }
 
         .list-rubriques{
-            display: none;
-        }
-
-        
-
-        .list-rubriques.active{
             display: flex;
             flex-direction: column;
-            animation: toggleMenu 1s ease both;
-            transform-origin: 0 0;
+            transform: translateX(-150%);
             li{
                 font-size: 1.5em;
                 margin-bottom: 0.5em;
@@ -168,22 +167,6 @@ li{
     }
 }
 
-/* Animation */
-@keyframes toggleMenu{
-    from{
-        transform: scaleY(0);
-    }to{
-        transform: scale(100%);
-    }
-}
 
-@keyframes revealLink{
-    0%{
-        transform: translatex(50vw);
-    }
-    100%{
-        transform: translatex(0);
-    }
-}
 
 
