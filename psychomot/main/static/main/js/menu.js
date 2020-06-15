@@ -1,7 +1,7 @@
 $(function(){
     const hamburger = $('.hamburger')
-    const menu = $('.list-rubriques')
-    const links = $('.list-rubriques li')
+    const menu = $('.list-rubriques-mobile')
+    const links = $('.list-rubriques-mobile li')
     const menuContainer = $('.rubriques')
 
 
