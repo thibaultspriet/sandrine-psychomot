@@ -114,7 +114,7 @@ h1 {
   border-radius: 10px;
   height: 1em;
   width: 1em;
-  background-color: #9818D6;
+  background-color: #8981E5;
   position: relative;
   display: inline-block;
   margin-right: 2em;
@@ -181,8 +181,7 @@ h1 {
 /* Pour qui */
 .pourqui h1 {
   text-align: center;
-  font-size: 2em;
-  text-transform: uppercase;
+  font-size: 3em;
   margin-bottom: 1em;
   margin-top: 1em;
 }
@@ -263,6 +262,159 @@ h1 {
   margin-left: 1em;
 }
 
+/* Yoga - Sophrologie */
+.yoga-sophrologie .yoga-sophro-cover {
+  width: 100%;
+  overflow: hidden;
+  background-color: #EAD1AA;
+}
+
+.yoga-sophrologie .yoga-sophro-cover img {
+  width: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
+  margin: auto;
+  background-color: #EAD1AA;
+}
+
+.yoga-sophrologie .yoga-sophrologie-container {
+  background-color: #EAD1AA;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2em 0;
+}
+
+.yoga-sophrologie .yoga-sophrologie-container .vertical-separator {
+  position: absolute;
+  background-color: black;
+  width: 1px;
+  height: 80%;
+  bottom: 10px;
+}
+
+.yoga-sophrologie .yoga-sophrologie-container .yoga, .yoga-sophrologie .yoga-sophrologie-container .sophrologie {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50%;
+}
+
+.yoga-sophrologie .yoga-sophrologie-container .yoga .yoga-soprologie-description, .yoga-sophrologie .yoga-sophrologie-container .sophrologie .yoga-soprologie-description {
+  text-align: justify;
+  width: 60%;
+  margin-top: 3em;
+}
+
+.yoga-sophrologie .yoga-sophrologie-container .yoga-soprologie-title {
+  font-family: 'Dancing';
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.yoga-sophrologie .yoga-pourqui {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.yoga-sophrologie .yoga-pourqui h3 {
+  font-family: 'Dancing';
+  font-size: 2em;
+  margin: 1.5em 0;
+}
+
+.yoga-sophrologie .yoga-pourqui img {
+  width: 50%;
+  margin-bottom: 1em;
+}
+
+.yoga-sophrologie .yoga-pourqui .card-container {
+  position: relative;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 3em;
+}
+
+.yoga-sophrologie .yoga-pourqui .card-container .vertical-sep {
+  position: absolute;
+  width: 1px;
+  height: 80%;
+  background-color: #EAD1AA;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.yoga-sophrologie .yoga-pourqui .card-container .horizontal-sep-container {
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  background-color: #EAD1AA;
+  bottom: -1em;
+}
+
+.yoga-sophrologie .yoga-pourqui .card-container .card {
+  position: relative;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 .5em;
+}
+
+.yoga-sophrologie .yoga-pourqui .card-container .card .horizontal-sep {
+  height: 1px;
+  width: 80%;
+  background-color: #EAD1AA;
+  top: 2.5em;
+  margin-bottom: 1em;
+}
+
+.yoga-sophrologie .yoga-pourqui .card-container .card .card-title {
+  color: #EAD1AA;
+  font-size: 1.5em;
+  margin: 1em 0;
+}
+
+.yoga-sophrologie .yoga-pourqui .card-container .card .card-description {
+  padding: 0 .5em;
+}
+
 /* Me situer */
 .map h1 {
   text-align: center;
@@ -288,6 +440,32 @@ h1 {
     width: 90%;
   }
   .psychomotricienne .description p {
+    width: 100%;
+  }
+  .yoga-sophrologie .yoga-sophrologie-container {
+    background-color: #EAD1AA;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .yoga-sophrologie .yoga-sophrologie-container .vertical-separator {
+    display: none;
+  }
+  .yoga-sophrologie .yoga-sophrologie-container .yoga {
+    margin-bottom: 3em;
+  }
+  .yoga-sophrologie .yoga-sophrologie-container .yoga, .yoga-sophrologie .yoga-sophrologie-container .sophrologie {
+    width: 70%;
+  }
+  .yoga-sophrologie .yoga-pourqui .card-container {
     width: 100%;
   }
 }
@@ -330,6 +508,9 @@ h1 {
     width: 80%;
     margin: auto;
   }
+  .yoga-sophrologie .yoga-sophrologie-container .yoga, .yoga-sophrologie .yoga-sophrologie-container .sophrologie {
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -364,6 +545,12 @@ h1 {
   .presentation .container-presentation {
     width: 90%;
     margin: auto;
+  }
+  .yoga-sophrologie .card-container .horizontal-sep {
+    display: none;
+  }
+  .yoga-sophrologie .card-container .card-title {
+    min-height: 56px;
   }
 }
 /*# sourceMappingURL=index.css.map */

@@ -20,7 +20,7 @@ li {
 
 .btn {
   padding: .5em;
-  background-color: #9818D6;
+  background-color: #8981E5;
   color: white;
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
@@ -28,7 +28,7 @@ li {
 }
 
 .btn:hover {
-  background-color: rgba(151, 24, 214, 0.486);
+  background-color: rgba(137, 129, 229, 0.315);
   color: black;
 }
 
