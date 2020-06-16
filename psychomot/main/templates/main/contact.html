@@ -1,0 +1,50 @@
+{% extends 'main/base.html' %}
+{% load static %}
+
+
+{% block head %}
+    <link rel="stylesheet" href="{% static 'main/css/contact.css' %}">
+{% endblock head %}
+
+{% block content %}
+
+    <header class=cover-container>
+        <img src="{% static 'main/img/contact-cover.jpg' %}" alt="contact" class="cover">
+    </header>
+
+    <main>
+        <div class="main-content">
+            <h3>Laissez moi un message !</h3>
+            <div class="hs"></div>
+            <p>
+                Si vous avez des questions, merci de m’adresser un message à l’aide de ce formulaire. Je vous répondrais alors au plus vite. Vous pouvez également prendre contact directement par téléphone ou en ligne.
+            </p>
+            <form action="{% url 'contact' %}" method="POST">
+                {% csrf_token %}
+                {{form}}
+                <input type="submit" value="Envoyer">
+            </form>
+        </div>
+        <aside class="infos">
+            <h1>
+                Sandrine Dubois <br> Psychomotricienne
+            </h1>
+            <div class="hs"></div>
+            <p><a class="tel secondary" href="tel:0615742382">06 15 74 23 82</a></p>
+            <div class="adresse">
+                <p>
+                    Cabinet de Psychomotricité <br> Mérignies <br> 59830
+                </p>
+            </div>
+            <div class="horaires">
+                <h3>Horaires</h3>
+                <p><span class="secondary">Lundi - Vendredi</span> <br> 08:00 - 20:00</p>
+                <p><span class="secondary">Samedi</span> <br> 09:00 - 18:00</p>
+            </div>
+        </aside>
+    </main>
+
+{% endblock content %}
+
+{% block script %}
+{% endblock script %}
