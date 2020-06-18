@@ -25,3 +25,6 @@ def contact(request):
         form = ContactForm()
     
     return render(request,'main/contact.html',{'form':form})
+
+def presentation(request):
+    return render(request,'main/presentation.html')

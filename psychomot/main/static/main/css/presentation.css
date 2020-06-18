@@ -1,0 +1,248 @@
+/* Global variables */
+/* Desktop first */
+.cover {
+  width: 100%;
+}
+
+.main-wrapper {
+  margin: 1.5em;
+  border: thin black solid;
+  overflow: hidden;
+}
+
+.presentation-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 1.5em;
+}
+
+.container-portrait, .presentation-container {
+  width: 50%;
+}
+
+.portrait {
+  width: 100%;
+  -webkit-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.64);
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.64);
+}
+
+.presentation-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.presentation-container h1 {
+  font-family: 'Dancing';
+  font-size: 2em;
+  margin-top: 1em;
+}
+
+.presentation-container .presentation {
+  text-align: justify;
+  width: 80%;
+  margin: auto;
+  margin-top: 3em;
+}
+
+.locaux {
+  width: 70%;
+  margin: auto;
+  margin-top: 1em;
+}
+
+.locaux img {
+  width: 200px;
+}
+
+.locaux .container-item {
+  margin: 4em 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.locaux .container-item .right {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+  margin-left: 2em;
+}
+
+.locaux .container-item .left {
+  margin-right: 2em;
+}
+
+.formation-container-cover, .experience-container-cover, .cabinet-container-cover {
+  position: relative;
+  height: 400px;
+  overflow: hidden;
+}
+
+.formation-container-cover .cover, .experience-container-cover .cover, .cabinet-container-cover .cover {
+  position: absolute;
+  top: -200px;
+}
+
+.formation-container-cover h2, .experience-container-cover h2, .cabinet-container-cover h2 {
+  position: absolute;
+  top: 70px;
+  left: 70px;
+  font-family: 'Dancing';
+  font-size: 3em;
+}
+
+.formation-container {
+  width: 90%;
+  margin: auto;
+}
+
+.psychomotricite, .sophrologie {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 2em 0;
+}
+
+.description-container {
+  width: 50%;
+  text-align: center;
+}
+
+.description-container h3 {
+  font-family: 'Dancing';
+  font-size: 3em;
+}
+
+.description-container p {
+  margin: auto;
+  margin-top: 3em;
+  text-align: justify;
+  width: 80%;
+}
+
+.diplomes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+}
+
+.diplomes.order {
+  -webkit-box-ordinal-group: 0;
+      -ms-flex-order: -1;
+          order: -1;
+}
+
+.diplome .container-intitule {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.diplome .intitule {
+  width: 90%;
+  font-weight: bold;
+}
+
+.diplome span {
+  padding: .5em;
+  background-color: #3f3f3f;
+  color: white;
+  display: block;
+  font-size: 1em;
+}
+
+.diplome .container-anim {
+  width: 100%;
+  height: 30px;
+  background-color: #b9b9b9;
+  margin: 0.5em 0;
+}
+
+.diplome .anim {
+  width: 0;
+  height: 30px;
+  background-color: #00ffea;
+}
+
+.experience-container-cover .cover {
+  z-index: -1;
+}
+
+.experience-container-cover h2 {
+  text-align: right;
+  right: 70px;
+}
+
+.experiences-container {
+  background-color: rgba(216, 152, 152, 0.616);
+  padding: 4em;
+  width: 50%;
+  margin: auto;
+  margin-top: -40px;
+  -webkit-box-shadow: 0px 10px 7px 0px rgba(0, 0, 0, 0.64);
+  box-shadow: 0px 10px 7px 0px rgba(0, 0, 0, 0.64);
+}
+
+.experiences-container li:not(:last-child) {
+  margin-bottom: 2em;
+}
+
+.experiences-container .periode {
+  font-weight: bold;
+}
+
+.experiences-container .explication {
+  color: #c02b2b;
+}
+
+.cabinet-container-cover {
+  margin: 5em 0;
+}
+
+.cabinet-container-cover h2 {
+  text-align: right;
+  right: 380px;
+  top: 50px;
+}
+
+.cabinet-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 2em;
+}
+
+.cabinet-container img {
+  display: block;
+  width: 25%;
+  margin-right: 1em;
+}
+
+.cabinet-container p {
+  width: 25%;
+}
+/*# sourceMappingURL=presentation.css.map */
