@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.core.mail import send_mail
 
-from .forms import ContactForm
+from .forms import ContactForm, AskForRDV
 
 def index(request):
     return render(request,'main/index.html')
@@ -28,3 +28,23 @@ def contact(request):
 
 def presentation(request):
     return render(request,'main/presentation.html')
+
+def rendez_vous(request):
+    context={}
+    # Si le formulaire a été soumis
+    if request.method == 'POST':
+        form = AskForRDV(request.POST)
+        if form.is_valid():
+            # Envoyer le mail
+            message = form.cleaned_data['message']
+            email_sender = form.cleaned_data['email']
+            service = form.cleaned_data['service']
+
+            recipients = ["thibaultspriet@hotmail.fr"]
+            send_mail(service,message,email_sender,recipients)
+    
+    # Afficher la page
+    else:
+        form = AskForRDV()
+    context["form"]=form
+    return render(request,'main/rendez_vous.html',context=context)

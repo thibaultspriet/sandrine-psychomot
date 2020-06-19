@@ -5,3 +5,11 @@ class ContactForm(forms.Form):
     email = forms.EmailField()
     sujet = forms.CharField(max_length=100)
     message = forms.CharField(widget=forms.Textarea)
+
+class AskForRDV(forms.Form):
+    choices = (
+        ('bilanpsy','Bilan Psychomoteur'),
+    )
+    service = forms.CharField(widget=forms.Select(choices=choices),label="Sélectionner un service : ")
+    email = forms.EmailField(label = "Votre adresse mail : ")
+    message = forms.CharField(widget=forms.Textarea,label = "Votre message : ")

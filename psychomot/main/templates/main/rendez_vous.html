@@ -1,0 +1,50 @@
+{% extends 'main/base.html' %}
+{% load static %}
+
+
+{% block head %}
+    <link rel="stylesheet" href="{% static 'main/css/rendez_vous.css' %}">
+{% endblock head %}
+
+{% block content %}
+
+    <header class='rdv-header' style="background-image: url({% static 'main/img/rdv-cover.jpg' %});">
+        <h1>Prenez Un Rendez-Vous</h1>
+        <p>Contactez moi en quelques clics et en rédigeant un message si vous le souhaitez. Je vous réponds au plus vite pour confirmer le rendez-vous.</p>
+    </header>
+
+    <div class="form-container">
+        <form action="#" method="POST">
+            {% csrf_token %}
+            <div class="select-service">
+                <label for="{{form.service.id_for_label}}">{{form.service.label}}</label>
+                {{form.service}}
+            </div>
+            <main class="recap">
+                <ul class="infos">
+                    <li>Le Bilan Psychomoteur</li>
+                    <li>Prix : 50€</li>
+                    <li>Durée : 1h30</li>
+                </ul>
+                <div class="description">
+                    Le bilan moteur Labore ipsum ea velit commodo in deserunt et. Minim enim sint occaecat enim reprehenderit id tempor cupidatat velit ipsum. Proident consectetur duis deserunt voluptate amet esse aute occaecat incididunt cillum magna incididunt fugiat dolore. Nostrud veniam adipisicing esse aliqua in consequat culpa ea cupidatat cupidatat eiusmod sit. Anim ipsum ex ea reprehenderit adipisicing laborum aliqua ullamco ullamco nulla. Laboris veniam enim id non cillum sunt consectetur veniam.
+                </div>
+                <div class="email">
+                    {{form.email.label}}
+                    {{form.email}}
+                </div>
+                <div class="message">
+                    <label for="{{ form.message.id_for_label }}">{{form.message.label}}</label>
+                    {{form.message}}
+                </div>
+                <input type="submit" value="Envoyer">
+            </main>
+        </form>
+    </div>
+    
+
+
+{% endblock content %}
+
+{% block script %}
+{% endblock script %}
