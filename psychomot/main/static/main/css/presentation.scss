@@ -75,8 +75,9 @@ $secondary-hover : rgba(137, 129, 229, 0.315);
 // cover formation
 .formation-container-cover, .experience-container-cover, .cabinet-container-cover{
     position: relative;
-    height: 400px;
-    overflow: hidden;
+    min-height: 400px;
+    background-size: cover;
+    background-attachment: fixed;
     .cover{
         position: absolute;
         top: -200px;
@@ -88,6 +89,10 @@ $secondary-hover : rgba(137, 129, 229, 0.315);
         font-family: 'Dancing';
         font-size: 3em;
     }
+}
+
+.formation-container-cover{
+    background-position: center;
 }
 
 // formation
@@ -174,6 +179,7 @@ $secondary-hover : rgba(137, 129, 229, 0.315);
     -webkit-box-shadow: 0px 10px 7px 0px rgba(0,0,0,0.64);
     -moz-box-shadow: 0px 10px 7px 0px rgba(0,0,0,0.64);
     box-shadow: 0px 10px 7px 0px rgba(0,0,0,0.64);
+    position: relative;
     li:not(:last-child){
         margin-bottom: 2em;
     }
@@ -188,9 +194,10 @@ $secondary-hover : rgba(137, 129, 229, 0.315);
 //cabinet
 .cabinet-container-cover{
     margin: 5em 0;
+    background-position: right;
     h2{
         text-align: right;
-        right:380px;
+        right:50px;
         top: 50px;
     }
 }
