@@ -22,12 +22,12 @@
             </div>
             <main class="recap">
                 <ul class="infos">
-                    <li>Le Bilan Psychomoteur</li>
-                    <li>Prix : 50€</li>
-                    <li>Durée : 1h30</li>
+                    <li class="name"><span id="name">{{service.name}}</span></li>
+                    <li class="price" >Prix : <span id=price>{{service.price|floatformat:2}}</span>€</li>
+                    <li class="duration">Durée : <span id="duration">{{service.duration}}</span></li>
                 </ul>
                 <div class="description">
-                    Le bilan moteur Labore ipsum ea velit commodo in deserunt et. Minim enim sint occaecat enim reprehenderit id tempor cupidatat velit ipsum. Proident consectetur duis deserunt voluptate amet esse aute occaecat incididunt cillum magna incididunt fugiat dolore. Nostrud veniam adipisicing esse aliqua in consequat culpa ea cupidatat cupidatat eiusmod sit. Anim ipsum ex ea reprehenderit adipisicing laborum aliqua ullamco ullamco nulla. Laboris veniam enim id non cillum sunt consectetur veniam.
+                    <span id="description">{{service.description}}</span>
                 </div>
                 <div class="email">
                     {{form.email.label}}
@@ -47,4 +47,5 @@
 {% endblock content %}
 
 {% block script %}
+<script src="{% static 'main/js/rdv.js' %}"></script>
 {% endblock script %}

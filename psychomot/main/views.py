@@ -1,6 +1,9 @@
 from django.shortcuts import render
 from django.core.mail import send_mail
 
+from django.http import JsonResponse
+
+from .models import Service
 from .forms import ContactForm, AskForRDV
 
 def index(request):
@@ -46,5 +49,24 @@ def rendez_vous(request):
     # Afficher la page
     else:
         form = AskForRDV()
+        service_name = request.GET.get('service_name')
+        if service_name == None:
+            service_name = form.service_name.first()
+        else:
+            service = Service.objects.get(nom=service_name)
+            service={
+            "name":service.nom,
+            "price":service.prix,
+            "duration":service.duree,
+            "description":service.description
+            }
+            return JsonResponse(service)
+        service = Service.objects.get(nom=service_name)
+        context["service"]={
+            "name":service.nom,
+            "price":service.prix,
+            "duration":service.duree,
+            "description":service.description
+        }
     context["form"]=form
     return render(request,'main/rendez_vous.html',context=context)
