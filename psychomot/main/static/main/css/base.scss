@@ -58,7 +58,16 @@ li{
         align-items: center;
         justify-content: space-around;
         flex-wrap: wrap;
-        padding: 0.5em;
+        min-height: 50px;
+        li{
+            min-height: 50px;
+            line-height: 50px;
+            padding: 0em 0.5em;
+            transition: all .5s ease;
+            &:hover{
+                background-color: rgb(238, 188, 108);
+            }
+        }
     }
 
     .list-rubriques-mobile{

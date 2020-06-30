@@ -154,7 +154,18 @@ $secondary-hover : rgba(137, 129, 229, 0.315);
     .anim{
         width: 0;
         height: 30px;
-        background-color: rgb(0, 255, 234);
+        &.violet{
+            background-color: #8981E5 ;
+        }
+        &.rouge{
+            background-color: #FF5151;
+        }
+        &.saumon{
+            background-color: #FF896B;
+        }
+        &.orange{
+            background-color: #FFA41B;
+        }
     }
 }
 

@@ -1,0 +1,78 @@
+{% extends 'main/base.html' %}
+{% load static %}
+
+
+{% block head %}
+    <link rel="stylesheet" href="{% static 'main/css/psychomotricite.css' %}">
+{% endblock head %}
+
+{% block content %}
+
+    <header class="titleContainer shadow">
+        <h2 class="title">Définition</h2>
+    </header>
+
+    <main class="shadow background-muted">
+        <img src="{% static 'main/img/paint.jpg' %}" alt="peinture sur les mains d'un enfant">
+        <p class="definition">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, exercitationem corrupti nobis, natus consequatur totam temporibus iure inventore iste mollitia itaque recusandae vel amet dolor dolorem suscipit laboriosam fugit pariatur.
+        Tempore eos harum id illum nemo quo vel nisi unde quas quam quos a est, dolor fuga veritatis porro maxime facilis ad? Nemo, animi nobis ex porro sunt non saepe?
+        Repudiandae doloremque possimus esse aliquam quam cum voluptas, tempora corrupti, magni adipisci in, explicabo sit hic. Fugiat eaque, eum dolorem, et recusandae necessitatibus, sint quaerat laudantium numquam autem quidem accusantium.
+        Officia quo debitis natus labore unde ipsum possimus, saepe odit quos architecto. Dicta eligendi iusto, doloremque ipsam voluptas voluptates veritatis est nisi earum perferendis eaque eveniet similique itaque recusandae animi?</p>
+    </main>
+
+    <div class="enPratiqueContainer shadow">
+        <h2 class="title">En pratique</h2>
+        <ul class="list-items">
+            <li class="shadow background">
+                <span class="item"><a href="#">Le bilan psychomoteur :</a></span>
+                <span class="cta"><a href="#">+</a></span>
+            </li>
+            <li class="shadow background">
+                <span class="item"><a href="#">Les séances :</a></span>
+                <span class="cta"><a href="#">+</a></span>
+            </li>
+            <li class="shadow background">
+                <span class="item"><a href="#">Ma boite à outils :</a></span>
+                <span class="cta"><a href="#">+</a></span>
+            </li>
+        </ul>
+    </div>
+
+    <div class="aideContainer background-muted">
+        <div class="shadow background content">
+            <h3>Les actes de psychomotricité ne sont pas remboursés par la Sécurité Social</h3>
+            <h2>Cepandant, il existe des aides</h2>
+            <div class="aides">
+                <div class="aide">
+                    <img src="{% static 'main/img/assurance-maladie.svg' %}" alt="caisse assurance maladie" class="icon">
+                    <p class="texte">
+                        Vous pouvez faire une demande de prise en charge extra-légale à la Caisse Primaire d’Assurance Maladie
+                    </p>
+                </div>
+                <div class="aide">
+                    <img src="{% static 'main/img/group.svg' %}" alt="group" class="icon">
+                    <p class="texte">
+                        Certaines mutuelles accordent une participation financière aux soins en psychomotricité.
+                    </p>
+                </div>
+                <div class="aide">
+                    <img src="{% static 'main/img/company.svg' %}" alt="entreprise" class="icon">
+                    <p class="texte">
+                        Des comités d’entreprise ont un fond social qui est attribué à l’aide aux soins.
+                    </p>
+                </div>
+                <div class="aide">
+                    <img src="{% static 'main/img/disabled-people.svg' %}" alt="handicap" class="icon">
+                    <p class="texte">
+                        La Maison Départementale des Personnes Handicapées (MDPH) attribue une allocation sous certaines conditions.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+{% endblock content %}
+
+{% block script %}
+{% endblock script %}

@@ -180,7 +180,22 @@
 .diplome .anim {
   width: 0;
   height: 30px;
-  background-color: #00ffea;
+}
+
+.diplome .anim.violet {
+  background-color: #8981E5;
+}
+
+.diplome .anim.rouge {
+  background-color: #FF5151;
+}
+
+.diplome .anim.saumon {
+  background-color: #FF896B;
+}
+
+.diplome .anim.orange {
+  background-color: #FFA41B;
 }
 
 .experience-container-cover .cover {

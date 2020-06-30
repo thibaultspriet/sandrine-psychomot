@@ -32,6 +32,9 @@ def contact(request):
 def presentation(request):
     return render(request,'main/presentation.html')
 
+def psychomotricite(request):
+    return render(request,'main/psychomotricite.html')
+
 def rendez_vous(request):
     context={}
     # Si le formulaire a été soumis
