@@ -70,30 +70,73 @@
         <h1>à qui s'adresse la psychomotricité ?</h1>
         <div class="card-container">
             <div class="card">
-                <div class="container-cover">
-                    <img src="{% static 'main/img/bebe.jpg' %}" alt="bebe">
+                <div class="front">
+                    <div class="container-cover">
+                        <img src="{% static 'main/img/bebe.jpg' %}" alt="bebe">
+                    </div>
+                    <h3>Bébés - Jeunes enfants</h3>
+                    <div class="separateur-horizontal"></div>
+                    <p>Relations précoces - Développement psychomoteur - Guidance parentale</p>
                 </div>
-                <h3>Bébés - Jeunes enfants</h3>
-                <div class="separateur-horizontal"></div>
-                <p>Relations précoces - Développement psychomoteur - Guidance parentale</p>
+                <div class="back">
+                    <p>
+                        Ayant des troubles de l’oralité alimentaire (œsophagite, reflux, gastrite) qui peut entraver son développement corporel et son ouverture au monde
+                        Ayant des difficultés d’accordage dans la relation ou de dialogue tonique : difficulté au portage…
+                       Présentant un retard dans ses acquisitions : tenue de tête, redressement, marche, manipulations…
+                       Ayant des troubles du sommeil.
+                    </p>
+                    <p>
+                        Présentant un retard ou un manque d’assurance corporelle : courir, sauter, rouler à vélo…
+                        Ayant un comportement inadapté en classe : instabilité, inhibition, agressivité, manquant d’autonomie…
+                        Qui manque de dextérité : s’habiller, mettre ses boutons, enfiler des perles, tenir son crayon, découper…
+                        Qui ne se repère pas dans l’espace et le temps : confondre les moments de la journée, difficultés de rythme, mettre ses vêtements à l’envers, difficultés à s’orienter …
+                    </p>
+                </div>
             </div>
             <div class="card card-center">
                 <div class="separateur-gauche"></div>
                 <div class="separateur-droite"></div>
-                <div class="container-cover">
-                    <img src="{% static 'main/img/enfant.jpg' %}" alt="enfant">
+                <div class="front">
+                    <div class="container-cover">
+                        <img src="{% static 'main/img/enfant.jpg' %}" alt="enfant">
+                    </div>
+                    <h3>Enfants - Adolescents</h3>
+                    <div class="separateur-horizontal"></div>
+                    <p>Apprentissages - Comportements - Rééducation</p>
                 </div>
-                <h3>Enfants - Adolescents</h3>
-                <div class="separateur-horizontal"></div>
-                <p>Apprentissages - Comportements - Rééducation</p>
+                <div class="back">
+                    <p>
+                        Dont les gestes sont maladroits (praxies) : écrire, découper, faire ses lacets
+                        Qui manque d’aisance en sport : faire du vélo, coordonner ses gestes, attraper le ballon…
+                        Qui présente des difficultés de latérisation ou de latéralité (confusion gauche-droite)
+                        Qui ne parvient pas à suivre le rythme scolaire : vitesse d’écriture, organisation, lenteur, …
+                        Dont les repères spatiaux-temporels sont fragiles : repère dans la semaine, sur la feuille, en géométrie.
+                    </p>
+                    <p>Qui est en difficulté pour gérer et exprimer ses émotions et ses sensations, hypersensibilité.
+                        Qui manque de confiance en lui/stress/anxiété
+                        Qui se sent en difficulté pour s’approprier son corps et ses modifications (troubles du comportement alimentaire, …)
+                    </p>
+                </div>
             </div>
             <div class="card">
-                <div class="container-cover">
-                    <img src="{% static 'main/img/adulte.jpg' %}" alt="adulte">
+                <div class="front">
+                    <div class="container-cover">
+                        <img src="{% static 'main/img/adulte.jpg' %}" alt="adulte">
+                    </div>
+                    <h3>Adultes</h3>
+                    <div class="separateur-horizontal"></div>
+                    <p>Gestion des émotions - Maladies, handicaps - Vécu corporel douloureux</p>
                 </div>
-                <h3>Adultes</h3>
-                <div class="separateur-horizontal"></div>
-                <p>Gestion des émotions - Maladies, handicaps - Vécu corporel douloureux</p>
+                <div class="back">
+                    <p>Troubles des apprentissages : dyspraxie, dysgraphie, troubles de l’attention et des fonctions exécutives.
+                        Maladresse motrice et gestuelle (TAC, dyspraxie).
+                        Trouble Déficitaire de l’attention (TDAH), hyperactivité, impulsivité.
+                        Troubles du comportement (instabilité, inhibition, perturbation des habiletés sociales…). 
+                        Trouble du Spectre Autistique (TSA), Autisme, Trouble Envahissant du Développement (TED)
+                        Maladie génétique
+                        Asthme, obésité
+                    </p>
+                </div>
             </div>
         </div>
     </section>
@@ -149,6 +192,7 @@
 {% block script %}
 <script src="{% static 'main/js/toggledescription.js' %}"></script>
 <script src="{%  static 'main/js/icon_scroll.js'%}"></script>
+<script src="{% static 'main/js/flip_card.js' %}"></script>
 {% endblock %}
 
 

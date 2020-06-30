@@ -1,11 +1,11 @@
 .cover{
     width: 100%;
+    height: 300px;
     object-fit: cover;
 }
 
 .pourquoiContainer{
     margin: auto;
-    margin-top: -20px; 
     padding: 1rem 0;
     padding-top: 3rem;
     margin-bottom: 4rem;
@@ -22,7 +22,7 @@
         margin: auto;
         text-align: justify;
     }
-}
+} 
 
 @media only screen and (max-width:910px){
     .pourquoiContainer p{

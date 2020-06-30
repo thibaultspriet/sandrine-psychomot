@@ -204,6 +204,7 @@ h1 {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 33%;
+  position: relative;
 }
 
 .pourqui .card .container-cover {
@@ -214,14 +215,22 @@ h1 {
   transition: all .3s ease-out;
 }
 
-.pourqui .card .container-cover:hover {
-  -webkit-transform: scale(1.1) rotate(5deg);
-          transform: scale(1.1) rotate(5deg);
-}
-
 .pourqui .card .container-cover img {
   display: block;
   margin: auto;
+}
+
+.pourqui .front, .pourqui .back {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.pourqui .back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
 }
 
 .pourqui .card.card-center {

@@ -43,13 +43,13 @@
 
 .cover {
   width: 100%;
+  height: 300px;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
 .pourquoiContainer {
   margin: auto;
-  margin-top: -20px;
   padding: 1rem 0;
   padding-top: 3rem;
   margin-bottom: 4rem;
