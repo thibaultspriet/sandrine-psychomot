@@ -1,0 +1,37 @@
+.grid{
+    margin: auto;
+    display: grid;
+    margin-bottom: 4rem;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 2rem 3rem;
+}
+
+.card{
+    padding: .5rem 2rem;
+    h2{
+        text-align: center;
+        margin-bottom: 2rem;
+        position: relative;
+        &::after{
+            content: '';
+            position: absolute;
+            top: 105%;
+            width: 20%;
+            height: 1px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: black;
+
+        }
+    }
+    p{
+        text-align: justify;
+    }
+}
+
+
+@media only screen and (max-width:950px){
+    .grid{
+        grid-template-columns: 1fr;
+    }
+}
