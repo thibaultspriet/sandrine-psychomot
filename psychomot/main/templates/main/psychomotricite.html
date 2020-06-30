@@ -23,18 +23,24 @@
     <div class="enPratiqueContainer shadow">
         <h2 class="title">En pratique</h2>
         <ul class="list-items">
-            <li class="shadow background">
-                <span class="item"><a href="{% url 'bilan' %}">Le bilan psychomoteur :</a></span>
-                <span class="cta"><a href="{% url 'bilan' %}">+</a></span>
-            </li>
-            <li class="shadow background">
-                <span class="item"><a href="#">Les séances :</a></span>
-                <span class="cta"><a href="#">+</a></span>
-            </li>
-            <li class="shadow background">
-                <span class="item"><a href="#">Ma boite à outils :</a></span>
-                <span class="cta"><a href="#">+</a></span>
-            </li>
+            <a href="{% url 'bilan' %}">
+                <li class="shadow background" data-goto="bilan">
+                    <span class="item">Le bilan psychomoteur :</span>
+                    <span class="cta">+</span>
+                </li>
+            </a>
+            <a href="#">
+                <li class="shadow background">
+                    <span class="item">Les séances :</span>
+                    <span class="cta">+</span>
+                </li>
+            </a>
+            <a href="#">
+                <li class="shadow background">
+                    <span class="item">Ma boite à outils :</span>
+                    <span class="cta">+</span>
+                </li>
+            </a>
         </ul>
     </div>
 
@@ -75,4 +81,5 @@
 {% endblock content %}
 
 {% block script %}
+<script src="{% static 'main/js/psychomotricite_anim.js' %}"></script>
 {% endblock script %}

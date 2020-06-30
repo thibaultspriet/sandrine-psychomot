@@ -14,8 +14,8 @@ function tlIcon(icon){
     }).to(icon,1,{
         opacity : 1,
         ease : Power2.easeOut
-    }).from(icon,2,{
-        y : "15px",
+    }).from(icon,3,{
+        y : "30px",
         ease : Elastic.easeOut
     },'-=1')
 
