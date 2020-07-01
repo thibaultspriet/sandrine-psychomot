@@ -33,7 +33,7 @@
                 <li><a href="{% url 'index' %}">Accueil</a></li>
                 <li><a href="{% url 'presentation' %}">Présentation</a></li>
                 <li><a href="{% url 'psychomotricite' %}">Psychomotricité</a></li>
-                <li><a href="#">Sophrologie-Yoga</a></li>
+                <li><a href="{% url 'yoga' %}">Sophrologie-Yoga</a></li>
                 <li><a href="{% url 'rendez_vous' %}">Rendez-Vous</a></li>
                 <li><a href="{% url 'contact' %}">Contact</a></li>
             </ul>
@@ -42,7 +42,7 @@
                 <li><a href="{% url 'index' %}">Accueil</a></li>
                 <li><a href="{% url 'presentation' %}">Présentation</a></li>
                 <li><a href="{% url 'psychomotricite' %}">Psychomotricité</a></li>
-                <li><a href="#">Sophrologie-Yoga</a></li>
+                <li><a href="{% url 'yoga' %}">Sophrologie-Yoga</a></li>
                 <li><a href="{% url 'rendez_vous' %}">Rendez-Vous</a></li>
                 <li><a href="{% url 'contact' %}">Contact</a></li>
             </ul>
@@ -83,6 +83,7 @@
     <script src="{% static 'js/jquerry.js' %}"></script>
     <script src="{% static 'js/gsap.min.js' %}"></script>
     <script src="{% static 'js/ScrollTrigger.min.js' %}"></script>
+    <script src="{% static 'js/TextPlugin.min.js' %}"></script>
     <script src="{% static 'main/js/menu.js' %}"></script>
     {% block script %}{% endblock %}
 </body>

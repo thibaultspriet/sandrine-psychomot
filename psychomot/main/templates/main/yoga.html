@@ -1,0 +1,142 @@
+{% extends 'main/base.html' %}
+{% load static %}
+
+
+{% block head %}
+    <link rel="stylesheet" href="{% static 'main/css/yoga.css' %}">
+{% endblock head %}
+
+{% block content %}
+<header class="containerCover background-secondary">
+    <img src="{% static 'main/img/home-yoga-cover.png' %}" alt="positions de yoga" class="cover">
+    <h1 class="page-title">
+        Sophrologie - Yoga
+    </h1>
+</header>
+
+<div class="wrapper">
+    <div class="shadow intro">
+        <h2>
+            Pour une connexion du corps et de l'esprit
+        </h2>
+    </div>
+    
+    <div class="yoga">
+        <div class="card background">
+            <h3 class="title">
+                Le Yoga <br>Une pratique douce
+            </h3>
+            <p class="description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, vitae cum nemo impedit rerum eum eius quam. Quidem, esse veniam mollitia vitae, at aliquid, dignissimos earum repellendus nesciunt ipsa possimus!
+            </p>
+            <div class="btn-yoga">
+                <a href="#">Découvrir</a>
+            </div>
+        </div>
+        <div class="illustration">
+            <img src="{% static 'main/img/posture_yoga.jpg' %}" alt="posture de yoga">
+        </div>
+    </div>
+    <div class="sophro">
+        <div class="illustration">
+            <img src="{% static 'main/img/sophro.jpg' %}" alt="sophrologie">
+        </div>
+        <div class="card background">
+            <h3 class="title">
+                La Sophrologie <br>Une pratique douce
+            </h3>
+            <p class="description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, vitae cum nemo impedit rerum eum eius quam. Quidem, esse veniam mollitia vitae, at aliquid, dignissimos earum repellendus nesciunt ipsa possimus!
+            </p>
+            <div class="btn-yoga">
+                <a href="#">Découvrir</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="containerCover transition">
+    <img src="{% static 'main/img/yoga-mountain.jpg' %}" alt="yoga">
+</div>
+
+<div class="wrapper">
+    <div class="background shadow detailTitleContainer">
+        <h2 class="title">
+            Sophrologie - Yoga
+        </h2>
+    </div>
+    
+    <div class="shadow background-muted tarifContainer">
+        <p class="description">
+            C'est par une pratique accessible, joyeuse et inspirée que je propose aux néophytes comme aux plus confirmés de vivre une expérience complète.
+        </p>
+        <h3>Les Tarifs</h3>
+        <ul class="detail">
+            <a href="#">
+                <li class="background shadow first">
+                    <span class="item">Les cours à la carte</span>
+                    <span class="cta">+</span>
+                </li>
+            </a>
+            <a href="#">
+                <li class="background shadow">
+                    <span class="item">Le pass famille</span>
+                    <span class="cta">+</span>
+                </li>
+            </a>
+        </ul>
+    </div>
+    
+    <div class="shadow more">
+        <div class="enfant">
+            <div class="containerImg">
+                <img src="{% static 'main/img/enfant-yoga.jpg' %}" alt="yoga">
+            </div>
+            <div class="card background">
+                <h3>
+                    sophrologie - yoga <br>enfant
+                </h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta placeat repudiandae architecto itaque qui soluta harum quam, blanditiis veritatis, dignissimos molestias reprehenderit porro numquam iste a quisquam magnam fugit quaerat!</p>
+                <div class="btn-yoga">
+                    <a href="#">Parcourir</a>
+                </div>
+            </div>
+        </div>
+        <div class="adulte">
+            <div class="containerImg">
+                <img src="{% static 'main/img/yoga.jpg' %}" alt="yoga">
+            </div>
+            <div class="card background">
+                <h3>
+                    sophrologie - yoga <br>adulte
+                </h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta placeat repudiandae architecto itaque qui soluta harum quam, blanditiis veritatis, dignissimos molestias reprehenderit porro numquam iste a quisquam magnam fugit quaerat!</p>
+                <div class="btn-yoga">
+                    <a href="#">Parcourir</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="shadow pratique background-secondary">
+        <h2>Informations pratiques</h2>
+        <div class="shadow second">
+            <div class="shadow">
+                <p>Tout le matériel est fourni (tapis, couverture, coussin).</p>
+            </div>
+            <img src="{% static 'main/img/logo.png' %}" alt="logo yoga sophrologie">
+            <div class="shadow">
+                <p>Venez avec une tenue confortable ainsi qu'un paréo ou une grande serviette à placer sur le tapis.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+{% endblock content %}
+
+{% block script %}
+{% endblock script %}

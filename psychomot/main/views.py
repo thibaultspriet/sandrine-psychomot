@@ -32,6 +32,9 @@ def contact(request):
 def presentation(request):
     return render(request,'main/presentation.html')
 
+def yoga(request):
+    return render(request,'main/yoga.html')
+
 def psychomotricite(request):
     return render(request,'main/psychomotricite.html')
 
