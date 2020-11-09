@@ -20,10 +20,10 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '*=gcz0#9+r^2)y8nixeu=6w%rm=*8%qxdv3tkwx)cils-1iibw'
+SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = bool(int(os.environ.get('DEBUG')))
 
 ALLOWED_HOSTS = ["*"]
 
@@ -76,10 +76,15 @@ WSGI_APPLICATION = 'psychomot.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'postgres',
+        'USER': 'postgres',
+        'PASSWORD': 'postgres',
+        'HOST': 'db',
+        'PORT': 5432,
     }
 }
+
 
 
 # Password validation
@@ -121,8 +126,8 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATIR_ROOT = os.path.join(BASE_DIR,'static/')
 
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_PASSWORD = 'frtadstxphnowyzm'
-EMAIL_HOST_USER='sprietthibault@gmail.com'
-EMAIL_USE_SSL = True
-EMAIL_PORT = 465
+EMAIL_HOST = os.environ.get("EMAIL_HOST")
+EMAIL_HOST_PASSWORD = os.environ.get("EMAIL_HOST_PASSWORD")
+EMAIL_HOST_USER= os.environ.get("EMAIL_HOST_USER")
+EMAIL_USE_SSL = bool(int(os.environ.get("EMAIL_USE_SSL")))
+EMAIL_PORT = int(os.environ.get("EMAIL_PORT"))
