@@ -108,6 +108,12 @@ media/
 *.db
 *.pid
 
+# sass
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
+
 # Ignore Django Migrations in Development if you are working on team
 
 # Only for Development only
