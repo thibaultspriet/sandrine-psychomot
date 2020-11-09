@@ -114,6 +114,14 @@ media/
 *.sass.map
 *.scss.map
 
+# bash
+*.bash
+
+# spécifique
+docs
+
+
+
 # Ignore Django Migrations in Development if you are working on team
 
 # Only for Development only
