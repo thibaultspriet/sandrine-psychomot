@@ -1,0 +1,199 @@
+{% extends 'main/base.html' %}
+{% load static %}
+
+
+{% block head %}
+<link rel="stylesheet" href="{% static 'main/css/sophroDetail.css' %}">
+{% endblock head %}
+
+{% block content %}
+
+<div class="pageContent">
+    <h1>La sophrologie,<br />une démarche positive pour retrouver équilibre et harmonie</h1>
+
+    <section id="intro">
+        <p>
+            Au croisement du yoga, de la méditation et de l’hypnose médicale, la sophrologie est une méthode de
+            relaxation
+            et un remède aux maux existentiels. Par la respiration, la méditation et des mouvements spécifiques,
+            associées à
+            une écoute active, elle permet de s’alléger de troubles liés au stress, de douleurs physiques et
+            psychologiques,
+            d’addictions trop envahissantes.
+        </p>
+        <p>
+            Après avoir largement fait ses preuves dans les domaines thérapeutiques, les maternités et la préparation
+            mentale des sportifs, elle investit aujourd’hui les entreprises et l’école.
+        </p>
+        <p>
+            De l'enfance à l'âge adulte, l'entraînement sophrologique permet à chacun de mieux vivre au quotidien, de
+            gagner
+            en confiance en soi, en concentration, en gestion du stress , d’améliorer la qualité du sommeil, de réduire
+            les
+            douleurs et les phobies.
+        </p>
+        <p>
+            Je vous propose une écoute individualisée et d’adapter ma pratique à votre demande et à vos besoins
+            spécifiques
+        </p>
+    </section>
+
+    <section id="seances">
+        <h2>Les séances :</h2>
+        <div class="intro">
+            <p>
+                Je conçois chaque séance sur mesure en utilisant la respiration, des exercices de relâchement corporel,
+                la
+                relaxation dynamique et des techniques de visualisation spécifiques à la Sophrologie.
+            </p>
+            <p>
+                Chaque séance est votre moment de détente et un temps pour vous, un moment émotionnel, physique et
+                mental,
+                un moment de légèreté, un moment de ressentis.
+            </p>
+
+        </div>
+
+        <div class="cards">
+            <div class="card">
+                <h3 class="cardTitle">La première séance :</h3>
+                <div class="cardDescription">
+                    <p>
+                        Elle vous permet d'expérimenter quelques exercices dynamiques alliés à une respiration contrôlée
+                        et
+                        une visualisation.C'est à la suite de votre première expérience sophrologique que commencera
+                        votre
+                        démarche thérapeutique. Elle dure 1h30.
+                    </p>
+                </div>
+            </div>
+
+            <div class="card" id="autreSeance">
+                <h3 class="cardTitle">Les autres séances :</h3>
+                <div class="cardDescription">
+                    <ul>
+                        <li>une temps d'échange pour connaître votre vécu entre les 2 séances et l'entraînement réalisé
+                        </li>
+                        <li>des exercices dynamiques et une visualisation adaptés à cette séance et en lien avec votre
+                            objectif</li>
+                        <li>un temps d'échange sur vos ressentis émotionnels, physiques et mentaux et votre capacité à
+                            les
+                            intégrer dans votre quotidien.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="transiContainer">
+        <img src="{% static 'main/img/transi-sophro.jpg' %}" alt="illustration relaxassante de sophrologie">
+        <p>La Sophrologie Caycédienne s’adresse à tous : enfants, adolescents, adultes,personnes âgées</p>
+    </div>
+
+    <section id="enfant" class="personne">
+        <div class="titleContainer">
+            <h3 class="sectionTitle">Enfants</h3>
+        </div>
+        <div class="illustrationContainer">
+            <img src="{% static 'main/img/sophro-enfant.jpg' %}" alt="Enfant qui se relaxe en lisant un livre"
+                class="illustration">
+        </div>
+        <div class="descriptionContainer">
+            <p class="question">
+                Pourquoi faire pratiquer la sophrologie à votre enfant ?
+            </p>
+            <ul>
+                <li>Gérer son stress, son anxiété, ses émotions</li>
+                <li>Canaliser son agitation</li>
+                <li>Accroître sa concentration</li>
+                <li>Favoriser les apprentissages</li>
+                <li>Apprendre à gérer son hypersensibilité ou hyperémotivité</li>
+                <li>Vaincre une phobie</li>
+                <li>Favoriser un sommeil réparateur</li>
+                <li>Faciliter un changement de vie (séparation des parents, déménagement)</li>
+            </ul>
+            <p class="mb">
+                La sophrologie est particulièrement recommandée pour les enfants à haut potentiel,
+                les enfants souffrant d’un trouble de l’attention, d’hyperactivité, d’hypersensibilité,
+                d’hyperémotivité, de
+                troubles DYS.
+            </p>
+            <p>
+                Les séances dédiées aux enfants sont ludiques et durent 30 minutes maximum.
+                Je leur propose de pratiquer la sophrologie sous forme de jeux, de mouvements, de contes.
+            </p>
+        </div>
+    </section>
+
+    <section id="adolescent" class="personne">
+        <div class="titleContainer">
+            <h3 class="sectionTitle">Adolescents</h3>
+        </div>
+        <div class="illustrationContainer">
+            <img src="{% static 'main/img/ado-sophro.jpg' %}" alt="statuette de pierres" class="illustration">
+        </div>
+        <div class="descriptionContainer">
+            <p>
+                L’adolescence est une période difficile où se mêle de multiples changements.
+            </p>
+            <ul>
+                <li>La sophrologie et l’hypnose peuvent accompagner les adolescents à faire face à ces changements
+                    physiques, mentaux et émotionnels :</li>
+                <li>Gérer son stress, son anxiété, ses émotions</li>
+                <li>Se préparer à un examen, à une compétition, à une audition ou une représentation artistique</li>
+                <li>Accroître sa concentration</li>
+                <li>Favoriser les apprentissages</li>
+                <li>Activer sa motivation</li>
+                <li>Se sentir mieux avec soi-même et avec les autres</li>
+                <li>Vaincre sa timidité</li>
+                <li>Développer la confiance en soi, l’estime de soi</li>
+                <li>Surmonter un trouble alimentaire, un trouble du sommeil ou une phobie</li>
+            </ul>
+            <p>
+                La sophrologie est particulièrement recommandée pour les adolescents à haut potentiel, les adolescents
+                souffrant d’un trouble de l’attention, d’hyperactivité, d’hypersensibilité, d’hyperémotivité, de
+                troubles
+                DYS.
+            </p>
+            <p>
+                Les séances pour adolescents sont ludiques et adaptées à leur univers. Elles durent 45 minutes. Je leur
+                propose différents exercices de respiration, de relaxation dynamique et de visualisation pour répondre à
+                leur besoin. Ils expriment ensuite leur vécu par la parole ou le dessin.
+            </p>
+        </div>
+    </section>
+
+    <section id="adulte" class="personne">
+        <div class="titleContainer">
+            <h3 class="sectionTitle">Adultes</h3>
+        </div>
+        <div class="illustrationContainer">
+            <img src="{% static 'main/img/adulte-sophro.jpg' %}" alt="lieu apaisant" class="illustration">
+        </div>
+        <div class="descriptionContainer">
+            <ul>
+                <li>la personne qui a besoin de prendre du temps, de se reconnecter à elle-même pour mieux gérer le
+                    stress
+                    du quotidien et ses conséquences : émotions, sommeil, douleurs, phobies, surcharge mentale
+                </li>
+                <li> la personne qui souhaite se préparer à un : examen, concours, événement familiale, sportif ou lié à
+                    la
+                    santé comme la préparation à la naissance, à un acte chirurgical
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="conclu">
+        <p>
+            À chacun sa réponse personnalisée : respect, écoute, bienveillance et confidentialité, une priorité dans ma
+            pratique de la sophrologie.
+        </p>
+    </section>
+</div>
+
+
+{% endblock content %}
+
+{% block script %}
+{% endblock script %}

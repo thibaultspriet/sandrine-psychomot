@@ -3,163 +3,251 @@
 
 
 {% block head %}
-    <link rel="stylesheet" href="{% static 'main/css/presentation.css' %}">
+<link rel="stylesheet" href="{% static 'main/css/presentation.css' %}">
 {% endblock head %}
 
 {% block content %}
 
-    <div class="main-wrapper">
-        <header class="presentation-header">
-            <div class="container-portrait">
-                <img src="{% static 'main/img/presentation-portrait.jpg' %}" alt="portrait" class="portrait">
-            </div>
-            <div class="presentation-container">
-                <h1>Sandrine Dubois <br> Psychomotricienne</h1>
-                <p class="presentation">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam commodi sed aliquam possimus recusandae quisquam incidunt debitis at, beatae dolor alias, accusantium nobis vitae ipsa cupiditate vero consequatur optio saepe!
-                    Ducimus qui ullam, soluta velit dignissimos adipisci ad error veritatis sapiente, numquam eius, magni omnis. Voluptate alias, animi veniam labore, facere pariatur numquam delectus ipsam porro officia molestiae cupiditate recusandae.
-                    Porro velit sunt debitis doloribus officiis numquam officia explicabo eius cupiditate? Corrupti minus neque quod quis quas cum voluptas suscipit veniam, repudiandae quidem iusto quo, assumenda delectus animi? Quod, iste!
-                </p>
-            </div>
-        </header>
+<div class="main-wrapper">
+    <header class="presentation-header">
 
-        <section class="locaux">
-            <div class="container-item">
-                <div class="container-img left">
-                    <img src="{% static 'main/img/sample-int.jpg' %}" alt="sample" >
-                </div>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum ex similique esse mollitia, libero eum minus commodi, alias aliquam, nesciunt deleniti inventore voluptas debitis quae consequatur enim sit modi ipsa?
-                    Quaerat velit in est et nam repellat ipsa totam aperiam incidunt ex architecto sequi odit nostrum, asperiores facilis, cupiditate recusandae ducimus obcaecati veniam eius amet. Accusamus saepe facilis vitae expedita.
-                    Quibusdam molestiae voluptates quisquam neque, tempore reiciendis repellendus ea, nobis vitae laboriosam dolore ipsa perferendis quidem iure quae consequatur adipisci, deleniti ipsum. Beatae ea commodi illum doloremque atque quidem voluptatum.
-                    Maiores cupiditate laudantium id voluptate, tempora laboriosam sapiente aliquid officiis autem, cumque similique ipsa repudiandae facilis possimus dignissimos temporibus sit inventore tempore veniam! Dicta quidem nisi velit laboriosam! Nihil, doloribus!
-                </p>
-            </div>
-            
-            <div class="container-item">
-                <div class="container-img right">
-                    <img src="{% static 'main/img/sample-int.jpg' %}" alt="sample">
-                </div>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum ex similique esse mollitia, libero eum minus commodi, alias aliquam, nesciunt deleniti inventore voluptas debitis quae consequatur enim sit modi ipsa?
-                    Quaerat velit in est et nam repellat ipsa totam aperiam incidunt ex architecto sequi odit nostrum, asperiores facilis, cupiditate recusandae ducimus obcaecati veniam eius amet. Accusamus saepe facilis vitae expedita.
-                    Quibusdam molestiae voluptates quisquam neque, tempore reiciendis repellendus ea, nobis vitae laboriosam dolore ipsa perferendis quidem iure quae consequatur adipisci, deleniti ipsum. Beatae ea commodi illum doloremque atque quidem voluptatum.
-                    Maiores cupiditate laudantium id voluptate, tempora laboriosam sapiente aliquid officiis autem, cumque similique ipsa repudiandae facilis possimus dignissimos temporibus sit inventore tempore veniam! Dicta quidem nisi velit laboriosam! Nihil, doloribus!
-                </p>
-            </div>
-            
-        </section>
-
-        <div class="formation-container-cover" style="background-image: url({%static 'main/img/presentation-formation.jpg'%});">
-            <!-- <img src="{% static 'main/img/presentation-formation.jpg' %}" alt="formation" class="cover"> -->
-            <h2>Ma Formation</h2>
+        <div class="container-portrait">
+            <img src="{% static 'main/img/presentation-portrait.jpg' %}" alt="portrait" class="portrait">
         </div>
 
-        <section class="formation-container">
-            <div class="psychomotricite">
-                <div class="description-container">
-                    <h3>Psychomotricienne</h3>
-                    <p class="description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem nisi necessitatibus quia vitae libero, voluptatibus aperiam velit adipisci similique, ab molestias facere quam delectus debitis quisquam accusantium distinctio, tenetur rerum.Modi maxime quae temporibus perferendis sunt quia, exercitationem esse nobis iure inventore perspiciatis quas vel laborum eum obcaecati ipsam cumque deleniti odit ullam, nostrum pariatur dolorem reiciendis! Aut, expedita repellendus.
-                    </p>
-                </div>
-                <div class="diplomes">
-                    <div class="diplome">
-                        <div class="container-intitule"><p class="intitule">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p><span class="annee">2019</span></div>
-                        <div class="container-anim">
-                            <div class="anim violet"></div>
-                        </div>
-                    </div>
-                    <div class="diplome">
-                        <div class="container-intitule"><p class="intitule">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p><span class="annee">2019</span></div>
-                        <div class="container-anim">
-                            <div class="anim rouge"></div>
-                        </div>
-                    </div>
-                    <div class="diplome">
-                        <div class="container-intitule"><p class="intitule">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p><span class="annee">2019</span></div>
-                        <div class="container-anim">
-                            <div class="anim saumon"></div>
-                        </div>
-                    </div>
-                    <div class="diplome">
-                        <div class="container-intitule"><p class="intitule">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p><span class="annee">2019</span></div>
-                        <div class="container-anim">
-                            <div class="anim orange"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="presentation-container">
+            <h1>Sandrine Dubois <br> Psychomotricienne</h1>
+            <p class="presentation">
+                Mon cabinet de psychomotricité se situe: au 548 rue de la Verderie à Mérignies (59710).
+                Après une expérience en libéral à Valenciennes puis à Rosult, j’ai choisi de m’installer à Mérignies.
+                Je reçois des patients pour <strong> dépister, traiter et rééduquer </strong>les troubles psychomoteurs
+                à tous les âges de
+                la vie (du nouveau né à la personne âgée).
+                Les prises en charge s’effectuent en <strong> individuel ou en groupe</strong> selon les besoins du
+                patient.
+                Je travaille en collaboration avec des <strong> médecins spécialistes</strong> (pédiatre,
+                pédopsychiatre, neuropédiatre)
+                ainsi qu’avec les professionnels sensibilisés aux troubles du développement et des apprentissages
+                (orthophonistes, orthoptistes, ergothérapeutes, psychologues).
 
-            <div class="sophrologie">
-                <div class="description-container">
-                    <h3>Yoga - Sophrologie</h3>
-                    <p class="description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem nisi necessitatibus quia vitae libero, voluptatibus aperiam velit adipisci similique, ab molestias facere quam delectus debitis quisquam accusantium distinctio, tenetur rerum.Modi maxime quae temporibus perferendis sunt quia, exercitationem esse nobis iure inventore perspiciatis quas vel laborum eum obcaecati ipsam cumque deleniti odit ullam, nostrum pariatur dolorem reiciendis! Aut, expedita repellendus.
-                    </p>
-                </div>
-                <div class="diplomes order">
-                    <div class="diplome">
-                        <div class="container-intitule"><p class="intitule">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p><span class="annee">2019</span></div>
-                        <div class="container-anim">
-                            <div class="anim saumon"></div>
-                        </div>
-                    </div>
-                    <div class="diplome">
-                        <div class="container-intitule"><p class="intitule">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p><span class="annee">2019</span></div>
-                        <div class="container-anim">
-                            <div class="anim violet"></div>
-                        </div>
-                    </div>
-                    <div class="diplome">
-                        <div class="container-intitule"><p class="intitule">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p><span class="annee">2019</span></div>
-                        <div class="container-anim">
-                            <div class="anim orange"></div>
-                        </div>
-                    </div>
-                    <div class="diplome">
-                        <div class="container-intitule"><p class="intitule">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p><span class="annee">2019</span></div>
-                        <div class="container-anim">
-                            <div class="anim rouge"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+            </p>
+        </div>
+    </header>
 
-        <div class="experience-container-cover" style="background-image: url({% static 'main/img/presentation-experience.jpg' %});">
-            <!-- <img src="{% static 'main/img/presentation-experience.jpg' %}" alt="experience" class="cover"> -->
-            <h2>Mon Expérience</h2>
+    <!-- <section class="locaux">
+        <div class="container-item">
+            <div class="container-img left">
+                <img src="{% static 'main/img/sample-int.jpg' %}" alt="sample">
+            </div>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum ex similique esse mollitia, libero eum
+                minus commodi, alias aliquam, nesciunt deleniti inventore voluptas debitis quae consequatur enim sit
+                modi ipsa?
+                Quaerat velit in est et nam repellat ipsa totam aperiam incidunt ex architecto sequi odit nostrum,
+                asperiores facilis, cupiditate recusandae ducimus obcaecati veniam eius amet. Accusamus saepe facilis
+                vitae expedita.
+                Quibusdam molestiae voluptates quisquam neque, tempore reiciendis repellendus ea, nobis vitae laboriosam
+                dolore ipsa perferendis quidem iure quae consequatur adipisci, deleniti ipsum. Beatae ea commodi illum
+                doloremque atque quidem voluptatum.
+                Maiores cupiditate laudantium id voluptate, tempora laboriosam sapiente aliquid officiis autem, cumque
+                similique ipsa repudiandae facilis possimus dignissimos temporibus sit inventore tempore veniam! Dicta
+                quidem nisi velit laboriosam! Nihil, doloribus!
+            </p>
         </div>
 
-        <div class="experiences-container">
+        <div class="container-item">
+            <div class="container-img right">
+                <img src="{% static 'main/img/sample-int.jpg' %}" alt="sample">
+            </div>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum ex similique esse mollitia, libero eum
+                minus commodi, alias aliquam, nesciunt deleniti inventore voluptas debitis quae consequatur enim sit
+                modi ipsa?
+                Quaerat velit in est et nam repellat ipsa totam aperiam incidunt ex architecto sequi odit nostrum,
+                asperiores facilis, cupiditate recusandae ducimus obcaecati veniam eius amet. Accusamus saepe facilis
+                vitae expedita.
+                Quibusdam molestiae voluptates quisquam neque, tempore reiciendis repellendus ea, nobis vitae laboriosam
+                dolore ipsa perferendis quidem iure quae consequatur adipisci, deleniti ipsum. Beatae ea commodi illum
+                doloremque atque quidem voluptatum.
+                Maiores cupiditate laudantium id voluptate, tempora laboriosam sapiente aliquid officiis autem, cumque
+                similique ipsa repudiandae facilis possimus dignissimos temporibus sit inventore tempore veniam! Dicta
+                quidem nisi velit laboriosam! Nihil, doloribus!
+            </p>
+        </div>
+
+    </section> -->
+
+    <div class="formation-container-cover"
+        style="background-image: url({%static 'main/img/presentation-formation.jpg'%});">
+        <!-- <img src="{% static 'main/img/presentation-formation.jpg' %}" alt="formation" class="cover"> -->
+        <h2>Ma Formation</h2>
+    </div>
+
+    <section class="formation-container">
+        <div class="psychomotricite">
+            <div class="description-container">
+                <h3>Psychomotricienne</h3>
+                <!-- <p class="description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem nisi necessitatibus quia vitae libero,
+                    voluptatibus aperiam velit adipisci similique, ab molestias facere quam delectus debitis quisquam
+                    accusantium distinctio, tenetur rerum.Modi maxime quae temporibus perferendis sunt quia,
+                    exercitationem esse nobis iure inventore perspiciatis quas vel laborum eum obcaecati ipsam cumque
+                    deleniti odit ullam, nostrum pariatur dolorem reiciendis! Aut, expedita repellendus.
+                </p> -->
+            </div>
+            <div class="diplomes">
+                <div class="diplome">
+                    <div class="container-intitule">
+                        <p class="intitule"> « les dyspraxies développementales : de la représentation motrice à
+                            l’action » à l’ISRP Boulogne Billancourt</p><span class="annee">2018</span>
+                    </div>
+                    <div class="container-anim">
+                        <div class="anim violet"></div>
+                    </div>
+                </div>
+                <div class="diplome">
+                    <div class="container-intitule">
+                        <p class="intitule"> formation aux approches Snoezelen et Basale</p><span
+                            class="annee">2016</span>
+                    </div>
+                    <div class="container-anim">
+                        <div class="anim rouge"></div>
+                    </div>
+                </div>
+                <div class="diplome">
+                    <div class="container-intitule">
+                        <p class="intitule">DU de recherche clinique en psychomotricité à la Pitié Salpêtrière.</p><span
+                            class="annee">2003</span>
+                    </div>
+                    <div class="container-anim">
+                        <div class="anim saumon"></div>
+                    </div>
+                </div>
+                <div class="diplome">
+                    <div class="container-intitule">
+                        <p class="intitule">DE de psychomotricité à Lille II.</p><span class="annee">1993</span>
+                    </div>
+                    <div class="container-anim">
+                        <div class="anim orange"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="sophrologie">
+            <div class="description-container">
+                <h3>Yoga - Sophrologie</h3>
+                <!-- <p class="description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem nisi necessitatibus quia vitae libero,
+                    voluptatibus aperiam velit adipisci similique, ab molestias facere quam delectus debitis quisquam
+                    accusantium distinctio, tenetur rerum.Modi maxime quae temporibus perferendis sunt quia,
+                    exercitationem esse nobis iure inventore perspiciatis quas vel laborum eum obcaecati ipsam cumque
+                    deleniti odit ullam, nostrum pariatur dolorem reiciendis! Aut, expedita repellendus.
+                </p> -->
+            </div>
+            <div class="diplomes order">
+                <div class="diplome">
+                    <div class="container-intitule">
+                        <p class="intitule">formation aux techniques de yoga dans l’éducation (spécialité yoga pour
+                            adolescent) avec le RYE (relaxation et yoga dans l’éducation).</p><span
+                            class="annee">2017</span>
+                    </div>
+                    <div class="container-anim">
+                        <div class="anim saumon"></div>
+                    </div>
+                </div>
+                <div class="diplome">
+                    <div class="container-intitule">
+                        <p class="intitule">DU d’éducation yoguique à Lille II.</p><span class="annee">2014</span>
+                    </div>
+                    <div class="container-anim">
+                        <div class="anim violet"></div>
+                    </div>
+                </div>
+                <div class="diplome">
+                    <div class="container-intitule">
+                        <p class="intitule">DU de sophrologie à Lille II</p><span class="annee">1999</span>
+                    </div>
+                    <div class="container-anim">
+                        <div class="anim orange"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="experience-container-cover"
+        style="background-image: url({% static 'main/img/presentation-experience.jpg' %});">
+        <!-- <img src="{% static 'main/img/presentation-experience.jpg' %}" alt="experience" class="cover"> -->
+        <h2>Mon Expérience</h2>
+    </div>
+
+    <div class="experiences-container">
+        <div class="experience-container">
+            <h2 class="experience-title">Psychomotricienne</h2>
             <ul class="experiences">
-                <li><span class="periode">Depuis janvier 2019 : </span><span class="explication">Activité libérale à la maison médicale « Alène d’Or » de Rosult</span></li>
-                <li><span class="periode">D'avril 2016 à septembre 2017 : </span><span class="explication">Activité libérale en collaboration à Valenciennes</span></li>
-                <li><span class="periode">Depuis 1999 : </span><span class="explication">Chargée d’enseignement à l’institut de formation de psychomotriciens de Lille , membre du jury et maître de mémoire au DE</span></li>
-                <li><span class="periode">Depuis octobre 1998 : </span><span class="explication">Psychomotricienne à l’IEM Dabbadie de Villeneuve d’Ascq -APF- avec des enfants porteurs de handicap moteur et de troubles associés (TSA, TDA/H, trouble de l’intégration sensorielle, déficit sensoriel, ...)</span></li>
-                <li><span class="periode">De 1994 à 2001 : </span><span class="explication">Psychomotricienne à la polyclinique de Riaumont à Liévin en centre de rééducation et de réadaptation avec des adultes et des personnes âgées</span></li>
-                <li><span class="periode">De 1993 à 1998 : </span><span class="explication">Psychomotricienne à l’IME les Tournesols de Douai</span></li>
+                <li><span class="periode">Depuis janvier 2019 : </span><span class="explication">Activité libérale à la
+                        maison médicale « Alène d’Or » de Rosult</span></li>
+                <li><span class="periode">D'avril 2016 à septembre 2017 : </span><span class="explication">Activité
+                        libérale en collaboration à Valenciennes</span></li>
+                <li><span class="periode">Depuis 1999 : </span><span class="explication">Chargée d’enseignement à
+                        l’institut de formation de psychomotriciens de Lille , membre du jury et maître de mémoire au
+                        DE</span></li>
+                <li><span class="periode">Depuis octobre 1998 : </span><span class="explication">Psychomotricienne à
+                        l’IEM Dabbadie de Villeneuve d’Ascq -APF- avec des enfants porteurs de handicap moteur et de
+                        troubles associés (TSA, TDA/H, trouble de l’intégration sensorielle, déficit sensoriel,
+                        ...)</span></li>
+                <li><span class="periode">De 1994 à 2001 : </span><span class="explication">Psychomotricienne à la
+                        polyclinique de Riaumont à Liévin en centre de rééducation et de réadaptation avec des adultes
+                        et des personnes âgées</span></li>
+                <li><span class="periode">De 1993 à 1998 : </span><span class="explication">Psychomotricienne à l’IME
+                        les Tournesols de Douai</span></li>
             </ul>
         </div>
-
-        <div class="cabinet-container-cover" style="background-image: url({% static 'main/img/presentation-cabinet.png' %});">
-            <!-- <img src="{% static 'main/img/presentation-cabinet.png' %}" alt="cabinet pyschomotricité" class="cover"> -->
-            <h2>Mon Cabinet</h2>
+        <div class="experience-container">
+            <h2 class="experience-title">Yoga - Sophrologie</h2>
+            <ul class="experiences">
+                <li><span class="periode">2020 : </span><span class="explication">Animation de yoga avec des enfants
+                        (CP, CE1, CE2) présentant des difficultés “d'attention-concentration en classe”, sur un temps
+                        périscolaire avec l’équipe enseignante.
+                    </span></li>
+                <li><span class="periode">Depuis janvier 2019 : </span><span class="explication">formatrice à l’IFAG à
+                        Lille auprès des étudiants sur « comment booster sa performance » qui intègre les notions de
+                        diététique et d’addictologie, de prendre soin de soi, d’imagerie mentale, de respiration par les
+                        techniques de yoga et de sophrologie.
+                    </span></li>
+                <li><span class="periode">Depuis septembre 2016 : </span><span class="explication">formatrice à l’ENPJJ
+                        de Roubaix et la Cour d’appel de Douai sur le « stress au travail : trouver son équilibre et
+                        techniques de relaxation»</span></li>
+            </ul>
         </div>
-
-        <div class="cabinet-container">
-                <img src="{% static 'main/img/sample-int.jpg' %}" alt="sample">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias mollitia, obcaecati numquam nostrum praesentium unde temporibus dolorem fugiat iusto optio voluptatem, blanditiis deserunt incidunt dolorum perferendis necessitatibus esse nemo et.</p>
-                <img src="{% static 'main/img/sample-int.jpg' %}" alt="sample">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias mollitia, obcaecati numquam nostrum praesentium unde temporibus dolorem fugiat iusto optio voluptatem, blanditiis deserunt incidunt dolorum perferendis necessitatibus esse nemo et.</p>
-        </div>
-
-        
-
-
-
     </div>
+
+
+    <div class="cabinet-container-cover"
+        style="background-image: url({% static 'main/img/presentation-cabinet.png' %});">
+        <!-- <img src="{% static 'main/img/presentation-cabinet.png' %}" alt="cabinet pyschomotricité" class="cover"> -->
+        <h2>Mon Cabinet</h2>
+    </div>
+
+    <div class="cabinet-container">
+        <img src="{% static 'main/img/sample-int.jpg' %}" alt="sample">
+        <p>Mon cabinet de psychomotricité se situe: au 548 rue de la Verderie à Mérignies (59710).
+            Après une expérience en libéral à Valenciennes puis à Rosult, j’ai choisi de m’installer à Mérignies.
+            Je reçois des patients pour dépister, traiter et rééduquer les troubles psychomoteurs à tous les âges de la
+            vie (du nouveau né à la personne âgée).</p>
+        <img src="{% static 'main/img/sample-int.jpg' %}" alt="sample">
+        <p>Les prises en charge s’effectuent en individuel ou en groupe selon les besoins du patient.
+            Je travaille en collaboration avec des médecins spécialistes (pédiatre, pédopsychiatre, neuropédiatre) ainsi
+            qu’avec les professionnels sensibilisés aux troubles du développement et des apprentissages (orthophonistes,
+            orthoptistes, ergothérapeutes, psychologues).</p>
+    </div>
+
+
+
+
+
+</div>
 
 
 {% endblock content %}

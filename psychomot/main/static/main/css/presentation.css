@@ -14,17 +14,32 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 80vh;
   margin: 1.5em;
 }
 
-.container-portrait, .presentation-container {
+.container-portrait,
+.presentation-container {
   width: 50%;
+}
+
+.container-portrait {
+  width: 50%;
+  height: 70vh;
 }
 
 .portrait {
   width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 100% 40%;
+     object-position: 100% 40%;
   -webkit-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.64);
-  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.64);
+          box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.64);
 }
 
 .presentation-container h1 {
@@ -76,19 +91,25 @@
   margin-right: 2em;
 }
 
-.formation-container-cover, .experience-container-cover, .cabinet-container-cover {
+.formation-container-cover,
+.experience-container-cover,
+.cabinet-container-cover {
   position: relative;
   min-height: 400px;
   background-size: cover;
   background-attachment: fixed;
 }
 
-.formation-container-cover .cover, .experience-container-cover .cover, .cabinet-container-cover .cover {
+.formation-container-cover .cover,
+.experience-container-cover .cover,
+.cabinet-container-cover .cover {
   position: absolute;
   top: -200px;
 }
 
-.formation-container-cover h2, .experience-container-cover h2, .cabinet-container-cover h2 {
+.formation-container-cover h2,
+.experience-container-cover h2,
+.cabinet-container-cover h2 {
   position: absolute;
   top: 70px;
   left: 70px;
@@ -105,7 +126,8 @@
   margin: auto;
 }
 
-.psychomotricite, .sophrologie {
+.psychomotricite,
+.sophrologie {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -154,6 +176,9 @@
   display: -ms-flexbox;
   display: flex;
   width: 100%;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 
 .diplome .intitule {
@@ -198,6 +223,10 @@
   background-color: #FFA41B;
 }
 
+.experience-container-cover {
+  background-position: bottom;
+}
+
 .experience-container-cover .cover {
   z-index: -1;
 }
@@ -208,26 +237,52 @@
 }
 
 .experiences-container {
-  background-color: #d8b9b9;
-  padding: 4em;
-  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   margin: auto;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.experience-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #8981E5;
+  padding: 2em;
+  width: 40%;
   margin-top: -40px;
   -webkit-box-shadow: 0px 10px 7px 0px rgba(0, 0, 0, 0.64);
   box-shadow: 0px 10px 7px 0px rgba(0, 0, 0, 0.64);
   position: relative;
 }
 
-.experiences-container li:not(:last-child) {
+.experience-container .experience-title {
+  margin-bottom: 1rem;
+  font-family: "Dancing";
+}
+
+.experience-container li:not(:last-child) {
   margin-bottom: 2em;
 }
 
-.experiences-container .periode {
+.experience-container .periode {
   font-weight: bold;
 }
 
-.experiences-container .explication {
-  color: #c02b2b;
+.experience-container .explication {
+  color: white;
 }
 
 .cabinet-container-cover {
@@ -276,13 +331,27 @@
     width: 70%;
     margin: auto;
   }
+  .experiences-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .experience-container {
+    width: 70%;
+    margin: 2rem 0;
+  }
 }
 
 @media only screen and (max-width: 925px) {
   .presentation-header {
     display: block;
   }
-  .container-portrait, .presentation-container {
+  .container-portrait,
+  .presentation-container {
     width: 80%;
     margin: auto;
   }
@@ -292,14 +361,15 @@
   .locaux {
     width: 90%;
   }
-  .experiences-container {
-    width: 80%;
-    padding: 1.5em;
-  }
+  /* .experiences-container {
+        width: 80%;
+        padding: 1.5em;
+    } */
   .cabinet-container {
     display: block;
   }
-  .cabinet-container img, .cabinet-container p {
+  .cabinet-container img,
+  .cabinet-container p {
     width: 80%;
     margin: auto;
     margin-bottom: 1em;
@@ -307,12 +377,16 @@
 }
 
 @media only screen and (max-width: 800px) {
-  .psychomotricite, .sophrologie {
+  .psychomotricite,
+  .sophrologie {
     display: block;
     width: 90%;
     margin: auto;
   }
-  .psychomotricite .description-container, .psychomotricite .diplomes, .sophrologie .description-container, .sophrologie .diplomes {
+  .psychomotricite .description-container,
+  .psychomotricite .diplomes,
+  .sophrologie .description-container,
+  .sophrologie .diplomes {
     width: 100%;
     margin-bottom: 2em;
   }
@@ -340,13 +414,26 @@
   .locaux .container-item .left {
     margin-right: 0;
   }
+  .experience-container {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .experience-container {
+    padding: 1em;
+  }
 }
 
 @media only screen and (max-width: 500px) {
+  .main-wrapper {
+    border: none;
+  }
   .presentation-header {
     margin: 0.5em;
   }
-  .container-portrait, .presentation-container {
+  .container-portrait,
+  .presentation-container {
     width: 95%;
     margin: auto;
   }

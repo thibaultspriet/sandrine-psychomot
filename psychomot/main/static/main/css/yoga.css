@@ -1,18 +1,32 @@
 header.containerCover {
   margin-bottom: 1rem;
+  height: 85vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 header.containerCover img {
-  width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  width: 50%;
+  display: block;
+  margin: 0 auto;
 }
 
 header.containerCover h1 {
   font-weight: bold;
   text-align: center;
   font-size: 3em;
-  padding: 2rem 0;
+  padding-top: 2rem;
 }
 
 .intro {
@@ -47,10 +61,13 @@ header.containerCover h1 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .yoga .card, .sophro .card {
-  width: 45%;
+  width: 30%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -63,7 +80,7 @@ header.containerCover h1 {
 }
 
 .yoga .card h3, .yoga .card p, .sophro .card h3, .sophro .card p {
-  width: 50%;
+  width: 70%;
   margin: auto;
   margin-bottom: 2rem;
 }
@@ -80,10 +97,23 @@ header.containerCover h1 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 1rem;
+  border-radius: 20px;
+  background-color: #464174;
+  -webkit-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+}
+
+.yoga .card .btn-yoga:hover, .sophro .card .btn-yoga:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
 }
 
 .yoga .card .btn-yoga a, .sophro .card .btn-yoga a {
   display: block;
+  color: white;
 }
 
 .yoga .card h3, .sophro .card h3 {
@@ -91,8 +121,9 @@ header.containerCover h1 {
   font-size: 1.5em;
 }
 
-.yoga .card p, .sophro .card p {
-  text-align: justify;
+.yoga .card .description, .sophro .card .description {
+  text-align: center;
+  font-style: italic;
 }
 
 .yoga .illustration, .sophro .illustration {
@@ -100,19 +131,22 @@ header.containerCover h1 {
   overflow: hidden;
 }
 
+.yoga .illustration:hover img, .sophro .illustration:hover img {
+  width: 150%;
+}
+
 .yoga .illustration img, .sophro .illustration img {
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
   width: 100%;
   height: 300px;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-.yoga .card {
-  margin-right: -25px;
-}
-
 .transition {
   margin: 2rem 0;
+  overflow: hidden;
 }
 
 .transition img {
@@ -165,11 +199,18 @@ header.containerCover h1 {
   .yoga .yoga, .sophro .yoga {
     margin-bottom: 1rem;
   }
+  .sophro .card {
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1;
+  }
 }
 
 .detailTitleContainer {
   padding: 2.5rem 0;
   text-align: center;
+  width: 90%;
+  margin: auto;
 }
 
 .detailTitleContainer .title {
@@ -189,8 +230,8 @@ header.containerCover h1 {
       -ms-flex-align: center;
           align-items: center;
   width: 60%;
-  margin: auto;
-  margin-top: -25px;
+  margin: 2rem auto;
+  z-index: 10;
 }
 
 .tarifContainer p {
@@ -217,30 +258,23 @@ header.containerCover h1 {
           transform: translateX(-50%);
 }
 
-.detail {
+.tarifDetailContainer {
   width: 100%;
-}
-
-.detail li {
-  padding: 0.5rem 1.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  cursor: pointer;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
-.detail li.first {
+.tarifDetailContainer li.title {
+  text-align: center;
+  padding: .5rem;
   margin-bottom: 1rem;
-}
-
-.detail li .item {
-  font-weight: bold;
+  border-radius: 10px;
+  background-color: #8981E5;
+  color: white;
+  font-size: 1.3em;
 }
 
 .more {
@@ -279,6 +313,8 @@ header.containerCover h1 {
       align-self: center;
   margin-top: -30px;
   padding: 1rem 2rem;
+  -webkit-transform-origin: top;
+          transform-origin: top;
 }
 
 .more .card h3 {
@@ -321,6 +357,21 @@ header.containerCover h1 {
   }
   .more .card .btn-yoga {
     width: 70%;
+  }
+}
+
+@media only screen and (max-width: 785px) {
+  .tarifDetailContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .tarifDetailContainer .tarifAdulte {
+    margin-bottom: 2rem;
   }
 }
 
@@ -417,52 +468,15 @@ header.containerCover h1 {
 }
 
 .background {
-  background-color: #D2CFE5;
-}
-
-.background-muted {
-  background-color: #F1F0F8;
+  background-color: #8981E5;
 }
 
 .background-secondary {
-  background-color: #F5EBD7;
+  background-color: #EAD1AA;
 }
 
 .shadow {
   -webkit-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
           box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
-}
-
-.wrapper {
-  margin: 0 2rem;
-}
-
-.title {
-  font-family: 'Dancing';
-}
-
-.btn-yoga {
-  background-color: rgba(0, 0, 0, 0.6);
-  padding: 1em;
-  border-radius: 27px;
-  cursor: pointer;
-  text-transform: uppercase;
-  -webkit-transition: all .3s ease;
-  transition: all .3s ease;
-}
-
-.btn-yoga a {
-  color: white;
-  -webkit-transition: all .3s ease;
-  transition: all .3s ease;
-}
-
-.btn-yoga:hover {
-  background-color: #F5EBD7;
-  color: rgba(0, 0, 0, 0.6);
-}
-
-.btn-yoga:hover a {
-  color: black;
 }
 /*# sourceMappingURL=yoga.css.map */

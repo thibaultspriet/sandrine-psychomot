@@ -16,6 +16,7 @@
     <div class="form-container">
         <form action="#" method="POST">
             {% csrf_token %}
+            {{ form.non_field_errors }}
             <div class="select-service">
                 <label for="{{form.service.id_for_label}}">{{form.service.label}}</label>
                 {{form.service}}

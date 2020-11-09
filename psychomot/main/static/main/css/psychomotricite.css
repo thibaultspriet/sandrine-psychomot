@@ -54,6 +54,27 @@ main p {
   margin-bottom: 5rem;
 }
 
+.enPratiqueContainer .deroulement {
+  width: 80%;
+  margin: auto;
+}
+
+.enPratiqueContainer .deroulement h3 {
+  font-size: 1.5rem;
+  margin: 1.5rem 0;
+  text-align: center;
+}
+
+.enPratiqueContainer .deroulement strong {
+  color: #B9B5D8;
+  font-weight: bold;
+}
+
+.enPratiqueContainer .deroulement li {
+  margin-bottom: 0.5rem;
+  text-align: justify;
+}
+
 .list-items {
   margin-top: 2rem;
   width: 50%;
@@ -116,6 +137,7 @@ main p {
 }
 
 .content h2 {
+  text-align: center;
   font-size: 2.5em;
   font-weight: 200;
 }
@@ -189,6 +211,43 @@ main p {
   }
 }
 
+.enTheorieContainer {
+  margin: auto;
+  margin-bottom: 2rem;
+  padding: 2rem 0;
+  background-color: #D2CFE5;
+}
+
+.enTheorieContainer .title {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.enTheorieContainer .description {
+  width: 80%;
+  margin: auto;
+}
+
+.enTheorieContainer .intro {
+  margin-bottom: 1rem;
+}
+
+.enTheorieContainer .items {
+  margin-bottom: 1rem;
+}
+
+.enTheorieContainer .items li {
+  background-color: white;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+
+.enTheorieContainer .items li::before {
+  content: "\2192";
+  margin-right: 1rem;
+}
+
 .background {
   background-color: #B9B5D8;
 }
@@ -207,12 +266,12 @@ main p {
   font-family: 'Dancing';
 }
 
-.titleContainer, .enPratiqueContainer {
+.titleContainer, .enPratiqueContainer, .enTheorieContainer {
   width: 80%;
 }
 
 @media only screen and (max-width: 500px) {
-  .titleContainer, main, .enPratiqueContainer {
+  .titleContainer, main, .enPratiqueContainer, .enTheorieContainer {
     width: 100%;
   }
 }

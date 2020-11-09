@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sandrine Psychomotricienne</title>
     <link rel="stylesheet" href="{% static 'main/css/base.css' %}">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     {% block head %}{% endblock %}
     <style>
         @font-face{
@@ -20,9 +21,9 @@
     <header class="base-header">
         <nav class="coordinates">
             <ul class="list-coordinates">
-                <li><a href="tel:0615742382"><img src="{% static 'main/img/phone-call.svg' %}" alt="phone" class="tel">06 15 74 23 82</a></li>
+                <li><a href="tel:0615742382"><img src="{% static 'main/img/phone-call.svg' %}" alt="phone" class="tel">06 08 30 28 97</a></li>
                 <li><a href="mailto:thibaultspriet@hotmail.fr"><img src="{% static 'main/img/email.svg' %}" alt="email" class="mail">sandrine.dubois.psychomot@sfr.fr</a></li>
-                <li><a href="#"><img src="{% static 'main/img/location.svg' %}" alt="location" class="location">81 rue de l'enclos 59820 Tucheville</a></li>
+                <li><a href="#"><img src="{% static 'main/img/location.svg' %}" alt="location" class="location">548, rue de la Verderie 59710 Mérignies</a></li>
             </ul>
         </nav>
         <nav class="rubriques">
@@ -30,12 +31,12 @@
                 <img src="{% static 'main/img/hamburger.svg' %}" alt="menu" class="hamburger">
             </div>
             <ul class="list-rubriques">
-                <li><a href="{% url 'index' %}">Accueil</a></li>
-                <li><a href="{% url 'presentation' %}">Présentation</a></li>
-                <li><a href="{% url 'psychomotricite' %}">Psychomotricité</a></li>
-                <li><a href="{% url 'yoga' %}">Sophrologie-Yoga</a></li>
-                <li><a href="{% url 'rendez_vous' %}">Rendez-Vous</a></li>
-                <li><a href="{% url 'contact' %}">Contact</a></li>
+                <li {% if request.path ==  "/"%} class="active" {% endif %}><a href="{% url 'index' %}">Accueil</a></li>
+                <li {% if request.path == "/presentation/"%} class="active" {% endif %}><a href="{% url 'presentation' %}">Présentation</a></li>
+                <li {% if request.path == "/psychomotricite/"%} class="active" {% endif %}><a href="{% url 'psychomotricite' %}">Psychomotricité</a></li>
+                <li {% if request.path == "/yoga/"%} class="active" {% endif %}><a href="{% url 'yoga' %}">Sophrologie-Yoga</a></li>
+                <li {% if request.path == "/rendez_vous/"%} class="active" {% endif %}><a href="{% url 'rendez_vous' %}">Rendez-Vous</a></li>
+                <li {% if request.path == "/contact/"%} class="active" {% endif %}><a href="{% url 'contact' %}">Contact</a></li>
             </ul>
 
             <ul class="list-rubriques-mobile">
@@ -64,9 +65,9 @@
             </ul>
             <ul class="footer-coordinate footer-infos-item">
                 <li class="footer-title">Coordonnées</li>
-                <li><a href="tel:0615742382" class="tel"><img src="{% static 'main/img/phone-call.svg' %}" alt="phone" class="tel">: 06 15 74 23 82</a></li>
+                <li><a href="tel:0615742382" class="tel"><img src="{% static 'main/img/phone-call.svg' %}" alt="phone" class="tel">: 06 08 30 28 97</a></li>
                 <li><a href="mailto:thibaultspriet@hotmail.fr" class="mail"><img src="{% static 'main/img/email.svg' %}" alt="email" class="mail">: sandrine.dubois.psychomot@sfr.fr</a></li>
-                <li><a href="#" class="addresse"><img src="{% static 'main/img/location.svg' %}" alt="location" class="location">: 81 rue de l'enclos 59820 Tucheville</a></li>
+                <li><a href="#" class="addresse"><img src="{% static 'main/img/location.svg' %}" alt="location" class="location">: 548, rue de la Verderie 59710 Mérignies</a></li>
             </ul>
             <div class="footer-rdv footer-infos-item">
                 <h2 class="footer-title">Rendez-vous</h2>

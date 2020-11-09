@@ -143,14 +143,6 @@ input[type="submit"]{
 
 /*------- Responsive --------*/
 
-// 820 px
-// largeur paragraphe sur la cover
-
-@media only screen and (max-width:820px){
-    .rdv-header p {
-        width: 50%;
-    }
-}
 
 // 790 px
 // largeur sélection service
@@ -175,16 +167,22 @@ input[type="submit"]{
             width: auto;
         }
     }
-}
 
-// 500 px
-@media only screen and (max-width:820px){
-    
     .rdv-header p{
         transform: translateY(20px);
     }
 
     .recap{
         width: 90%;
+    }
+
+    .rdv-header p {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width:500px){
+    .rdv-header p{
+        width: 80%;
     }
 }

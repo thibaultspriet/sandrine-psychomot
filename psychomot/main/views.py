@@ -35,11 +35,23 @@ def presentation(request):
 def yoga(request):
     return render(request,'main/yoga.html')
 
+def yogaDetail(request):
+    return render(request,'main/yogaDetail.html')
+
+def sophroDetail(request):
+    return render(request,'main/sophroDetail.html')
+
 def psychomotricite(request):
     return render(request,'main/psychomotricite.html')
 
+def pourqui(request):
+    return render(request,'main/pourqui.html')
+
 def bilan(request):
     return render(request,'main/bilan.html')
+
+def boite_outils(request):
+    return render(request,'main/boite_outils.html')
 
 def rendez_vous(request):
     context={}

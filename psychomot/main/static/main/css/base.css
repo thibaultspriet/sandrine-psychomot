@@ -6,6 +6,7 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-family: "Montserrat";
 }
 
 a {
@@ -47,7 +48,12 @@ li {
   margin: auto;
 }
 
-.base-header .list-coordinates, .base-header .list-rubriques {
+.base-header .list-rubriques li.active {
+  background-color: #eebc6c;
+}
+
+.base-header .list-coordinates,
+.base-header .list-rubriques {
   background-color: #EAD1AA;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -66,7 +72,8 @@ li {
   min-height: 50px;
 }
 
-.base-header .list-coordinates li, .base-header .list-rubriques li {
+.base-header .list-coordinates li,
+.base-header .list-rubriques li {
   min-height: 50px;
   line-height: 50px;
   padding: 0em 0.5em;
@@ -74,7 +81,8 @@ li {
   transition: all .5s ease;
 }
 
-.base-header .list-coordinates li:hover, .base-header .list-rubriques li:hover {
+.base-header .list-coordinates li:hover,
+.base-header .list-rubriques li:hover {
   background-color: #eebc6c;
 }
 
@@ -90,7 +98,9 @@ li {
 }
 
 /* Icons */
-.tel, .mail, .location {
+.tel,
+.mail,
+.location {
   width: 15px;
   height: 15px;
   margin-right: 0.5em;

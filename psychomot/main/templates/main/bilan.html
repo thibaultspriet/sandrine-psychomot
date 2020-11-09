@@ -1,46 +1,63 @@
-{% extends 'main/base.html' %}
+{% extends 'main/nav_pratique.html' %}
 {% load static %}
 
 
-{% block head %}
-    <link rel="stylesheet" href="{% static 'main/css/bilan.css' %}">
-{% endblock head %}
+{% block style %}
+<link rel="stylesheet" href="{% static 'main/css/bilan.css' %}">
+{% endblock style %}
 
-{% block content %}
+{% block sub_content %}
 
-    <header class="containerCover">
-        <img src="{% static 'main/img/cover-bilan.png' %}" alt="developpement psychomoteur" class="cover">
-    </header>
+<header class="containerCover">
+    <img src="{% static 'main/img/cover-bilan.png' %}" alt="developpement psychomoteur" class="cover">
+</header>
 
-    <div class="pourquoiContainer shadow">
-        <div class="shadow background">
-            <h2 class="title">
-                Pourquoi un examen psychomoteur ?
-            </h2>
-        </div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis adipisci molestiae quidem ipsa cupiditate odio maxime, accusantium ratione aliquid culpa, officiis harum eligendi recusandae eaque nostrum. Perferendis omnis aut in.Temporibus aperiam ex quasi officia quaerat nisi voluptatem maxime fuga beatae at, aspernatur iure explicabo praesentium quis eos molestiae quo velit illum non. Necessitatibus sequi iure ut minus laudantium obcaecati?</p>
+<div class="pourquoiContainer shadow">
+    <div class="shadow background">
+        <h2 class="title">
+            Pourquoi un bilan psychomoteur ?
+        </h2>
     </div>
+    <p>La spécificité du bilan psychomoteur est qu’il objective les compétences motrices et perceptives au regard d’une
+        norme tout en intégrant certains aspects cognitifs et psycho-affectifs.
+    </p>
+</div>
 
-    <div class="grid">
-        <div class="card background shadow">
-            <h2 class="title" data-title="Déroulement"></h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque voluptas laboriosam tempore cumque perspiciatis perferendis repellendus voluptatem, ducimus quam iure doloribus voluptatum. Ad incidunt sint accusantium eligendi quas ipsum deleniti?Ad incidunt repudiandae inventore minima molestiae magnam sed obcaecati quidem eveniet quaerat cupiditate quia, esse voluptatibus. Reiciendis, sint impedit perspiciatis, molestiae voluptas assumenda, laudantium veritatis maxime iste deserunt quaerat! Accusamus?</p>
-        </div>
-        <div class="card background shadow">
-            <h2 class="title" data-title="Entretien"></h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque voluptas laboriosam tempore cumque perspiciatis perferendis repellendus voluptatem, ducimus quam iure doloribus voluptatum. Ad incidunt sint accusantium eligendi quas ipsum deleniti?Ad incidunt repudiandae inventore minima molestiae magnam sed obcaecati quidem eveniet quaerat cupiditate quia, esse voluptatibus. Reiciendis, sint impedit perspiciatis, molestiae voluptas assumenda, laudantium veritatis maxime iste deserunt quaerat! Accusamus?</p>
-        </div>
-        <div class="card background shadow">
-            <h2 class="title" data-title="Passation de tests"></h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque voluptas laboriosam tempore cumque perspiciatis perferendis repellendus voluptatem, ducimus quam iure doloribus voluptatum. Ad incidunt sint accusantium eligendi quas ipsum deleniti?Ad incidunt repudiandae inventore minima molestiae magnam sed obcaecati quidem eveniet quaerat cupiditate quia, esse voluptatibus. Reiciendis, sint impedit perspiciatis, molestiae voluptas assumenda, laudantium veritatis maxime iste deserunt quaerat! Accusamus?</p>
-        </div>
-        <div class="card background shadow">
-            <h2 class="title" data-title="Restitution"></h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque voluptas laboriosam tempore cumque perspiciatis perferendis repellendus voluptatem, ducimus quam iure doloribus voluptatum. Ad incidunt sint accusantium eligendi quas ipsum deleniti?Ad incidunt repudiandae inventore minima molestiae magnam sed obcaecati quidem eveniet quaerat cupiditate quia, esse voluptatibus. Reiciendis, sint impedit perspiciatis, molestiae voluptas assumenda, laudantium veritatis maxime iste deserunt quaerat! Accusamus?</p>
-        </div>
+<div class="grid">
+    <div class="card background shadow">
+        <h2 class="title" data-title="Premier rendez-vous"></h2>
+        <p>Lors du premier rendez-vous, le psychomotricien réalise un entretien qui permet de mieux comprendre la
+            demande initiale en reprenant l’histoire de vie, les différentes étapes de son développement, les
+            difficultés rencontrées, les particularités comportementales…
+        </p>
     </div>
+    <div class="card background shadow">
+        <h2 class="title" data-title="Les tests"></h2>
+        <p> Différents tests et épreuves sont réalisés sur plusieurs séances afin d’évaluer le niveau de la personne dans les différents domaines psychomoteurs : la perception du corps, la motricité globale, la motricité fine et l’écriture, l’organisation dans l’espace et dans le temps, le tonus, la latéralité, le maintien de l’attention… en lien avec les composantes cognitives et psycho-affectives.
+        </p>
+    </div>
+    <div class="card background shadow">
+        <h2 class="title" data-title="Analyse des résultats"></h2>
+        <p>L’analyse des résultats donne lieu à une restitution orale ainsi qu’à un compte-rendu écrit, remis à la
+            famille et au médecin prescripteur. Il peut également être transmis aux différents partenaires (enseignant,
+            orthophoniste…).
+        </p>
+    </div>
+    <div class="card background shadow">
+        <h2 class="title" data-title="Restitution"></h2>
+        <p>En fonction des résultats du bilan, peuvent être proposés :
+            <ul>
+                <li>une prise en charge, explicitant les différents axes de rééducation</li>
+                <li>des préconisations pour l’école et/ou le quotidien</li>
+                <li>une réorientation éventuelle vers un autre professionnel</li>
+                <li>Une réévaluation pourra être effectuée selon la nécessité.</li>
+            </ul>
 
-{% endblock content %}
+        </p>
+    </div>
+</div>
+
+{% endblock sub_content %}
 
 {% block script %}
 <script src="{% static 'main/js/bilan_anim.js' %}"></script>

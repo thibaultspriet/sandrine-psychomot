@@ -37,7 +37,7 @@ function iconsTl(icon,index){
     icon.tl = gsap.timeline({
         scrollTrigger : {
             trigger : '.aides',
-            start : 'bottom 100%',
+            start : 'center 100%',
         }
     }).from(icon,{
         y : "50px",

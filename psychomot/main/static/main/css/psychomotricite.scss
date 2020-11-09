@@ -1,4 +1,4 @@
-@import 'psychomotricite/definition', './psychomotricite/enPratique', './psychomotricite/aides';
+@import 'psychomotricite/definition', './psychomotricite/enPratique', './psychomotricite/aides' , './psychomotricite/enTheorie';
 
 
 .background{
@@ -18,12 +18,12 @@
     font-family: 'Dancing';
 }
 
-.titleContainer, .enPratiqueContainer{
+.titleContainer, .enPratiqueContainer, .enTheorieContainer{
     width: 80%;
 }
 
 @media only screen and (max-width : 500px){
-    .titleContainer, main, .enPratiqueContainer{
+    .titleContainer, main, .enPratiqueContainer, .enTheorieContainer{
         width: 100%;
     }
 }

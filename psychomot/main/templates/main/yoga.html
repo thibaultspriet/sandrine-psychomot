@@ -24,13 +24,13 @@
     <div class="yoga">
         <div class="card background">
             <h3 class="title">
-                Le Yoga <br>Une pratique douce
+                Le Yoga
             </h3>
             <p class="description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, vitae cum nemo impedit rerum eum eius quam. Quidem, esse veniam mollitia vitae, at aliquid, dignissimos earum repellendus nesciunt ipsa possimus!
+                Une pratique douce accessible pour tous
             </p>
             <div class="btn-yoga">
-                <a href="#">Découvrir</a>
+                <a href="{% url 'yoga-detail' %}">Découvrir</a>
             </div>
         </div>
         <div class="illustration">
@@ -43,13 +43,13 @@
         </div>
         <div class="card background">
             <h3 class="title">
-                La Sophrologie <br>Une pratique douce
+                La Sophrologie
             </h3>
             <p class="description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, vitae cum nemo impedit rerum eum eius quam. Quidem, esse veniam mollitia vitae, at aliquid, dignissimos earum repellendus nesciunt ipsa possimus!
+                une démarche  positive pour retrouver Équilibre et Harmonie.
             </p>
             <div class="btn-yoga">
-                <a href="#">Découvrir</a>
+                <a href="{% url 'sophro-detail' %}">Découvrir</a>
             </div>
         </div>
     </div>
@@ -57,13 +57,13 @@
 
 
 <div class="containerCover transition">
-    <img src="{% static 'main/img/yoga-mountain.jpg' %}" alt="yoga">
+    <img src="{% static 'main/img/coverSea.jpg' %}" alt="yoga">
 </div>
 
 <div class="wrapper">
-    <div class="background shadow detailTitleContainer">
+    <div class="shadow detailTitleContainer background">
         <h2 class="title">
-            Sophrologie - Yoga
+            En pratique
         </h2>
     </div>
     
@@ -72,23 +72,21 @@
             C'est par une pratique accessible, joyeuse et inspirée que je propose aux néophytes comme aux plus confirmés de vivre une expérience complète.
         </p>
         <h3>Les Tarifs</h3>
-        <ul class="detail">
-            <a href="#">
-                <li class="background shadow first">
-                    <span class="item">Les cours à la carte</span>
-                    <span class="cta">+</span>
-                </li>
-            </a>
-            <a href="#">
-                <li class="background shadow">
-                    <span class="item">Le pass famille</span>
-                    <span class="cta">+</span>
-                </li>
-            </a>
-        </ul>
+        <div class="tarifDetailContainer">
+            <ul class="tarifAdulte">
+                <li class="title">Pour les adultes</li>
+                <li>55€ première séance de 1h30</li>
+                <li>50€ séance de suivi de 1h</li>
+                <li>Tarif dégressif dès 10 séances</li>
+            </ul>
+            <ul class="tarifEnfant">
+                <li class="title">Pour les enfants</li>
+                <li>45€ pour 45 minutes</li>
+            </ul>
+        </div>
     </div>
     
-    <div class="shadow more">
+    <!-- <div class="shadow more">
         <div class="enfant">
             <div class="containerImg">
                 <img src="{% static 'main/img/enfant-yoga.jpg' %}" alt="yoga">
@@ -117,7 +115,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     
     <div class="shadow pratique background-secondary">
         <h2>Informations pratiques</h2>

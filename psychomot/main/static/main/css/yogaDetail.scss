@@ -1,0 +1,46 @@
+@import './yogaDetail/bienfaitsEnfant', './yogaDetail/initierEnfant', './yogaDetail/enfantIntro.scss', './yogaDetail/particulariteEnfant.scss' , './yogaDetail/deroulementEnfant', './yogaDetail/relaxation';
+@import './yogaDetail/adulte/benefice', './yogaDetail/adulte/historique' , './yogaDetail/adulte/pourqui.scss';
+
+.pageContent {
+    background-color: #D2CFE5;
+    padding: 2rem 0;
+    margin: 2rem 0;
+}
+
+.pageTitle {
+    text-align: center;
+    font-family: "Dancing";
+    font-size: 3em;
+    margin-bottom: 3rem;
+}
+
+
+.sectionTitle {
+    font-size: 2em;
+    &::before{
+        content: '\2756';
+        color: white;
+        margin-right: 2rem;
+    }
+}
+
+.subsectionTitle {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 1.5rem; 
+}
+
+#conclusion{
+    width: 70%;
+    margin: auto;
+    margin-top: 2rem;
+    font-style: italic;
+}
+
+#adulte{
+    width: 80%;
+    margin: auto;
+    margin-top: 4rem;
+}
+
+

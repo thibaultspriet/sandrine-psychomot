@@ -11,5 +11,5 @@ class AskForRDV(forms.Form):
     service_name = Service.objects.values_list('nom',flat=True)
     choices = [(nom,nom) for nom in service_name]
     service = forms.CharField(widget=forms.Select(choices=choices),label="Sélectionner un service : ")
-    email = forms.EmailField(label = "Votre adresse mail : ")
-    message = forms.CharField(widget=forms.Textarea,label = "Votre message : ")
+    email = forms.EmailField(label = "Email : ")
+    message = forms.CharField(widget=forms.Textarea,label = "Message : ")

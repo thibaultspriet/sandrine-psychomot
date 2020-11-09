@@ -25,7 +25,7 @@ SECRET_KEY = '*=gcz0#9+r^2)y8nixeu=6w%rm=*8%qxdv3tkwx)cils-1iibw'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -120,3 +120,9 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIR_ROOT = os.path.join(BASE_DIR,'static/')
+
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_PASSWORD = 'frtadstxphnowyzm'
+EMAIL_HOST_USER='sprietthibault@gmail.com'
+EMAIL_USE_SSL = True
+EMAIL_PORT = 465

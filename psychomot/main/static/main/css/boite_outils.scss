@@ -1,0 +1,11 @@
+@import './boite_outils/cover', './boite_outils/main.scss';
+
+.page {
+    display: flex;
+}
+
+@media only screen and (max-width:1200px) {
+    .page {
+        flex-direction: column;
+    }
+} 

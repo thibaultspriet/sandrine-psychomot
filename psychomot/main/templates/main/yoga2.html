@@ -1,0 +1,83 @@
+{% extends 'main/base.html' %}
+{% load static %}
+
+
+{% block head %}
+<link rel="stylesheet" href="{% static 'main/css/yoga.css' %}">
+{% endblock head %}
+
+{% block content %}
+<header class="containerCover background-secondary">
+    <img src="{% static 'main/img/home-yoga-cover.png' %}" alt="positions de yoga" class="cover">
+    <h1 class="page-title">
+        Sophrologie - Yoga
+    </h1>
+</header>
+
+<section id="yoga">
+    <div id="yogaIntro">
+        <p>Beaucoup de parents s’inquiètent parfois et à juste titre d’un manque de concentration et d’attention chez
+            leur enfant dans un monde où il est sans cesse stimulé et par conséquent souvent agité. La pratique du yoga
+            permet à l’enfant d’apprivoiser ses émotions, à s’apaiser, à mieux se connaître autant physiquement que
+            émotionnellement
+        </p>
+        <p>
+            Le yoga est destiné aux enfants à partir de 5 ans, il est à la fois ludique et facile à pratiquer.
+        </p>
+    </div>
+    <div id="yogaBienfaits">
+        <p class="intro">
+            Le yoga pour les petits a de nombreux bienfaits, car il répond simplement à certains de leurs besoins.
+            Celui-ci est particulièrement indiqué dans certains cas comme les suivants : troubles de l’attention et de
+            l’anxiété, sommeil perturbé et difficulté à s’endormir, alternative aux activités particulièrement
+            stimulante et excitante comme la télévision, les jeux vidéos.
+        </p>
+        <div class="emotionnel">
+            <ul>
+                <li>se concentrer et développer ses capacité d’attention</li>
+                <li>canaliser et gérer ses émotions</li>
+                <li>apaiser et réduire le stress</li>
+                <li>gagner en confiance en soi et en estime de soi</li>
+            </ul>
+        </div>
+        <div class="physique">
+            <ul>
+                <li>mieux connaître et prendre conscience de son propre corps, le sentir, le découvrir</li>
+                <li>apprendre à bien respirer</li>
+                <li>améliorer la souplesse grâce aux postures et gagner en fluidité de mouvements</li>
+                <li>prendre conscience de la verticalité et de l’alignement de la colonne vertébrale</li>
+            </ul>
+        </div>
+    </div>
+    <div id="particularites">
+        <p class="intro">
+            Celle-ci a comme particularité principale d’être ludique. Les postures d’animaux le plus souvent sont
+            réalisées dans un esprit de jeu.
+            La durée d’une séance est de maximum 30 à 40 minutes. Une pratique à la maison est vivement conseillée avec
+            papa, maman et les frères et soeurs.
+            Il est nécessaire d’être habillé de vêtements souples, adaptés aux différentes postures statiques et
+            dynamiques et propices à la détente. Un matelas d’exercice au sol est indispensable.
+        </p>
+        <div id="postures">
+            <section class="posture">
+                <h3>Chat</h3>
+            </section>
+            <section class="posture">
+                <h3>Chient tête en bas</h3>
+            </section>
+            <section class="posture">
+                <h3>Tortue</h3>
+            </section>
+        </div>
+
+    </div>
+</section>
+
+
+
+
+
+{% endblock content %}
+
+{% block script %}
+{% endblock script %}

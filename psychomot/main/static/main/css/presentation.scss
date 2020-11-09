@@ -7,39 +7,53 @@ $secondary-hover : rgba(137, 129, 229, 0.315);
 /* Desktop first */
 
 // Général
-.cover{
+.cover {
     width: 100%;
 }
 
 // Contour
-.main-wrapper{
+.main-wrapper {
     margin: 1.5em;
     border: thin black solid;
     overflow: hidden;
 }
 
 // header
-.presentation-header{
+.presentation-header {
     display: flex;
+    align-items: center;
+    min-height: 80vh;
     margin: 1.5em;
 }
-.container-portrait,.presentation-container{
+
+.container-portrait,
+.presentation-container {
     width: 50%;
 }
-.portrait{
-    width: 100%;
-    -webkit-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.64);
-    -moz-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.64);
-    box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.64);
+
+
+.container-portrait {
+    width: 50%;
+    height: 70vh;
 }
-.presentation-container{
-    h1{
+
+.portrait {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 100% 40%;
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.64);
+}
+
+.presentation-container {
+    h1 {
         font-family: 'Dancing';
         font-size: 2em;
         margin-top: 1em;
         text-align: center;
     }
-    .presentation{
+
+    .presentation {
         text-align: justify;
         width: 80%;
         margin: auto;
@@ -48,41 +62,50 @@ $secondary-hover : rgba(137, 129, 229, 0.315);
 }
 
 // Locaux
-.locaux{
+.locaux {
     width: 70%;
     margin: auto;
     margin-top: 1em;
-    img{
+
+    img {
         width: 200px;
     }
-    .container-item{
+
+    .container-item {
         margin: 4em 0;
         display: flex;
         align-items: center;
-        p{
+
+        p {
             text-align: justify;
         }
-        .right{
+
+        .right {
             order: 2;
             margin-left: 2em;
         }
-        .left{
+
+        .left {
             margin-right: 2em;
         }
     }
 }
 
 // cover formation
-.formation-container-cover, .experience-container-cover, .cabinet-container-cover{
+.formation-container-cover,
+.experience-container-cover,
+.cabinet-container-cover {
     position: relative;
     min-height: 400px;
     background-size: cover;
     background-attachment: fixed;
-    .cover{
+
+    .cover {
         position: absolute;
         top: -200px;
     }
-    h2{
+
+    h2 {
         position: absolute;
         top: 70px;
         left: 70px;
@@ -91,28 +114,33 @@ $secondary-hover : rgba(137, 129, 229, 0.315);
     }
 }
 
-.formation-container-cover{
+.formation-container-cover {
     background-position: center;
 }
 
 // formation
-.formation-container{
+.formation-container {
     width: 90%;
     margin: auto;
 }
-.psychomotricite, .sophrologie{
+
+.psychomotricite,
+.sophrologie {
     display: flex;
     align-items: center;
     margin: 2em 0;
 }
-.description-container{
+
+.description-container {
     width: 50%;
     text-align: center;
-    h3{
+
+    h3 {
         font-family: 'Dancing';
         font-size: 3em;
     }
-    p{
+
+    p {
         margin: auto;
         margin-top: 3em;
         text-align: justify;
@@ -120,24 +148,30 @@ $secondary-hover : rgba(137, 129, 229, 0.315);
 
     }
 }
-.diplomes{
+
+.diplomes {
     display: flex;
     flex-direction: column;
     width: 50%;
-    &.order{
+
+    &.order {
         order: -1;
     }
 }
-.diplome{
-    .container-intitule{
+
+.diplome {
+    .container-intitule {
         display: flex;
         width: 100%;
+        align-items: flex-end;
     }
-    .intitule{
+
+    .intitule {
         width: 90%;
         font-weight: bold;
     }
-    span{
+
+    span {
         padding: .5em;
         background-color: rgb(63, 63, 63);
         color: white;
@@ -145,84 +179,119 @@ $secondary-hover : rgba(137, 129, 229, 0.315);
         font-size: 1em;
         border-radius: 15px;
     }
-    .container-anim{
+
+    .container-anim {
         width: 100%;
         height: 30px;
         background-color: rgb(185, 185, 185);
         margin: 0.5em 0;
     }
-    .anim{
+
+    .anim {
         width: 0;
         height: 30px;
-        &.violet{
-            background-color: #8981E5 ;
+
+        &.violet {
+            background-color: #8981E5;
         }
-        &.rouge{
+
+        &.rouge {
             background-color: #FF5151;
         }
-        &.saumon{
+
+        &.saumon {
             background-color: #FF896B;
         }
-        &.orange{
+
+        &.orange {
             background-color: #FFA41B;
         }
     }
 }
 
 // Experience
-.experience-container-cover{
-    .cover{
+.experience-container-cover {
+    background-position: bottom;
+
+    .cover {
         z-index: -1;
-    } 
-    h2{
-    text-align: right;
-    right: 70px;
+    }
+
+    h2 {
+        text-align: right;
+        right: 70px;
     }
 }
 
 
-.experiences-container{
-    background-color: rgb(216, 185, 185); 
-    padding: 4em;
-    width: 50%;
+.experiences-container {
+    //display: grid;
+    display: flex;
+    //grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     margin: auto;
+    //row-gap: 5rem;
+    //justify-items: center;
+    justify-content: space-around;
+}
+
+.experience-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #8981E5;
+    padding: 2em;
+    //width: 80%;
+    width: 40%;
+    //margin: auto;
     margin-top: -40px;
-    -webkit-box-shadow: 0px 10px 7px 0px rgba(0,0,0,0.64);
-    -moz-box-shadow: 0px 10px 7px 0px rgba(0,0,0,0.64);
-    box-shadow: 0px 10px 7px 0px rgba(0,0,0,0.64);
+    -webkit-box-shadow: 0px 10px 7px 0px rgba(0, 0, 0, 0.64);
+    -moz-box-shadow: 0px 10px 7px 0px rgba(0, 0, 0, 0.64);
+    box-shadow: 0px 10px 7px 0px rgba(0, 0, 0, 0.64);
     position: relative;
-    li:not(:last-child){
+
+    .experience-title {
+        margin-bottom: 1rem;
+        font-family: "Dancing";
+    }
+
+    li:not(:last-child) {
         margin-bottom: 2em;
     }
-    .periode{
+
+    .periode {
         font-weight: bold;
     }
-    .explication{
-        color:rgb(192, 43, 43);
+
+    .explication {
+        color: white;
     }
 }
 
 //cabinet
-.cabinet-container-cover{
+.cabinet-container-cover {
     margin: 5em 0;
     background-position: right;
-    h2{
+
+    h2 {
         text-align: right;
-        right:50px;
+        right: 50px;
         top: 50px;
     }
 }
 
-.cabinet-container{
+.cabinet-container {
     display: flex;
     align-items: center;
     margin: 2em;
-    img{
+
+    img {
         display: block;
         width: 25%;
         margin-right: 1em;
     }
-    p{
+
+    p {
         width: 25%;
     }
 }
@@ -233,20 +302,30 @@ $secondary-hover : rgba(137, 129, 229, 0.315);
 // 1170 px :
 // Paragraphe a coté du portrait
 
-@media only screen and (max-width:1170px){
+@media only screen and (max-width:1170px) {
 
-    .presentation-header{
+    .presentation-header {
         align-items: center;
     }
 
-    .presentation-container .presentation{
+    .presentation-container .presentation {
         width: 90%;
     }
 
-    .portrait{
+    .portrait {
         display: block;
         width: 70%;
         margin: auto;
+    }
+
+    .experiences-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .experience-container {
+        width: 70%;
+        margin: 2rem 0;
     }
 
 }
@@ -257,33 +336,36 @@ $secondary-hover : rgba(137, 129, 229, 0.315);
 // augmenter la largeur experience
 // cabinet : colonne
 
-@media only screen and (max-width:925px){
+@media only screen and (max-width:925px) {
 
-    .presentation-header{
+    .presentation-header {
         display: block
     }
 
-    .container-portrait, .presentation-container{
+    .container-portrait,
+    .presentation-container {
         width: 80%;
         margin: auto;
     }
 
-    .presentation-container .presentation{
+    .presentation-container .presentation {
         margin-top: 1.5em;
     }
 
-    .locaux{
+    .locaux {
         width: 90%;
     }
 
-    .experiences-container{
+    /* .experiences-container {
         width: 80%;
         padding: 1.5em;
-    }
+    } */
 
-    .cabinet-container{
+    .cabinet-container {
         display: block;
-        img, p{
+
+        img,
+        p {
             width: 80%;
             margin: auto;
             margin-bottom: 1em;
@@ -294,13 +376,16 @@ $secondary-hover : rgba(137, 129, 229, 0.315);
 
 // 800 px :
 // animation diplomes en colonne
-@media only screen and (max-width:800px){
+@media only screen and (max-width:800px) {
 
-    .psychomotricite, .sophrologie{
+    .psychomotricite,
+    .sophrologie {
         display: block;
         width: 90%;
         margin: auto;
-        .description-container, .diplomes{
+
+        .description-container,
+        .diplomes {
             width: 100%;
             margin-bottom: 2em;
         }
@@ -311,40 +396,59 @@ $secondary-hover : rgba(137, 129, 229, 0.315);
 
 //780 px:
 // locaux en colonne
-@media only screen and (max-width:780px){
-    .locaux .container-item{
+@media only screen and (max-width:780px) {
+    .locaux .container-item {
         flex-direction: column;
         align-items: center;
-        .container-img{
+
+        .container-img {
             margin-bottom: 1em;
         }
-        .right{
+
+        .right {
             margin-left: 0;
             order: 0;
         }
-        .left{
+
+        .left {
             margin-right: 0;
         }
     }
 
+    .experience-container {
+        width: 90%;
+    }
+
+}
+
+@media only screen and (max-width:550px) {
+    .experience-container {
+        padding: 1em;
+    }
 }
 
 
 // 500 px :
 // augmenter la largeur de la presentation
 
-@media only screen and (max-width:500px){
+@media only screen and (max-width:500px) {
 
-    .presentation-header{
+
+
+    .main-wrapper {
+        border: none;
+    }
+
+    .presentation-header {
         margin: 0.5em;
     }
 
-    .container-portrait, .presentation-container{
+    .container-portrait,
+    .presentation-container {
         width: 95%;
         margin: auto;
     }
 
-    
+
 
 }
-
