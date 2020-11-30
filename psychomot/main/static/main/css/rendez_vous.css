@@ -2,7 +2,7 @@
 .rdv-header {
   min-height: 500px;
   background-size: cover;
-  background-position: bottom;
+  background-position: top;
   background-repeat: no-repeat;
   background-attachment: fixed;
   padding: 1em;
@@ -57,9 +57,6 @@
   margin-left: 2em;
   text-align: end;
   outline: none;
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
   font-size: 1.1em;
 }
 
@@ -90,7 +87,8 @@
   text-align: justify;
 }
 
-.email, .message {
+.email,
+.message {
   width: 90%;
   margin: auto;
   display: -webkit-box;

@@ -60,6 +60,11 @@ section {
   margin-bottom: 0.5rem;
 }
 
+.sectionDescription li::before {
+  content: "\2192";
+  margin-right: .5rem;
+}
+
 #handicap {
   margin: auto;
 }
