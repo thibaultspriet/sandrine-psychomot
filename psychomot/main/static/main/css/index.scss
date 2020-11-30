@@ -238,11 +238,11 @@ h1 {
     .card {
         display: flex;
         flex-direction: column;
-        width: 33%;
+        width: 45%;
         position: relative;
 
         .container-cover {
-            height: 200px;
+            height: 300px;
             overflow: hidden;
             margin-bottom: 1em;
             transition: all .3s ease-out;

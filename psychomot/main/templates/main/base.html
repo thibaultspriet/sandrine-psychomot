@@ -57,22 +57,21 @@
         <div class="footer-infos">
             <ul class="footer-liens footer-infos-item">
                 <li class="footer-title">Liens utiles</li>
-                <li><a href="#">Résodys</a></li>
-                <li><a href="#">Dyspraxies France</a></li>
-                <li><a href="#">F.F.D.Y.S.</a></li>
-                <li><a href="#">INSHEA</a></li>
-                <li><a href="#">Centre de ressources autisme</a></li>
+                <li><a href="https://www.dyspraxies.fr">Dyspraxies France</a></li>
+                <li><a href="https://www.ffdys.com">F.F.D.Y.S.</a></li>
+                <li><a href="https://www.inshea.fr">INSHEA</a></li>
+                <li><a href="https://www.cra-npdc.fr">Centre de ressources autisme</a></li>
             </ul>
             <ul class="footer-coordinate footer-infos-item">
                 <li class="footer-title">Coordonnées</li>
-                <li><a href="tel:0615742382" class="tel"><img src="{% static 'main/img/phone-call.svg' %}" alt="phone" class="tel">: 06 08 30 28 97</a></li>
-                <li><a href="mailto:thibaultspriet@hotmail.fr" class="mail"><img src="{% static 'main/img/email.svg' %}" alt="email" class="mail">: sandrine.dubois.psychomot@sfr.fr</a></li>
+                <li><a href="tel:0608302897" class="tel"><img src="{% static 'main/img/phone-call.svg' %}" alt="phone" class="tel">: 06 08 30 28 97</a></li>
+                <li><a href="mailto:sandrine.dubois.psychomot@sfr.fr" class="mail"><img src="{% static 'main/img/email.svg' %}" alt="email" class="mail">: sandrine.dubois.psychomot@sfr.fr</a></li>
                 <li><a href="#" class="addresse"><img src="{% static 'main/img/location.svg' %}" alt="location" class="location">: 548, rue de la Verderie 59710 Mérignies</a></li>
             </ul>
             <div class="footer-rdv footer-infos-item">
                 <h2 class="footer-title">Rendez-vous</h2>
                 <p>Jours de consultation :<br>Lundi, Mardi, Jeudi, Vendredi</p>
-                <a href="#" class="btn footer-btn">Prendre rendez-vous</a>
+                <a href="{% url 'rendez_vous' %}" class="btn footer-btn">Prendre rendez-vous</a>
             </div>
         </div>
         <div class="copyright">

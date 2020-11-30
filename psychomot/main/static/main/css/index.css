@@ -269,12 +269,12 @@ h1 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 33%;
+  width: 45%;
   position: relative;
 }
 
 .pourqui .card .container-cover {
-  height: 200px;
+  height: 300px;
   overflow: hidden;
   margin-bottom: 1em;
   -webkit-transition: all .3s ease-out;
