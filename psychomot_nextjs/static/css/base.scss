@@ -1,6 +1,5 @@
 #page-base {
 
-    /* header */
     .base-header {
         background-color:  rgba(227, 197, 148, 0.37);
         padding: .5em;
@@ -46,14 +45,12 @@
         }
     }
 
-    /* Menu */
     .hamburger {
         display: none;
         width: 50px;
         height: 50px;
     }
 
-    /* Icons */
     .tel,
     .mail,
     .location {
@@ -62,7 +59,6 @@
         margin-right: 0.5em;
     }
 
-    /* Footer */
     .footer-infos {
         background-color:  rgba(227, 197, 148, 0.37);
         padding: 1em;
@@ -102,10 +98,8 @@
     }
 
 
-    /* Responsive */
     @media only screen and (max-width:800px) {
 
-        /* Menu */
         .base-header {
             .rubriques {
                 width: 100%;
@@ -132,7 +126,6 @@
 
     }
 
-    /* Menu téléphone */
     @media only screen and (max-width:580px) {
         .rubriques {
             position: relative;

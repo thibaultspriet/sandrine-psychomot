@@ -1,13 +1,4 @@
 @charset "UTF-8";
-#page-base {
-  /* header */
-  /* Menu */
-  /* Icons */
-  /* Footer */
-  /* Responsive */
-  /* Menu téléphone */
-}
-
 #page-base .base-header {
   background-color: rgba(227, 197, 148, 0.37);
   padding: .5em;
@@ -128,9 +119,6 @@
 }
 
 @media only screen and (max-width: 800px) {
-  #page-base {
-    /* Menu */
-  }
   #page-base .base-header .rubriques {
     width: 100%;
   }

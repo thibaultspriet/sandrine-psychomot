@@ -32,7 +32,7 @@ export default function BoiteOutils() {
 
     return (
         <Base route="psychomotricite">
-        <div>
+        <div id="page-boiteOutils">
             <Head>
                 <title>Ma boîte à outils</title>
             </Head>

@@ -1,11 +1,14 @@
-@import './boite_outils/cover', './boite_outils/main.scss';
+#page-boiteOutils {
 
-.page {
-    display: flex;
-}
+    @import './boite_outils/cover', './boite_outils/main.scss';
 
-@media only screen and (max-width:1200px) {
     .page {
-        flex-direction: column;
+        display: flex;
     }
-} 
+
+    @media only screen and (max-width:1200px) {
+        .page {
+            flex-direction: column;
+        }
+    }
+}

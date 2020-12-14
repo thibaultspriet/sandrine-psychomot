@@ -10,7 +10,7 @@ import "../static/css/pourqui.css"
 export default function PourQui() {
     return (
         <Base route="index">
-        <div>
+        <div id="page-pourqui">
             <Head>
                 <title>Pourqui</title>
             </Head>

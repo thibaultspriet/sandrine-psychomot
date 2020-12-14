@@ -1,20 +1,20 @@
-.violet {
+#page-pourqui .violet {
   color: #8981E5;
 }
 
-.rouge {
+#page-pourqui .rouge {
   color: #FF5151;
 }
 
-.rose {
+#page-pourqui .rose {
   color: #FF896B;
 }
 
-.jaune {
+#page-pourqui .jaune {
   color: #FFA41B;
 }
 
-#years {
+#page-pourqui #years {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -24,17 +24,17 @@
   background-color: rgba(227, 197, 148, 0.37);
 }
 
-section {
+#page-pourqui section {
   width: 50%;
   padding: 1rem 0;
 }
 
-.sectionTitle {
+#page-pourqui .sectionTitle {
   text-align: center;
   margin-bottom: 2rem;
 }
 
-.sectionDescription {
+#page-pourqui .sectionDescription {
   width: 70%;
   margin: auto;
   padding: 0 1rem;
@@ -51,30 +51,30 @@ section {
           align-items: center;
 }
 
-.sectionDescription:hover {
+#page-pourqui .sectionDescription:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
 
-.sectionDescription li {
+#page-pourqui .sectionDescription li {
   margin-bottom: 0.5rem;
 }
 
-.sectionDescription li::before {
+#page-pourqui .sectionDescription li::before {
   content: "\2192";
   margin-right: .5rem;
 }
 
-#handicap {
+#page-pourqui #handicap {
   margin: auto;
 }
 
 @media only screen and (max-width: 850px) {
-  section {
+  #page-pourqui section {
     width: 80%;
     margin: auto;
   }
-  .sectionDescription {
+  #page-pourqui .sectionDescription {
     width: 100%;
     padding: 1rem;
   }
