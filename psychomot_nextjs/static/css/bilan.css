@@ -1,4 +1,4 @@
-.grid {
+#page-bilan .grid {
   margin: auto;
   display: -ms-grid;
   display: grid;
@@ -8,17 +8,17 @@
   grid-gap: 2rem 3rem;
 }
 
-.card {
+#page-bilan .card {
   padding: .5rem 2rem;
 }
 
-.card h2 {
+#page-bilan .card h2 {
   text-align: center;
   margin-bottom: 2rem;
   position: relative;
 }
 
-.card h2::after {
+#page-bilan .card h2::after {
   content: '';
   position: absolute;
   top: 105%;
@@ -30,24 +30,24 @@
   background-color: black;
 }
 
-.card p {
+#page-bilan .card p {
   text-align: justify;
 }
 
 @media only screen and (max-width: 950px) {
-  .grid {
+  #page-bilan .grid {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
   }
 }
 
-.cover {
+#page-bilan .cover {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-.pourquoiContainer {
+#page-bilan .pourquoiContainer {
   margin: auto;
   padding: 1rem 0;
   padding-top: 3rem;
@@ -55,7 +55,7 @@
   position: relative;
 }
 
-.pourquoiContainer div {
+#page-bilan .pourquoiContainer div {
   width: 80%;
   margin: auto;
   padding: 0.5rem 0;
@@ -63,38 +63,40 @@
   margin-bottom: 1.5rem;
 }
 
-.pourquoiContainer p {
+#page-bilan .pourquoiContainer p {
   width: 40%;
   margin: auto;
   text-align: justify;
 }
 
 @media only screen and (max-width: 910px) {
-  .pourquoiContainer p {
+  #page-bilan .pourquoiContainer p {
     width: 80%;
   }
 }
 
-.background {
+#page-bilan .background {
   background-color: #B9B5D8;
 }
 
-.shadow {
+#page-bilan .shadow {
   -webkit-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
           box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
 }
 
-.title {
+#page-bilan .title {
   font-size: 2.5em;
   font-family: 'Dancing Script';
 }
 
-.pourquoiContainer, .grid {
+#page-bilan .pourquoiContainer,
+#page-bilan .grid {
   width: 70%;
 }
 
 @media only screen and (max-width: 500px) {
-  .pourquoiContainer, .grid {
+  #page-bilan .pourquoiContainer,
+  #page-bilan .grid {
     width: 90%;
   }
 }

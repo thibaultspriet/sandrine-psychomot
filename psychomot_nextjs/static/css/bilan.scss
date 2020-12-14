@@ -1,24 +1,29 @@
-@import './bilan/grid', './bilan/header';
+#page-bilan {
+    @import './bilan/grid', './bilan/header';
 
-.background{
-    background-color:#B9B5D8 ;
-}
+    .background {
+        background-color: #B9B5D8;
+    }
 
-.shadow{
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
-} 
+    .shadow {
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    }
 
-.title{
-    font-size: 2.5em;
-    font-family: 'Dancing Script';
-}
+    .title {
+        font-size: 2.5em;
+        font-family: 'Dancing Script';
+    }
 
-.pourquoiContainer, .grid{
-    width: 70%;
-}
+    .pourquoiContainer,
+    .grid {
+        width: 70%;
+    }
 
-@media only screen and (max-width:500px){
-    .pourquoiContainer, .grid{
-        width: 90%;
+    @media only screen and (max-width:500px) {
+
+        .pourquoiContainer,
+        .grid {
+            width: 90%;
+        }
     }
 }

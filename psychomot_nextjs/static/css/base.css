@@ -1,24 +1,24 @@
 @charset "UTF-8";
-#page-base .base-header {
+.base-header {
   background-color: rgba(227, 197, 148, 0.37);
   padding: .5em;
 }
 
-#page-base .base-header .coordinates {
+.base-header .coordinates {
   margin-bottom: 0.5em;
 }
 
-#page-base .base-header .rubriques {
+.base-header .rubriques {
   width: 70%;
   margin: auto;
 }
 
-#page-base .base-header .list-rubriques li.active {
+.base-header .list-rubriques li.active {
   background-color: #eebc6c;
 }
 
-#page-base .base-header .list-coordinates,
-#page-base .base-header .list-rubriques {
+.base-header .list-coordinates,
+.base-header .list-rubriques {
   background-color: #EAD1AA;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -37,8 +37,8 @@
   min-height: 50px;
 }
 
-#page-base .base-header .list-coordinates li,
-#page-base .base-header .list-rubriques li {
+.base-header .list-coordinates li,
+.base-header .list-rubriques li {
   min-height: 50px;
   line-height: 50px;
   padding: 0em 0.5em;
@@ -46,30 +46,30 @@
   transition: all .5s ease;
 }
 
-#page-base .base-header .list-coordinates li:hover,
-#page-base .base-header .list-rubriques li:hover {
+.base-header .list-coordinates li:hover,
+.base-header .list-rubriques li:hover {
   background-color: #eebc6c;
 }
 
-#page-base .base-header .list-rubriques-mobile {
+.base-header .list-rubriques-mobile {
   display: none;
 }
 
-#page-base .hamburger {
+.hamburger {
   display: none;
   width: 50px;
   height: 50px;
 }
 
-#page-base .tel,
-#page-base .mail,
-#page-base .location {
+.tel,
+.mail,
+.location {
   width: 15px;
   height: 15px;
   margin-right: 0.5em;
 }
 
-#page-base .footer-infos {
+.footer-infos {
   background-color: rgba(227, 197, 148, 0.37);
   padding: 1em;
   display: -webkit-box;
@@ -79,13 +79,13 @@
       justify-content: space-around;
 }
 
-#page-base .footer-infos .footer-title {
+.footer-infos .footer-title {
   font-weight: bold;
   font-size: 1.3em;
   margin-bottom: 1em;
 }
 
-#page-base .footer-infos .footer-rdv {
+.footer-infos .footer-rdv {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -98,31 +98,31 @@
           align-items: center;
 }
 
-#page-base .footer-infos .footer-rdv p {
+.footer-infos .footer-rdv p {
   margin-bottom: 1em;
   text-align: center;
 }
 
-#page-base .footer-infos .footer-rdv h1 {
+.footer-infos .footer-rdv h1 {
   -ms-flex-item-align: start;
       align-self: flex-start;
 }
 
-#page-base .copyright {
+.copyright {
   background-color: #EAD1AA;
   padding: 1em;
   text-align: center;
 }
 
-#page-base .copyright p::before {
+.copyright p::before {
   content: '©';
 }
 
 @media only screen and (max-width: 800px) {
-  #page-base .base-header .rubriques {
+  .base-header .rubriques {
     width: 100%;
   }
-  #page-base .footer-infos {
+  .footer-infos {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
@@ -132,26 +132,26 @@
             align-items: center;
     text-align: center;
   }
-  #page-base .footer-infos .footer-rdv h1 {
+  .footer-infos .footer-rdv h1 {
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
   }
-  #page-base .footer-infos .footer-title {
+  .footer-infos .footer-title {
     margin-bottom: 0.5em;
   }
-  #page-base .footer-infos-item {
+  .footer-infos-item {
     margin-bottom: 1em;
   }
 }
 
 @media only screen and (max-width: 580px) {
-  #page-base .rubriques {
+  .rubriques {
     position: relative;
     height: 50px;
     overflow: hidden;
   }
-  #page-base .rubriques .hamburger {
+  .rubriques .hamburger {
     position: absolute;
     top: 0;
     left: 0;
@@ -159,7 +159,7 @@
     display: block;
     cursor: pointer;
   }
-  #page-base .rubriques .list-rubriques-mobile {
+  .rubriques .list-rubriques-mobile {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -174,11 +174,11 @@
             transform: translateX(-150%);
     background-color: #EAD1AA;
   }
-  #page-base .rubriques .list-rubriques-mobile li {
+  .rubriques .list-rubriques-mobile li {
     font-size: 1.5em;
     margin-bottom: 0.5em;
   }
-  #page-base .rubriques .list-rubriques {
+  .rubriques .list-rubriques {
     display: none;
   }
 }

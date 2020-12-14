@@ -12,11 +12,6 @@ import "../static/css/index.css"
 
 
 
-/* if (typeof window !== "undefined") {
-  gsap.registerPlugin(ScrollTrigger);
-} */
-
-
 import { useRef, useEffect } from "react"
 
 function elOver({ currentTarget }) {
