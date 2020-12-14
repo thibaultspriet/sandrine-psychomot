@@ -1,137 +1,138 @@
-/* Global variables */
-$primary : #EAD1AA;
-$primary-background : rgba(227, 197, 148, 0.37);
-$secondary : #8981E5;
-$secondary-hover : rgba(137, 129, 229, 0.315);
+#page-index {
+    /* Global variables */
+    $primary: #EAD1AA;
+    $primary-background: rgba(227, 197, 148, 0.37);
+    $secondary: #8981E5;
+    $secondary-hover: rgba(137, 129, 229, 0.315);
 
 
 
-.violet {
-    color: #8981E5;
-}
-
-.rouge {
-    color: #FF5151;
-}
-
-.rose {
-    color: #FF896B;
-}
-
-.jaune {
-    color: #FFA41B;
-}
-
-.primary {
-    color: $primary
-}
-
-h1 {
-    font-family: 'Dancing Script';
-}
-
-
-/* Main */
-.presentation {
-    display: flex;
-
-    .container-portrait,
-    .container-presentation {
-        width: 50%;
+    .violet {
+        color: #8981E5;
     }
 
-    .container-portrait {
-        height: 100vh;
-
-        [alt="portrait"] {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
+    .rouge {
+        color: #FF5151;
     }
 
-    .container-presentation {
-        align-self: center;
-        text-align: center;
+    .rose {
+        color: #FF896B;
+    }
 
-        h1 {
-            font-size: 4em;
-            margin-bottom: .5em;
+    .jaune {
+        color: #FFA41B;
+    }
+
+    .primary {
+        color: $primary
+    }
+
+    h1 {
+        font-family: 'Dancing Script';
+    }
+
+
+    /* Main */
+    .presentation {
+        display: flex;
+
+        .container-portrait,
+        .container-presentation {
+            width: 50%;
         }
 
-        h2 {
-            font-size: 1.2em;
-            margin-bottom: 1rem;
-            opacity: .7;
-            font-style: italic;
+        .container-portrait {
+            height: 100vh;
+
+            [alt="portrait"] {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
         }
 
-        p {
-            text-align: justify;
-            width: 70%;
-            margin: auto;
-            margin-top: 1rem;
-            opacity: .7;
+        .container-presentation {
+            align-self: center;
+            text-align: center;
 
-            &.highlight {
-                background-color: #8981E5;
-                color: white;
-                padding: 0.5rem;
-                border-radius: 10px;
+            h1 {
+                font-size: 4em;
+                margin-bottom: .5em;
+            }
+
+            h2 {
+                font-size: 1.2em;
+                margin-bottom: 1rem;
+                opacity: .7;
+                font-style: italic;
+            }
+
+            p {
+                text-align: justify;
+                width: 70%;
+                margin: auto;
+                margin-top: 1rem;
+                opacity: .7;
+
+                &.highlight {
+                    background-color: #8981E5;
+                    color: white;
+                    padding: 0.5rem;
+                    border-radius: 10px;
+                }
             }
         }
     }
-}
 
-/* Psychomotricienne */
-.psychomotricienne {
-    background-color: $primary-background;
-    display: flex;
-    position: relative;
-
-    .psychomotricite,
-    .role {
-        width: 50%;
+    /* Psychomotricienne */
+    .psychomotricienne {
+        background-color: $primary-background;
         display: flex;
-        align-items: center;
-    }
+        position: relative;
 
-    .separateur-vertical {
-        position: absolute;
-        width: 1px;
-        top: 6em;
-        bottom: 70px;
-        left: 50%;
-        background-color: gray;
-
-    }
-
-    .psychomotricite {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
-        h1 {
-            margin-top: 1em;
-            font-size: 2em;
+        .psychomotricite,
+        .role {
+            width: 50%;
+            display: flex;
+            align-items: center;
         }
 
-        p,
-        ul {
-            width: 70%;
-            margin: auto;
-            margin: .5rem 0;
-            text-align: justify;
+        .separateur-vertical {
+            position: absolute;
+            width: 1px;
+            top: 6em;
+            bottom: 70px;
+            left: 50%;
+            background-color: gray;
+
         }
 
-        .content {
+        .psychomotricite {
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: center;
-        }
 
-        /* ul {
+            h1 {
+                margin-top: 1em;
+                font-size: 2em;
+            }
+
+            p,
+            ul {
+                width: 70%;
+                margin: auto;
+                margin: .5rem 0;
+                text-align: justify;
+            }
+
+            .content {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+
+            /* ul {
             width: 70%;
 
             li {
@@ -176,197 +177,197 @@ h1 {
             }
         } */
 
-        #psychomotricite-list li {
-            padding: 0.5rem;
-            margin: 0.5rem 0;
-            background-color: #EAD1AA;
-            border-radius: 10px;
-        }
-
-    }
-
-
-
-    .role {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
-        h1 {
-            margin-top: 1em;
-            margin-bottom: 1em;
-            font-size: 2em;
-        }
-
-        ul {
-            margin: auto;
-        }
-
-        li {
-            display: flex;
-            align-items: center;
-            margin-bottom: 1em;
-
-            .icon {
-                opacity: 0;
-                width: 60px;
-                margin-right: 2em;
-                margin-left: 2em;
+            #psychomotricite-list li {
+                padding: 0.5rem;
+                margin: 0.5rem 0;
+                background-color: #EAD1AA;
+                border-radius: 10px;
             }
 
         }
 
-    }
-}
 
-/* Pour qui */
-.pourqui {
-    h1 {
-        text-align: center;
-        font-size: 3em;
-        margin-bottom: 1em;
-        margin-top: 1em;
-    }
 
-    .card-container {
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        margin-bottom: 2em;
-    }
-
-    .card {
-        display: flex;
-        flex-direction: column;
-        width: 45%;
-        position: relative;
-
-        .container-cover {
-            height: 300px;
-            overflow: hidden;
-            margin-bottom: 1em;
-            transition: all .3s ease-out;
-
-            img {
-                display: block;
-                margin: auto;
-            }
-        }
-    }
-
-    .front,
-    .back {
-        backface-visibility: hidden;
-    }
-
-    .back {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: auto;
-
-        section {
-            margin: 2rem 0;
-        }
-    }
-
-    .card.card-center {
-        position: relative;
-
-        .separateur-gauche,
-        .separateur-droite {
-            position: absolute;
-            width: 1px;
-            background-color: $primary;
-            top: 200px;
-            bottom: 0;
-        }
-
-        .separateur-gauche {
-            left: 0;
-        }
-
-        .separateur-droite {
-            right: 0;
-        }
-    }
-
-    h3 {
-        margin-bottom: 0.5em;
-    }
-
-    .separateur-horizontal {
-        width: 90%;
-        height: 1px;
-        margin: auto;
-        margin-top: 0;
-        margin-bottom: 0;
-        background-color: $primary;
-    }
-
-    h3,
-    p {
-        margin-left: 1em;
-    }
-}
-
-/* Yoga - Sophrologie */
-.yoga-sophrologie {
-    .yoga-sophro-cover {
-        width: 100%;
-        overflow: hidden;
-        background-color: $primary;
-
-        img {
-            width: 50%;
-            object-fit: cover;
-            display: block;
-            margin: auto;
-            background-color: $primary;
-        }
-    }
-
-    .yoga-sophrologie-container {
-        background-color: $primary;
-        position: relative;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        padding: 2em 0;
-
-        .vertical-separator {
-            position: absolute;
-            background-color: black;
-            width: 1px;
-            height: 80%;
-            bottom: 10px;
-        }
-
-        .yoga,
-        .sophrologie {
+        .role {
             display: flex;
             flex-direction: column;
-            justify-content: flex-start;
             align-items: center;
-            width: 50%;
 
-            .yoga-soprologie-description {
-                text-align: justify;
-                width: 60%;
-                margin-top: 3em;
+            h1 {
+                margin-top: 1em;
+                margin-bottom: 1em;
+                font-size: 2em;
+            }
+
+            ul {
+                margin: auto;
+            }
+
+            li {
+                display: flex;
+                align-items: center;
+                margin-bottom: 1em;
+
+                .icon {
+                    opacity: 0;
+                    width: 60px;
+                    margin-right: 2em;
+                    margin-left: 2em;
+                }
 
             }
-        }
 
-        .yoga-soprologie-title {
-            font-family: 'Dancing Script';
-            font-size: 2em;
-            font-weight: bold;
         }
     }
 
-    /* .yoga-pourqui {
+    /* Pour qui */
+    .pourqui {
+        h1 {
+            text-align: center;
+            font-size: 3em;
+            margin-bottom: 1em;
+            margin-top: 1em;
+        }
+
+        .card-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-bottom: 2em;
+        }
+
+        .card {
+            display: flex;
+            flex-direction: column;
+            width: 45%;
+            position: relative;
+
+            .container-cover {
+                height: 300px;
+                overflow: hidden;
+                margin-bottom: 1em;
+                transition: all .3s ease-out;
+
+                img {
+                    display: block;
+                    margin: auto;
+                }
+            }
+        }
+
+        .front,
+        .back {
+            backface-visibility: hidden;
+        }
+
+        .back {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: auto;
+
+            section {
+                margin: 2rem 0;
+            }
+        }
+
+        .card.card-center {
+            position: relative;
+
+            .separateur-gauche,
+            .separateur-droite {
+                position: absolute;
+                width: 1px;
+                background-color: $primary;
+                top: 200px;
+                bottom: 0;
+            }
+
+            .separateur-gauche {
+                left: 0;
+            }
+
+            .separateur-droite {
+                right: 0;
+            }
+        }
+
+        h3 {
+            margin-bottom: 0.5em;
+        }
+
+        .separateur-horizontal {
+            width: 90%;
+            height: 1px;
+            margin: auto;
+            margin-top: 0;
+            margin-bottom: 0;
+            background-color: $primary;
+        }
+
+        h3,
+        p {
+            margin-left: 1em;
+        }
+    }
+
+    /* Yoga - Sophrologie */
+    .yoga-sophrologie {
+        .yoga-sophro-cover {
+            width: 100%;
+            overflow: hidden;
+            background-color: $primary;
+
+            img {
+                width: 50%;
+                object-fit: cover;
+                display: block;
+                margin: auto;
+                background-color: $primary;
+            }
+        }
+
+        .yoga-sophrologie-container {
+            background-color: $primary;
+            position: relative;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 2em 0;
+
+            .vertical-separator {
+                position: absolute;
+                background-color: black;
+                width: 1px;
+                height: 80%;
+                bottom: 10px;
+            }
+
+            .yoga,
+            .sophrologie {
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: center;
+                width: 50%;
+
+                .yoga-soprologie-description {
+                    text-align: justify;
+                    width: 60%;
+                    margin-top: 3em;
+
+                }
+            }
+
+            .yoga-soprologie-title {
+                font-family: 'Dancing Script';
+                font-size: 2em;
+                font-weight: bold;
+            }
+        }
+
+        /* .yoga-pourqui {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -435,189 +436,190 @@ h1 {
             }
         }
     } */
-}
-
-
-/* Me situer */
-.map {
-    margin-top: 2rem;
-
-    h1 {
-        text-align: center;
-        font-size: 2em;
     }
-}
 
 
-/* Responsive */
-@media only screen and (max-width:1060px) {
-    .presentation {
-        /* .container-portrait {
+    /* Me situer */
+    .map {
+        margin-top: 2rem;
+
+        h1 {
+            text-align: center;
+            font-size: 2em;
+        }
+    }
+
+
+    /* Responsive */
+    @media only screen and (max-width:1060px) {
+        .presentation {
+            /* .container-portrait {
             height: auto;
         } */
 
-        .container-presentation {
-            align-self: flex-start;
+            .container-presentation {
+                align-self: flex-start;
+            }
         }
     }
-}
 
 
-@media only screen and (max-width:960px) {
-    .psychomotricienne {
-        .separateur-vertical {
+    @media only screen and (max-width:960px) {
+        .psychomotricienne {
+            .separateur-vertical {
+                display: none;
+            }
+
+            .psychomotricite ul {
+                width: 100%;
+            }
+
+            .description p {
+                width: 100%;
+            }
+        }
+
+        .yoga-sophrologie {
+
+            .yoga-sophrologie-container {
+                background-color: $primary;
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .vertical-separator {
+                    display: none;
+                }
+
+                .yoga {
+                    margin-bottom: 3em;
+                }
+
+                .yoga,
+                .sophrologie {
+                    width: 70%;
+                }
+
+            }
+
+            .yoga-pourqui {
+                .card-container {
+                    width: 100%;
+                }
+            }
+        }
+
+
+    }
+
+
+    @media only screen and (max-width:900px) {
+        .presentation {
+            .container-presentation {
+                p {
+                    margin-top: 1em;
+                    width: 90%;
+                }
+            }
+        }
+    }
+
+    @media only screen and (max-width:760px) {
+        .presentation {
+
+            flex-direction: column;
+            align-items: center;
+
+            .container-portrait {
+                height: auto;
+            }
+
+            .container-presentation {
+                width: 90%;
+                margin: auto;
+                flex: 1;
+
+                h1 {
+                    font-size: 2em;
+                    white-space: nowrap;
+                    margin: auto;
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+
+    @media only screen and (max-width:700px) {
+        .psychomotricienne {
+            flex-direction: column;
+            align-items: center;
+
+            .psychomotricite {
+                width: 80%;
+                margin: auto;
+
+                p {
+                    width: 100%;
+                }
+            }
+        }
+
+        .psychomotricienne .role {
+            width: 80%;
+
+            li .icon {
+                margin-left: 0;
+            }
+        }
+
+        .yoga-sophrologie {
+
+            .yoga-sophrologie-container {
+
+                .yoga,
+                .sophrologie {
+                    width: 100%;
+                }
+
+            }
+        }
+
+    }
+
+    @media only screen and (max-width:600px) {
+        .pourqui {
+            .card-container {
+                flex-direction: column;
+                align-items: center;
+
+                .card {
+                    width: 70%;
+                    margin-bottom: 1em;
+                    text-align: center;
+                }
+
+                .separateur-gauche,
+                .separateur-droite {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    @media only screen and (max-width:500px) {
+
+
+        .yoga-sophrologie .card-container .horizontal-sep {
             display: none;
         }
 
-        .psychomotricite ul {
-            width: 100%;
+        .pourqui .card-container .card {
+            min-height: 400px;
         }
 
-        .description p {
-            width: 100%;
+        .yoga-sophrologie .card-container .card-title {
+            min-height: 56px;
         }
-    }
-
-    .yoga-sophrologie {
-
-        .yoga-sophrologie-container {
-            background-color: $primary;
-            position: relative;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-
-            .vertical-separator {
-                display: none;
-            }
-
-            .yoga {
-                margin-bottom: 3em;
-            }
-
-            .yoga,
-            .sophrologie {
-                width: 70%;
-            }
-
-        }
-
-        .yoga-pourqui {
-            .card-container {
-                width: 100%;
-            }
-        }
-    }
-
-
-}
-
-
-@media only screen and (max-width:900px) {
-    .presentation {
-        .container-presentation {
-            p {
-                margin-top: 1em;
-                width: 90%;
-            }
-        }
-    }
-}
-
-@media only screen and (max-width:760px) {
-    .presentation {
-
-        flex-direction: column;
-        align-items: center;
-
-        .container-portrait {
-            height: auto;
-        }
-
-        .container-presentation {
-            width: 90%;
-            margin: auto;
-            flex: 1;
-
-            h1 {
-                font-size: 2em;
-                white-space: nowrap;
-                margin: auto;
-                margin-bottom: 0;
-            }
-        }
-    }
-}
-
-@media only screen and (max-width:700px) {
-    .psychomotricienne {
-        flex-direction: column;
-        align-items: center;
-
-        .psychomotricite {
-            width: 80%;
-            margin: auto;
-
-            p {
-                width: 100%;
-            }
-        }
-    }
-
-    .psychomotricienne .role {
-        width: 80%;
-
-        li .icon {
-            margin-left: 0;
-        }
-    }
-
-    .yoga-sophrologie {
-
-        .yoga-sophrologie-container {
-
-            .yoga,
-            .sophrologie {
-                width: 100%;
-            }
-
-        }
-    }
-
-}
-
-@media only screen and (max-width:600px) {
-    .pourqui {
-        .card-container {
-            flex-direction: column;
-            align-items: center;
-
-            .card {
-                width: 70%;
-                margin-bottom: 1em;
-                text-align: center;
-            }
-
-            .separateur-gauche,
-            .separateur-droite {
-                display: none;
-            }
-        }
-    }
-}
-
-@media only screen and (max-width:500px) {
-
-
-    .yoga-sophrologie .card-container .horizontal-sep {
-        display: none;
-    }
-
-    .pourqui .card-container .card {
-        min-height: 400px;
-    }
-
-    .yoga-sophrologie .card-container .card-title {
-        min-height: 56px;
     }
 }

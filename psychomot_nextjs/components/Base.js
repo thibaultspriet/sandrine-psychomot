@@ -52,7 +52,7 @@ export default function Base({ children, route }) {
 
 
     return (
-        <div>
+        <div id="page-base">
             <header className="base-header">
                 <nav className="coordinates">
                     <ul className="list-coordinates">
@@ -84,12 +84,12 @@ export default function Base({ children, route }) {
                     </ul>
 
                     <ul ref={rubriques_mobile} className="list-rubriques-mobile">
-                        <li /* ref={rubriques_mobile_item} */><a href="/index">Accueil</a></li>
-                        <li /* ref={rubriques_mobile_item} */><a href="/presentation">Présentation</a></li>
-                        <li /* ref={rubriques_mobile_item} */><a href="/psychomotricite">Psychomotricité</a></li>
-                        <li /* ref={rubriques_mobile_item} */><a href="/yoga-sophro">Sophrologie-Yoga</a></li>
-                        <li /* ref={rubriques_mobile_item} */><a href="/rendez_vous">Rendez-Vous</a></li>
-                        <li /* ref={rubriques_mobile_item} */><a href="/contact">Contact</a></li>
+                        <li><a href="/index">Accueil</a></li>
+                        <li><a href="/presentation">Présentation</a></li>
+                        <li><a href="/psychomotricite">Psychomotricité</a></li>
+                        <li><a href="/yoga-sophro">Sophrologie-Yoga</a></li>
+                        <li><a href="/rendez_vous">Rendez-Vous</a></li>
+                        <li><a href="/contact">Contact</a></li>
                     </ul>
                 </nav>
             </header>

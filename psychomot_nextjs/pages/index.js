@@ -82,7 +82,7 @@ export default function Home() {
 
     return (
         <Base route="index">
-            <div>
+            <div id="page-index">
                 <Head>
                     <title>Accueil</title>
                 </Head>

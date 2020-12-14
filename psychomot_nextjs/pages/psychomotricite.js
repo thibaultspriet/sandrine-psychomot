@@ -108,7 +108,7 @@ export default function Home() {
 
 
     return (
-        <Base route="psychomotricite">
+            <Base route="psychomotricite">
         <div>
             <Head>
                 <title>Psychomotricité</title>
@@ -116,7 +116,7 @@ export default function Home() {
             
         </div>
 
-
+        <div id="page-psychomotricite">
         <header className="titleContainer shadow">
             <h2 className="title">La psychomotricité qu'est-ce que c'est ?</h2>
         </header>
@@ -250,12 +250,8 @@ export default function Home() {
                 </div>
             </div>
         </div>
-
-
-
-{/* <script src="{% static 'main/js/psychomotricite_anim.js' %}"></script> */}
-
-
+        </div>
         </Base>
+        
     )
 }

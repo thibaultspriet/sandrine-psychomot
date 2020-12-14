@@ -1,16 +1,20 @@
-/* Global variables */
-/* Desktop first */
-.cover {
+#page-presentation {
+  /* Global variables */
+  /* Desktop first */
+  /* --------- Responsive -------- */
+}
+
+#page-presentation .cover {
   width: 100%;
 }
 
-.main-wrapper {
+#page-presentation .main-wrapper {
   margin: 1.5em;
   border: thin black solid;
   overflow: hidden;
 }
 
-.presentation-header {
+#page-presentation .presentation-header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -21,8 +25,8 @@
   margin: 1.5em;
 }
 
-.container-portrait,
-.presentation-container {
+#page-presentation .container-portrait,
+#page-presentation .presentation-container {
   width: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -39,12 +43,12 @@
           justify-content: center;
 }
 
-.container-portrait-img {
+#page-presentation .container-portrait-img {
   width: 50%;
   height: auto;
 }
 
-.portrait {
+#page-presentation .portrait {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
@@ -55,31 +59,31 @@
           box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.64);
 }
 
-.presentation-container h1 {
+#page-presentation .presentation-container h1 {
   font-family: 'Dancing Script';
   font-size: 2em;
   margin-top: 1em;
   text-align: center;
 }
 
-.presentation-container .presentation {
+#page-presentation .presentation-container .presentation {
   text-align: justify;
   width: 80%;
   margin: auto;
   margin-top: 3em;
 }
 
-.locaux {
+#page-presentation .locaux {
   width: 70%;
   margin: auto;
   margin-top: 1em;
 }
 
-.locaux img {
+#page-presentation .locaux img {
   width: 200px;
 }
 
-.locaux .container-item {
+#page-presentation .locaux .container-item {
   margin: 4em 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -89,40 +93,40 @@
           align-items: center;
 }
 
-.locaux .container-item p {
+#page-presentation .locaux .container-item p {
   text-align: justify;
 }
 
-.locaux .container-item .right {
+#page-presentation .locaux .container-item .right {
   -webkit-box-ordinal-group: 3;
       -ms-flex-order: 2;
           order: 2;
   margin-left: 2em;
 }
 
-.locaux .container-item .left {
+#page-presentation .locaux .container-item .left {
   margin-right: 2em;
 }
 
-.formation-container-cover,
-.experience-container-cover,
-.cabinet-container-cover {
+#page-presentation .formation-container-cover,
+#page-presentation .experience-container-cover,
+#page-presentation .cabinet-container-cover {
   position: relative;
   min-height: 400px;
   background-size: cover;
   background-attachment: fixed;
 }
 
-.formation-container-cover .cover,
-.experience-container-cover .cover,
-.cabinet-container-cover .cover {
+#page-presentation .formation-container-cover .cover,
+#page-presentation .experience-container-cover .cover,
+#page-presentation .cabinet-container-cover .cover {
   position: absolute;
   top: -200px;
 }
 
-.formation-container-cover h2,
-.experience-container-cover h2,
-.cabinet-container-cover h2 {
+#page-presentation .formation-container-cover h2,
+#page-presentation .experience-container-cover h2,
+#page-presentation .cabinet-container-cover h2 {
   position: absolute;
   top: 70px;
   left: 70px;
@@ -130,17 +134,17 @@
   font-size: 3em;
 }
 
-.formation-container-cover {
+#page-presentation .formation-container-cover {
   background-position: center;
 }
 
-.formation-container {
+#page-presentation .formation-container {
   width: 90%;
   margin: auto;
 }
 
-.psychomotricite,
-.sophrologie {
+#page-presentation .psychomotricite,
+#page-presentation .sophrologie {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -150,24 +154,24 @@
   margin: 2em 0;
 }
 
-.description-container {
+#page-presentation .description-container {
   width: 50%;
   text-align: center;
 }
 
-.description-container h3 {
+#page-presentation .description-container h3 {
   font-family: 'Dancing Script';
   font-size: 3em;
 }
 
-.description-container p {
+#page-presentation .description-container p {
   margin: auto;
   margin-top: 3em;
   text-align: justify;
   width: 80%;
 }
 
-.diplomes {
+#page-presentation .diplomes {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -178,13 +182,13 @@
   width: 50%;
 }
 
-.diplomes.order {
+#page-presentation .diplomes.order {
   -webkit-box-ordinal-group: 0;
       -ms-flex-order: -1;
           order: -1;
 }
 
-.diplome .container-intitule {
+#page-presentation .diplome .container-intitule {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -194,12 +198,12 @@
           align-items: flex-end;
 }
 
-.diplome .intitule {
+#page-presentation .diplome .intitule {
   width: 90%;
   font-weight: bold;
 }
 
-.diplome span {
+#page-presentation .diplome span {
   padding: .5em;
   background-color: #3f3f3f;
   color: white;
@@ -208,48 +212,48 @@
   border-radius: 15px;
 }
 
-.diplome .container-anim {
+#page-presentation .diplome .container-anim {
   width: 100%;
   height: 30px;
   background-color: #b9b9b9;
   margin: 0.5em 0;
 }
 
-.diplome .anim {
+#page-presentation .diplome .anim {
   width: 0;
   height: 30px;
 }
 
-.diplome .anim.violet {
+#page-presentation .diplome .anim.violet {
   background-color: #8981E5;
 }
 
-.diplome .anim.rouge {
+#page-presentation .diplome .anim.rouge {
   background-color: #FF5151;
 }
 
-.diplome .anim.saumon {
+#page-presentation .diplome .anim.saumon {
   background-color: #FF896B;
 }
 
-.diplome .anim.orange {
+#page-presentation .diplome .anim.orange {
   background-color: #FFA41B;
 }
 
-.experience-container-cover {
+#page-presentation .experience-container-cover {
   background-position: bottom;
 }
 
-.experience-container-cover .cover {
+#page-presentation .experience-container-cover .cover {
   z-index: -1;
 }
 
-.experience-container-cover h2 {
+#page-presentation .experience-container-cover h2 {
   text-align: right;
   right: 70px;
 }
 
-.experiences-container {
+#page-presentation .experiences-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -258,7 +262,7 @@
       justify-content: space-around;
 }
 
-.experience-container {
+#page-presentation .experience-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -281,35 +285,35 @@
   position: relative;
 }
 
-.experience-container .experience-title {
+#page-presentation .experience-container .experience-title {
   margin-bottom: 1rem;
   font-family: "Dancing Script";
 }
 
-.experience-container li:not(:last-child) {
+#page-presentation .experience-container li:not(:last-child) {
   margin-bottom: 2em;
 }
 
-.experience-container .periode {
+#page-presentation .experience-container .periode {
   font-weight: bold;
 }
 
-.experience-container .explication {
+#page-presentation .experience-container .explication {
   color: white;
 }
 
-.cabinet-container-cover {
+#page-presentation .cabinet-container-cover {
   margin: 5em 0;
   background-position: right;
 }
 
-.cabinet-container-cover h2 {
+#page-presentation .cabinet-container-cover h2 {
   text-align: right;
   right: 50px;
   top: 50px;
 }
 
-.cabinet-container {
+#page-presentation .cabinet-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -319,32 +323,31 @@
   margin: 2em;
 }
 
-.cabinet-container img {
+#page-presentation .cabinet-container img {
   display: block;
   width: 25%;
   margin-right: 1em;
 }
 
-.cabinet-container p {
+#page-presentation .cabinet-container p {
   width: 25%;
 }
 
-/* --------- Responsive -------- */
 @media only screen and (max-width: 1170px) {
-  .presentation-header {
+  #page-presentation .presentation-header {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
   }
-  .presentation-container .presentation {
+  #page-presentation .presentation-container .presentation {
     width: 90%;
   }
-  .portrait {
+  #page-presentation .portrait {
     display: block;
     width: 70%;
     margin: auto;
   }
-  .experiences-container {
+  #page-presentation .experiences-container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -353,36 +356,38 @@
         -ms-flex-align: center;
             align-items: center;
   }
-  .experience-container {
+  #page-presentation .experience-container {
     width: 70%;
     margin: 2rem 0;
   }
 }
 
 @media only screen and (max-width: 925px) {
-  .presentation-header {
-    display: block;
-  }
-  .container-portrait,
-  .presentation-container {
-    width: 80%;
-    margin: auto;
-  }
-  .presentation-container .presentation {
-    margin-top: 1.5em;
-  }
-  .locaux {
-    width: 90%;
-  }
-  /* .experiences-container {
+  #page-presentation {
+    /* .experiences-container {
         width: 80%;
         padding: 1.5em;
     } */
-  .cabinet-container {
+  }
+  #page-presentation .presentation-header {
     display: block;
   }
-  .cabinet-container img,
-  .cabinet-container p {
+  #page-presentation .container-portrait,
+  #page-presentation .presentation-container {
+    width: 80%;
+    margin: auto;
+  }
+  #page-presentation .presentation-container .presentation {
+    margin-top: 1.5em;
+  }
+  #page-presentation .locaux {
+    width: 90%;
+  }
+  #page-presentation .cabinet-container {
+    display: block;
+  }
+  #page-presentation .cabinet-container img,
+  #page-presentation .cabinet-container p {
     width: 80%;
     margin: auto;
     margin-bottom: 1em;
@@ -390,23 +395,23 @@
 }
 
 @media only screen and (max-width: 800px) {
-  .psychomotricite,
-  .sophrologie {
+  #page-presentation .psychomotricite,
+  #page-presentation .sophrologie {
     display: block;
     width: 90%;
     margin: auto;
   }
-  .psychomotricite .description-container,
-  .psychomotricite .diplomes,
-  .sophrologie .description-container,
-  .sophrologie .diplomes {
+  #page-presentation .psychomotricite .description-container,
+  #page-presentation .psychomotricite .diplomes,
+  #page-presentation .sophrologie .description-container,
+  #page-presentation .sophrologie .diplomes {
     width: 100%;
     margin-bottom: 2em;
   }
 }
 
 @media only screen and (max-width: 780px) {
-  .locaux .container-item {
+  #page-presentation .locaux .container-item {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -415,38 +420,38 @@
         -ms-flex-align: center;
             align-items: center;
   }
-  .locaux .container-item .container-img {
+  #page-presentation .locaux .container-item .container-img {
     margin-bottom: 1em;
   }
-  .locaux .container-item .right {
+  #page-presentation .locaux .container-item .right {
     margin-left: 0;
     -webkit-box-ordinal-group: 1;
         -ms-flex-order: 0;
             order: 0;
   }
-  .locaux .container-item .left {
+  #page-presentation .locaux .container-item .left {
     margin-right: 0;
   }
-  .experience-container {
+  #page-presentation .experience-container {
     width: 90%;
   }
 }
 
 @media only screen and (max-width: 550px) {
-  .experience-container {
+  #page-presentation .experience-container {
     padding: 1em;
   }
 }
 
 @media only screen and (max-width: 500px) {
-  .main-wrapper {
+  #page-presentation .main-wrapper {
     border: none;
   }
-  .presentation-header {
+  #page-presentation .presentation-header {
     margin: 0.5em;
   }
-  .container-portrait,
-  .presentation-container {
+  #page-presentation .container-portrait,
+  #page-presentation .presentation-container {
     width: 95%;
     margin: auto;
   }
