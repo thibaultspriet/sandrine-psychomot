@@ -2,6 +2,8 @@ import Head from "next/head";
 import { Power2, gsap } from "gsap";
 import { useRef, useEffect } from "react"
 
+import "../static/css/base.css"
+
 
 export default function Base({ children, route }) {
 
@@ -52,7 +54,7 @@ export default function Base({ children, route }) {
     return (
         <div>
             <Head>
-                <link rel="stylesheet" href="/style/base.css" />
+                {/* <link rel="stylesheet" href="/style/base.css" /> */}
             </Head>
             <header className="base-header">
                 <nav className="coordinates">
