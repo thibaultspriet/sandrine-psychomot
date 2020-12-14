@@ -56,7 +56,13 @@
   margin-left: 2em;
   text-align: end;
   outline: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   font-size: 1.1em;
+  background-position: 90% center;
+  background-size: 20px;
+  background-repeat: no-repeat;
 }
 
 #page-rdv .recap {

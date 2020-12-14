@@ -35,7 +35,7 @@ export default function RendezVous({services}){
 
                     <div className="select-service">
                         <label htmlFor="service">Choisissez un service</label>
-                        <select name="service" onChange={handleChange} required>
+                        <select name="service" onChange={handleChange} required style={{backgroundImage : "url('/main/arrow-down.svg')"}}>
                             {
                                 services.map(({label},ind) => {
                                     return (
