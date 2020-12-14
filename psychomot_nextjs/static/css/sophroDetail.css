@@ -1,36 +1,36 @@
-section.personne {
+#page-sophro section.personne {
   width: 80%;
   margin: auto;
   margin-top: 2rem;
 }
 
-section.personne .titleContainer {
+#page-sophro section.personne .titleContainer {
   background-color: bisque;
   -webkit-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
           box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
   padding: 1.5rem 0;
 }
 
-section.personne .titleContainer .sectionTitle {
+#page-sophro section.personne .titleContainer .sectionTitle {
   text-align: center;
   font-size: 1.5rem;
 }
 
-section.personne .illustrationContainer {
+#page-sophro section.personne .illustrationContainer {
   width: 400px;
   margin: auto;
   margin-top: -1rem;
   height: 250px;
 }
 
-section.personne .illustrationContainer .illustration {
+#page-sophro section.personne .illustrationContainer .illustration {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-section.personne .descriptionContainer {
+#page-sophro section.personne .descriptionContainer {
   background-color: bisque;
   -webkit-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
           box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
@@ -38,37 +38,37 @@ section.personne .descriptionContainer {
   padding: 2rem;
 }
 
-#enfant p.question {
+#page-sophro #enfant p.question {
   font-size: 1.2rem;
   font-weight: bold;
 }
 
-#enfant ul {
+#page-sophro #enfant ul {
   margin: 1rem 0;
 }
 
-#enfant ul li::before {
+#page-sophro #enfant ul li::before {
   content: "\2192";
   color: white;
   margin-right: 1rem;
 }
 
-#enfant p.mb {
+#page-sophro #enfant p.mb {
   margin-bottom: 1rem;
 }
 
-#adolescent p {
+#page-sophro #adolescent p {
   margin-bottom: 1rem;
 }
 
-#adolescent li:first-child {
+#page-sophro #adolescent li:first-child {
   font-size: 1.2rem;
   font-weight: bold;
   margin-bottom: 0.5rem;
   text-align: center;
 }
 
-#adolescent li:nth-child(n+2) {
+#page-sophro #adolescent li:nth-child(n+2) {
   text-align: center;
   border-radius: 10px;
   -webkit-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
@@ -77,41 +77,41 @@ section.personne .descriptionContainer {
   margin-bottom: 0.5rem;
 }
 
-#adulte .descriptionContainer ul {
+#page-sophro #adulte .descriptionContainer ul {
   width: 70%;
   margin: auto;
 }
 
-#adulte li:first-child {
+#page-sophro #adulte li:first-child {
   margin-bottom: 1rem;
 }
 
-#adulte li::before {
+#page-sophro #adulte li::before {
   content: "\2192";
   color: white;
   margin-right: 1rem;
 }
 
 @media only screen and (max-width: 500px) {
-  section.personne .illustrationContainer {
+  #page-sophro section.personne .illustrationContainer {
     width: 100%;
   }
 }
 
-.transiContainer {
+#page-sophro .transiContainer {
   width: 100%;
   height: 100vh;
   position: relative;
 }
 
-.transiContainer img {
+#page-sophro .transiContainer img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-.transiContainer p {
+#page-sophro .transiContainer p {
   position: absolute;
   color: white;
   width: 100%;
@@ -122,32 +122,32 @@ section.personne .descriptionContainer {
 }
 
 @media only screen and (max-width: 500px) {
-  .transiContainer {
+  #page-sophro .transiContainer {
     height: 40vh;
   }
-  .transiContainer p {
+  #page-sophro .transiContainer p {
     font-size: 1.5rem;
   }
 }
 
-#seances {
+#page-sophro #seances {
   width: 80%;
   margin: auto;
 }
 
-#seances h2 {
+#page-sophro #seances h2 {
   font-size: 2rem;
 }
 
-#seances .intro {
+#page-sophro #seances .intro {
   margin-top: 1.5rem;
 }
 
-#seances .intro p {
+#page-sophro #seances .intro p {
   text-align: justify;
 }
 
-#seances .cards {
+#page-sophro #seances .cards {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
   display: -webkit-box;
@@ -158,7 +158,7 @@ section.personne .descriptionContainer {
           justify-content: space-between;
 }
 
-#seances .card {
+#page-sophro #seances .card {
   width: 45%;
   -webkit-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
           box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
@@ -166,25 +166,25 @@ section.personne .descriptionContainer {
   padding: 1rem;
 }
 
-#seances #autreSeance li::before {
+#page-sophro #seances #autreSeance li::before {
   content: "\2192";
   margin-right: 1rem;
 }
 
-#seances .cardTitle {
+#page-sophro #seances .cardTitle {
   margin-bottom: 1rem;
 }
 
-#seances .cardDescription {
+#page-sophro #seances .cardDescription {
   text-align: justify;
 }
 
-#seances .cardDescription li {
+#page-sophro #seances .cardDescription li {
   margin-bottom: 0.3rem;
 }
 
 @media only screen and (max-width: 750px) {
-  #seances .cards {
+  #page-sophro #seances .cards {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -193,43 +193,43 @@ section.personne .descriptionContainer {
         -ms-flex-align: center;
             align-items: center;
   }
-  #seances .card {
+  #page-sophro #seances .card {
     width: 80%;
   }
-  #seances .card:first-child {
+  #page-sophro #seances .card:first-child {
     margin-bottom: 1rem;
   }
 }
 
-.pageContent {
+#page-sophro .pageContent {
   background-color: rgba(227, 197, 148, 0.37);
   padding: 2rem 0;
 }
 
-h1 {
+#page-sophro h1 {
   text-align: center;
   font-family: "Dancing Script";
   font-size: 3rem;
 }
 
-#intro {
+#page-sophro #intro {
   width: 80%;
   margin: auto;
   margin-top: 2rem;
 }
 
-#intro p {
+#page-sophro #intro p {
   text-align: justify;
   margin-bottom: 1rem;
 }
 
-#conclu {
+#page-sophro #conclu {
   width: 70%;
   margin: auto;
   margin-top: 2rem;
 }
 
-#conclu p {
+#page-sophro #conclu p {
   font-style: italic;
   color: #FFA41B;
   text-align: center;

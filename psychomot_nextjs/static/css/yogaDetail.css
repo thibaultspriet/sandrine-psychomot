@@ -1,14 +1,14 @@
-#bienfaitsEnfant {
+#page-yoga #bienfaitsEnfant {
   margin-top: 2rem;
 }
 
-#bienfaitsEnfant .subsectionTitle {
+#page-yoga #bienfaitsEnfant .subsectionTitle {
   text-align: center;
   margin-bottom: 2rem;
   font-size: 1.5rem;
 }
 
-#bienfaitsEnfant .cards {
+#page-yoga #bienfaitsEnfant .cards {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -16,7 +16,7 @@
       justify-content: space-around;
 }
 
-#bienfaitsEnfant .card {
+#page-yoga #bienfaitsEnfant .card {
   min-height: 200px;
   border-radius: 15px;
   -webkit-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
@@ -25,35 +25,35 @@
   width: 30%;
 }
 
-#bienfaitsEnfant .card:first-child {
+#page-yoga #bienfaitsEnfant .card:first-child {
   background-color: white;
   background-position: left;
 }
 
-#bienfaitsEnfant .cardTitle {
+#page-yoga #bienfaitsEnfant .cardTitle {
   text-align: center;
   font-size: 1.5rem;
   margin-bottom: 1rem;
 }
 
-#bienfaitsEnfant .items {
+#page-yoga #bienfaitsEnfant .items {
   width: 70%;
   margin: auto;
 }
 
-#bienfaitsEnfant .items li {
+#page-yoga #bienfaitsEnfant .items li {
   margin-bottom: .5rem;
   list-style-type: circle;
 }
 
 @media only screen and (max-width: 990px) {
-  #bienfaitsEnfant .card {
+  #page-yoga #bienfaitsEnfant .card {
     width: 45%;
   }
 }
 
 @media only screen and (max-width: 700px) {
-  #bienfaitsEnfant .cards {
+  #page-yoga #bienfaitsEnfant .cards {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -65,32 +65,32 @@
         -ms-flex-pack: center;
             justify-content: center;
   }
-  #bienfaitsEnfant .card {
+  #page-yoga #bienfaitsEnfant .card {
     width: 60%;
   }
-  #bienfaitsEnfant .card:first-child {
+  #page-yoga #bienfaitsEnfant .card:first-child {
     margin-bottom: 1rem;
   }
 }
 
 @media only screen and (max-width: 700px) {
-  #bienfaitsEnfant .card {
+  #page-yoga #bienfaitsEnfant .card {
     width: 80%;
   }
 }
 
-#initierEnfant {
+#page-yoga #initierEnfant {
   width: 80%;
   margin: auto;
   margin-top: 2rem;
 }
 
-#initierEnfant .description {
+#page-yoga #initierEnfant .description {
   text-align: center;
   margin-bottom: 0.5rem;
 }
 
-#initierEnfant ul {
+#page-yoga #initierEnfant ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -103,7 +103,7 @@
           align-items: center;
 }
 
-#initierEnfant li {
+#page-yoga #initierEnfant li {
   background-color: #EAD1AA;
   border-radius: 10px;
   padding: .5rem;
@@ -111,47 +111,47 @@
   width: 100%;
 }
 
-#initierEnfant li::before {
+#page-yoga #initierEnfant li::before {
   content: '\2192';
   color: white;
   margin-right: 1rem;
 }
 
-#enfant .intro {
+#page-yoga #enfant .intro {
   width: 80%;
   margin: auto;
 }
 
-#particulariteEnfant {
+#page-yoga #particulariteEnfant {
   margin-top: 2rem;
 }
 
-#particulariteEnfant .description {
+#page-yoga #particulariteEnfant .description {
   width: 80%;
   margin: auto;
 }
 
-#deroulementEnfant .subsectionTitle {
+#page-yoga #deroulementEnfant .subsectionTitle {
   margin-top: 2rem;
 }
 
-#deroulementEnfant .subsectionIntro {
+#page-yoga #deroulementEnfant .subsectionIntro {
   width: 80%;
   margin: auto;
 }
 
-#deroulementEnfant .introPosture {
+#page-yoga #deroulementEnfant .introPosture {
   width: 80%;
   margin: auto;
   margin-top: 1rem;
 }
 
-#deroulementEnfant .introPosture h3 {
+#page-yoga #deroulementEnfant .introPosture h3 {
   font-size: 1.5rem;
   color: #FF5151;
 }
 
-#deroulementEnfant .cards {
+#page-yoga #deroulementEnfant .cards {
   width: 90%;
   margin: auto;
   margin-top: 1rem;
@@ -162,38 +162,38 @@
       justify-content: space-around;
 }
 
-#deroulementEnfant .card {
+#page-yoga #deroulementEnfant .card {
   -webkit-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
           box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
   border-radius: 5px;
   width: 33%;
 }
 
-#deroulementEnfant .illustrationContainer {
+#page-yoga #deroulementEnfant .illustrationContainer {
   width: 100%;
   height: 350px;
 }
 
-#deroulementEnfant .illustrationContainer .illustration {
+#page-yoga #deroulementEnfant .illustrationContainer .illustration {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-#deroulementEnfant .illustrationContainer .illustration.chat {
+#page-yoga #deroulementEnfant .illustrationContainer .illustration.chat {
   -o-object-position: 20% bottom;
      object-position: 20% bottom;
 }
 
-#deroulementEnfant .postureTitle {
+#page-yoga #deroulementEnfant .postureTitle {
   text-align: center;
   padding: .5rem 0;
   background-color: #8981E5;
   color: white;
 }
 
-#deroulementEnfant .legend {
+#page-yoga #deroulementEnfant .legend {
   width: 90%;
   margin: auto;
   font-style: italic;
@@ -201,13 +201,13 @@
 }
 
 @media only screen and (max-width: 1000px) {
-  #deroulementEnfant .cards {
+  #page-yoga #deroulementEnfant .cards {
     width: 100%;
   }
 }
 
 @media only screen and (max-width: 850px) {
-  #deroulementEnfant .cards {
+  #page-yoga #deroulementEnfant .cards {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -216,43 +216,43 @@
         -ms-flex-align: center;
             align-items: center;
   }
-  #deroulementEnfant .card {
+  #page-yoga #deroulementEnfant .card {
     width: 60%;
     margin-bottom: 1rem;
   }
 }
 
 @media only screen and (max-width: 850px) {
-  #deroulementEnfant .card {
+  #page-yoga #deroulementEnfant .card {
     width: 90%;
   }
 }
 
-#relaxation,
-#respiration {
+#page-yoga #relaxation,
+#page-yoga #respiration {
   width: 80%;
   margin: auto;
   margin-top: 1rem;
 }
 
-#relaxation h3,
-#respiration h3 {
+#page-yoga #relaxation h3,
+#page-yoga #respiration h3 {
   font-size: 1.5rem;
 }
 
-#relaxation h3 {
+#page-yoga #relaxation h3 {
   color: #FFA41B;
 }
 
-#respiration h3 {
+#page-yoga #respiration h3 {
   color: #FF896B;
 }
 
-#adulte .bienfaits {
+#page-yoga #adulte .bienfaits {
   margin-top: 2rem;
 }
 
-#adulte .bienfaits .items {
+#page-yoga #adulte .bienfaits .items {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -264,7 +264,7 @@
           justify-content: space-between;
 }
 
-#adulte .bienfaits .items li {
+#page-yoga #adulte .bienfaits .items li {
   padding: .5rem 0;
   margin-bottom: 0.5rem;
   border-radius: 10px;
@@ -276,7 +276,7 @@
 }
 
 @media only screen and (max-width: 500px) {
-  #adulte .bienfaits .items {
+  #page-yoga #adulte .bienfaits .items {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -285,67 +285,67 @@
         -ms-flex-align: center;
             align-items: center;
   }
-  #adulte .bienfaits .items li {
+  #page-yoga #adulte .bienfaits .items li {
     width: 80%;
   }
 }
 
-#historique {
+#page-yoga #historique {
   margin-top: 2rem;
 }
 
-#historique p {
+#page-yoga #historique p {
   text-align: justify;
   margin-bottom: 1.5rem;
 }
 
-#historique .separateur {
+#page-yoga #historique .separateur {
   color: #FFA41B;
   text-align: center;
   font-size: 2rem;
 }
 
-#adulte .pourqui {
+#page-yoga #adulte .pourqui {
   margin-top: 2rem;
 }
 
-.pageContent {
+#page-yoga .pageContent {
   background-color: #D2CFE5;
   padding: 2rem 0;
   margin: 2rem 0;
 }
 
-.pageTitle {
+#page-yoga .pageTitle {
   text-align: center;
   font-family: "Dancing Script";
   font-size: 3em;
   margin-bottom: 3rem;
 }
 
-.sectionTitle {
+#page-yoga .sectionTitle {
   font-size: 2em;
 }
 
-.sectionTitle::before {
+#page-yoga .sectionTitle::before {
   content: '\2756';
   color: white;
   margin-right: 2rem;
 }
 
-.subsectionTitle {
+#page-yoga .subsectionTitle {
   text-align: center;
   margin-bottom: 2rem;
   font-size: 1.5rem;
 }
 
-#conclusion {
+#page-yoga #conclusion {
   width: 70%;
   margin: auto;
   margin-top: 2rem;
   font-style: italic;
 }
 
-#adulte {
+#page-yoga #adulte {
   width: 80%;
   margin: auto;
   margin-top: 4rem;

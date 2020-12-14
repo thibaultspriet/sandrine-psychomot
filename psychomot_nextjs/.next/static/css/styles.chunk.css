@@ -734,3 +734,450 @@ li {
   }
 }
 /*# sourceMappingURL=index.css.map */
+#page-presentation .cover {
+  width: 100%;
+}
+
+#page-presentation .main-wrapper {
+  margin: 1.5em;
+  border: thin black solid;
+  overflow: hidden;
+}
+
+#page-presentation .presentation-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 80vh;
+  margin: 1.5em;
+}
+
+#page-presentation .container-portrait,
+#page-presentation .presentation-container {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#page-presentation .container-portrait-img {
+  width: 50%;
+  height: auto;
+}
+
+#page-presentation .portrait {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 100% 40%;
+     object-position: 100% 40%;
+  -webkit-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.64);
+          box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.64);
+}
+
+#page-presentation .presentation-container h1 {
+  font-family: 'Dancing Script';
+  font-size: 2em;
+  margin-top: 1em;
+  text-align: center;
+}
+
+#page-presentation .presentation-container .presentation {
+  text-align: justify;
+  width: 80%;
+  margin: auto;
+  margin-top: 3em;
+}
+
+#page-presentation .locaux {
+  width: 70%;
+  margin: auto;
+  margin-top: 1em;
+}
+
+#page-presentation .locaux img {
+  width: 200px;
+}
+
+#page-presentation .locaux .container-item {
+  margin: 4em 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#page-presentation .locaux .container-item p {
+  text-align: justify;
+}
+
+#page-presentation .locaux .container-item .right {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+  margin-left: 2em;
+}
+
+#page-presentation .locaux .container-item .left {
+  margin-right: 2em;
+}
+
+#page-presentation .formation-container-cover,
+#page-presentation .experience-container-cover,
+#page-presentation .cabinet-container-cover {
+  position: relative;
+  min-height: 400px;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#page-presentation .formation-container-cover .cover,
+#page-presentation .experience-container-cover .cover,
+#page-presentation .cabinet-container-cover .cover {
+  position: absolute;
+  top: -200px;
+}
+
+#page-presentation .formation-container-cover h2,
+#page-presentation .experience-container-cover h2,
+#page-presentation .cabinet-container-cover h2 {
+  position: absolute;
+  top: 70px;
+  left: 70px;
+  font-family: 'Dancing Script';
+  font-size: 3em;
+}
+
+#page-presentation .formation-container-cover {
+  background-position: center;
+}
+
+#page-presentation .formation-container {
+  width: 90%;
+  margin: auto;
+}
+
+#page-presentation .psychomotricite,
+#page-presentation .sophrologie {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 2em 0;
+}
+
+#page-presentation .description-container {
+  width: 50%;
+  text-align: center;
+}
+
+#page-presentation .description-container h3 {
+  font-family: 'Dancing Script';
+  font-size: 3em;
+}
+
+#page-presentation .description-container p {
+  margin: auto;
+  margin-top: 3em;
+  text-align: justify;
+  width: 80%;
+}
+
+#page-presentation .diplomes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+}
+
+#page-presentation .diplomes.order {
+  -webkit-box-ordinal-group: 0;
+      -ms-flex-order: -1;
+          order: -1;
+}
+
+#page-presentation .diplome .container-intitule {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+#page-presentation .diplome .intitule {
+  width: 90%;
+  font-weight: bold;
+}
+
+#page-presentation .diplome span {
+  padding: .5em;
+  background-color: #3f3f3f;
+  color: white;
+  display: block;
+  font-size: 1em;
+  border-radius: 15px;
+}
+
+#page-presentation .diplome .container-anim {
+  width: 100%;
+  height: 30px;
+  background-color: #b9b9b9;
+  margin: 0.5em 0;
+}
+
+#page-presentation .diplome .anim {
+  width: 0;
+  height: 30px;
+}
+
+#page-presentation .diplome .anim.violet {
+  background-color: #8981E5;
+}
+
+#page-presentation .diplome .anim.rouge {
+  background-color: #FF5151;
+}
+
+#page-presentation .diplome .anim.saumon {
+  background-color: #FF896B;
+}
+
+#page-presentation .diplome .anim.orange {
+  background-color: #FFA41B;
+}
+
+#page-presentation .experience-container-cover {
+  background-position: bottom;
+}
+
+#page-presentation .experience-container-cover .cover {
+  z-index: -1;
+}
+
+#page-presentation .experience-container-cover h2 {
+  text-align: right;
+  right: 70px;
+}
+
+#page-presentation .experiences-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#page-presentation .experience-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #8981E5;
+  padding: 2em;
+  width: 40%;
+  margin-top: -40px;
+  -webkit-box-shadow: 0px 10px 7px 0px rgba(0, 0, 0, 0.64);
+  box-shadow: 0px 10px 7px 0px rgba(0, 0, 0, 0.64);
+  position: relative;
+}
+
+#page-presentation .experience-container .experience-title {
+  margin-bottom: 1rem;
+  font-family: "Dancing Script";
+}
+
+#page-presentation .experience-container li:not(:last-child) {
+  margin-bottom: 2em;
+}
+
+#page-presentation .experience-container .periode {
+  font-weight: bold;
+}
+
+#page-presentation .experience-container .explication {
+  color: white;
+}
+
+#page-presentation .cabinet-container-cover {
+  margin: 5em 0;
+  background-position: right;
+}
+
+#page-presentation .cabinet-container-cover h2 {
+  text-align: right;
+  right: 50px;
+  top: 50px;
+}
+
+#page-presentation .cabinet-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 2em;
+}
+
+#page-presentation .cabinet-container img {
+  display: block;
+  width: 25%;
+  margin-right: 1em;
+}
+
+#page-presentation .cabinet-container p {
+  width: 25%;
+}
+
+@media only screen and (max-width: 1170px) {
+  #page-presentation .presentation-header {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #page-presentation .presentation-container .presentation {
+    width: 90%;
+  }
+  #page-presentation .portrait {
+    display: block;
+    width: 70%;
+    margin: auto;
+  }
+  #page-presentation .experiences-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #page-presentation .experience-container {
+    width: 70%;
+    margin: 2rem 0;
+  }
+}
+
+@media only screen and (max-width: 925px) {
+  #page-presentation .presentation-header {
+    display: block;
+  }
+  #page-presentation .container-portrait,
+  #page-presentation .presentation-container {
+    width: 80%;
+    margin: auto;
+  }
+  #page-presentation .presentation-container .presentation {
+    margin-top: 1.5em;
+  }
+  #page-presentation .locaux {
+    width: 90%;
+  }
+  #page-presentation .cabinet-container {
+    display: block;
+  }
+  #page-presentation .cabinet-container img,
+  #page-presentation .cabinet-container p {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 1em;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #page-presentation .psychomotricite,
+  #page-presentation .sophrologie {
+    display: block;
+    width: 90%;
+    margin: auto;
+  }
+  #page-presentation .psychomotricite .description-container,
+  #page-presentation .psychomotricite .diplomes,
+  #page-presentation .sophrologie .description-container,
+  #page-presentation .sophrologie .diplomes {
+    width: 100%;
+    margin-bottom: 2em;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  #page-presentation .locaux .container-item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #page-presentation .locaux .container-item .container-img {
+    margin-bottom: 1em;
+  }
+  #page-presentation .locaux .container-item .right {
+    margin-left: 0;
+    -webkit-box-ordinal-group: 1;
+        -ms-flex-order: 0;
+            order: 0;
+  }
+  #page-presentation .locaux .container-item .left {
+    margin-right: 0;
+  }
+  #page-presentation .experience-container {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  #page-presentation .experience-container {
+    padding: 1em;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #page-presentation .main-wrapper {
+    border: none;
+  }
+  #page-presentation .presentation-header {
+    margin: 0.5em;
+  }
+  #page-presentation .container-portrait,
+  #page-presentation .presentation-container {
+    width: 95%;
+    margin: auto;
+  }
+}
+/*# sourceMappingURL=presentation.css.map */

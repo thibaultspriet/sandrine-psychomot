@@ -13,6 +13,7 @@ export default function Contact(){
                 <title>Contact</title>
             </Head>
 
+            <div id="page-contact">
             <header className="cover-container">
                 <img src="/main/contact-cover.jpg" alt="contact" className="cover"/>
             </header>
@@ -57,6 +58,8 @@ export default function Contact(){
                     </div>
                 </aside>
             </main>
+            </div>
+            
         </Base>
     </div>
     )

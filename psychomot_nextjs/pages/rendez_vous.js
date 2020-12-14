@@ -23,6 +23,7 @@ export default function RendezVous({services}){
                 <title>Rendez-vous</title>
             </Head>
 
+            <div id="page-rdv">
             <header className='rdv-header' style={{backgroundImage: "url('/main/plaque_cabinet.jpg')"}}>
                 <h1>Prenez Un Rendez-Vous</h1>
                 <p>Contactez moi en quelques clics et en rédigeant un message si vous le souhaitez. Je vous réponds au plus vite pour confirmer le rendez-vous.</p>
@@ -65,6 +66,8 @@ export default function RendezVous({services}){
                     </main>
                 </form>
             </div>
+            </div>
+            
         </Base>
     </div>
     )

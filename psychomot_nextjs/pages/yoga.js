@@ -10,7 +10,7 @@ import "../static/css/yogaDetail.css"
 export default function Yoga() {
     return (
         <Base route="yoga-sophro">
-        <div>
+        <div id="page-yoga">
             <Head>
                 <title>Pourqui</title>
             </Head>

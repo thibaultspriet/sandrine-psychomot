@@ -9,7 +9,7 @@ import "../static/css/yoga.css"
 export default function YogaSophro() {
     return (
         <Base route="yoga-sophro">
-        <div>
+        <div id="page-yoga-sophro">
             <Head>
                 <title>Accueil</title>
             </Head>

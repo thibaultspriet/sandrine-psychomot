@@ -1,36 +1,39 @@
-@import './sophroDetail/personne', './sophroDetail/transi', './sophroDetail/seance';
+#page-sophro {
 
-.pageContent {
-    background-color: rgba(227, 197, 148, 0.37);
-    padding: 2rem 0;
-}
+    @import './sophroDetail/personne', './sophroDetail/transi', './sophroDetail/seance';
 
-h1 {
-    text-align: center;
-    font-family: "Dancing Script";
-    font-size: 3rem;
-}
-
-#intro {
-    width: 80%;
-    margin: auto;
-    margin-top: 2rem;
-
-    p {
-        text-align: justify;
-        margin-bottom: 1rem;
+    .pageContent {
+        background-color: rgba(227, 197, 148, 0.37);
+        padding: 2rem 0;
     }
-}
 
-#conclu {
-    width: 70%;
-    margin: auto;
-    margin-top: 2rem;
-
-    p {
-        font-style: italic;
-        color: #FFA41B;
+    h1 {
         text-align: center;
-        font-size: 1.3rem;
+        font-family: "Dancing Script";
+        font-size: 3rem;
+    }
+
+    #intro {
+        width: 80%;
+        margin: auto;
+        margin-top: 2rem;
+
+        p {
+            text-align: justify;
+            margin-bottom: 1rem;
+        }
+    }
+
+    #conclu {
+        width: 70%;
+        margin: auto;
+        margin-top: 2rem;
+
+        p {
+            font-style: italic;
+            color: #FFA41B;
+            text-align: center;
+            font-size: 1.3rem;
+        }
     }
 }

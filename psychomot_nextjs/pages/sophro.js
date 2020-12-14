@@ -10,7 +10,7 @@ import "../static/css/sophroDetail.css"
 export default function Sophro() {
     return (
         <Base route="yoga-sophro">
-        <div>
+        <div id="page-sophro">
             <Head>
                 <title>Sophrologie</title>
             </Head>
