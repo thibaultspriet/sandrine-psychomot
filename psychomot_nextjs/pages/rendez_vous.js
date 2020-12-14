@@ -31,7 +31,7 @@ export default function RendezVous({ services }) {
 
                     <div className="form-container">
                         <form name="rendez vous" method="POST" data-netlify="true" id="rdvForm" enctype="application/x-www-form-urlencoded">
-
+                            <input type="hidden" name="rendez vous" value="rendez vous" />
 
                             <div className="select-service">
                                 <label htmlFor="service">Choisissez un service</label>

@@ -28,6 +28,7 @@ export default function Contact() {
                     </p>
 
                             <form name="contact" method="POST" data-netlify="true" id="contactForm" enctype="application/x-www-form-urlencoded">
+                                <input type="hidden" name="contact" value="contact" />
 
                                 <label htmlFor="nom_prenom">Nom & Prénom</label>
                                 <input type="text" name="nom_prenom" required />
