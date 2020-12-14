@@ -1,0 +1,40 @@
+/* Global variables */
+$primary : #EAD1AA;
+$primary-background : rgba(227, 197, 148, 0.37);
+$secondary : #8981E5;
+$secondary-hover : rgba(137, 129, 229, 0.315);
+
+$bp800 : 800px;
+$bp580 : 580px;
+
+
+/* Global default settings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+}
+
+.btn {
+    padding: .5em;
+    background-color: $secondary;
+    color: white;
+    transition: all .3s ease;
+    border-radius: 10px;
+
+    &:hover {
+        background-color: $secondary-hover;
+        color: black;
+    }
+}

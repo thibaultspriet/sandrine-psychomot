@@ -1,0 +1,278 @@
+.titleContainer {
+  margin: auto;
+  padding: 1rem 0;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+main {
+  width: 50%;
+  margin: auto;
+  margin-top: -10px;
+  margin-bottom: 5rem;
+}
+
+main img {
+  width: 100%;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+main p {
+  padding: 3rem 0;
+  width: 80%;
+  margin: auto;
+  text-align: justify;
+}
+
+@media only screen and (max-width: 850px) {
+  main {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  main {
+    margin-top: 1em;
+  }
+}
+
+.enPratiqueContainer {
+  margin: auto;
+  padding: 2rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 5rem;
+}
+
+.enPratiqueContainer .deroulement {
+  width: 80%;
+  margin: auto;
+}
+
+.enPratiqueContainer .deroulement h3 {
+  font-size: 1.5rem;
+  margin: 1.5rem 0;
+  text-align: center;
+}
+
+.enPratiqueContainer .deroulement strong {
+  color: #B9B5D8;
+  font-weight: bold;
+}
+
+.enPratiqueContainer .deroulement li {
+  margin-bottom: 0.5rem;
+  text-align: justify;
+}
+
+.list-items {
+  margin-top: 2rem;
+  width: 50%;
+}
+
+.list-items li {
+  padding: 0.5rem 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.cta {
+  font-size: 2em;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.cta:hover a {
+  color: white;
+}
+
+@media only screen and (max-width: 500px) {
+  .list-items {
+    width: 60%;
+  }
+}
+
+.aideContainer {
+  padding: 3rem 2rem;
+  margin-bottom: 5rem;
+}
+
+.content {
+  padding: 2rem 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.content h3 {
+  font-size: 2em;
+  font-weight: normal;
+  margin-bottom: 2rem;
+}
+
+.content h2 {
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: 200;
+}
+
+.aides {
+  margin-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.aides .aide {
+  width: 20%;
+}
+
+.aides .aide img {
+  width: 80px;
+  display: block;
+  margin: auto;
+  margin-bottom: 1.5rem;
+}
+
+.aides .aide p {
+  text-align: center;
+}
+
+@media only screen and (max-width: 1050px) {
+  .content h3 {
+    font-size: 1.5em;
+  }
+  .content h2 {
+    font-size: 2em;
+  }
+}
+
+@media only screen and (max-width: 815px) {
+  .content h3 {
+    font-size: 1.2em;
+    font-weight: 200;
+  }
+  .content h2 {
+    font-size: 1.5em;
+    font-weight: 300;
+  }
+  .aides {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .aides .aide {
+    width: 40%;
+    margin-bottom: 1rem;
+  }
+}
+
+@media only screen and (max-width: 670px) {
+  .content h3 {
+    font-size: 1em;
+    text-align: center;
+  }
+  .content h2 {
+    font-size: 1.3em;
+  }
+  .aides .aide {
+    width: 50%;
+  }
+}
+
+.enTheorieContainer {
+  margin: auto;
+  margin-bottom: 2rem;
+  padding: 2rem 0;
+  background-color: #D2CFE5;
+}
+
+.enTheorieContainer .title {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.enTheorieContainer .description {
+  width: 80%;
+  margin: auto;
+}
+
+.enTheorieContainer .intro {
+  margin-bottom: 1rem;
+}
+
+.enTheorieContainer .items {
+  margin-bottom: 1rem;
+}
+
+.enTheorieContainer .items li {
+  background-color: white;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+
+.enTheorieContainer .items li::before {
+  content: "\2192";
+  margin-right: 1rem;
+}
+
+.background {
+  background-color: #B9B5D8;
+}
+
+.background-muted {
+  background-color: #D2CFE5;
+}
+
+.shadow {
+  -webkit-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.title {
+  font-size: 2.5em;
+  font-family: 'Dancing Script';
+}
+
+.titleContainer, .enPratiqueContainer, .enTheorieContainer {
+  width: 80%;
+}
+
+@media only screen and (max-width: 500px) {
+  .titleContainer, main, .enPratiqueContainer, .enTheorieContainer {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=psychomotricite.css.map */

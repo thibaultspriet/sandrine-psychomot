@@ -1,0 +1,238 @@
+section.personne {
+  width: 80%;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+section.personne .titleContainer {
+  background-color: bisque;
+  -webkit-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  padding: 1.5rem 0;
+}
+
+section.personne .titleContainer .sectionTitle {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+section.personne .illustrationContainer {
+  width: 400px;
+  margin: auto;
+  margin-top: -1rem;
+  height: 250px;
+}
+
+section.personne .illustrationContainer .illustration {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+section.personne .descriptionContainer {
+  background-color: bisque;
+  -webkit-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  margin-top: 1.5rem;
+  padding: 2rem;
+}
+
+#enfant p.question {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+#enfant ul {
+  margin: 1rem 0;
+}
+
+#enfant ul li::before {
+  content: "\2192";
+  color: white;
+  margin-right: 1rem;
+}
+
+#enfant p.mb {
+  margin-bottom: 1rem;
+}
+
+#adolescent p {
+  margin-bottom: 1rem;
+}
+
+#adolescent li:first-child {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+#adolescent li:nth-child(n+2) {
+  text-align: center;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+#adulte .descriptionContainer ul {
+  width: 70%;
+  margin: auto;
+}
+
+#adulte li:first-child {
+  margin-bottom: 1rem;
+}
+
+#adulte li::before {
+  content: "\2192";
+  color: white;
+  margin-right: 1rem;
+}
+
+@media only screen and (max-width: 500px) {
+  section.personne .illustrationContainer {
+    width: 100%;
+  }
+}
+
+.transiContainer {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.transiContainer img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.transiContainer p {
+  position: absolute;
+  color: white;
+  width: 100%;
+  text-align: center;
+  top: 50%;
+  font-size: 2rem;
+  font-style: italic;
+}
+
+@media only screen and (max-width: 500px) {
+  .transiContainer {
+    height: 40vh;
+  }
+  .transiContainer p {
+    font-size: 1.5rem;
+  }
+}
+
+#seances {
+  width: 80%;
+  margin: auto;
+}
+
+#seances h2 {
+  font-size: 2rem;
+}
+
+#seances .intro {
+  margin-top: 1.5rem;
+}
+
+#seances .intro p {
+  text-align: justify;
+}
+
+#seances .cards {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#seances .card {
+  width: 45%;
+  -webkit-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+#seances #autreSeance li::before {
+  content: "\2192";
+  margin-right: 1rem;
+}
+
+#seances .cardTitle {
+  margin-bottom: 1rem;
+}
+
+#seances .cardDescription {
+  text-align: justify;
+}
+
+#seances .cardDescription li {
+  margin-bottom: 0.3rem;
+}
+
+@media only screen and (max-width: 750px) {
+  #seances .cards {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #seances .card {
+    width: 80%;
+  }
+  #seances .card:first-child {
+    margin-bottom: 1rem;
+  }
+}
+
+.pageContent {
+  background-color: rgba(227, 197, 148, 0.37);
+  padding: 2rem 0;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Dancing Script";
+  font-size: 3rem;
+}
+
+#intro {
+  width: 80%;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+#intro p {
+  text-align: justify;
+  margin-bottom: 1rem;
+}
+
+#conclu {
+  width: 70%;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+#conclu p {
+  font-style: italic;
+  color: #FFA41B;
+  text-align: center;
+  font-size: 1.3rem;
+}
+/*# sourceMappingURL=sophroDetail.css.map */

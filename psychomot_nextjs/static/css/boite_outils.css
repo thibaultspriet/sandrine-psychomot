@@ -1,0 +1,93 @@
+.cover {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cover img {
+  width: 100%;
+  display: block;
+}
+
+@media only screen and (max-width: 1200px) {
+  .cover {
+    width: 100%;
+    height: 20vh;
+    overflow: hidden;
+  }
+  .cover img {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+
+.violet {
+  color: #8981E5;
+}
+
+.rouge {
+  color: #FF5151;
+}
+
+.rose {
+  color: #FF896B;
+}
+
+.jaune {
+  color: #FFA41B;
+}
+
+main {
+  padding: 0 2rem;
+  width: 50%;
+}
+
+.background_title {
+  background-color: #8981E5;
+  padding: 1em 0;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.outil_description {
+  text-align: justify;
+}
+
+.outil_title,
+.outil_description {
+  margin-bottom: 1rem;
+}
+
+.outil_title {
+  font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 1200px) {
+  main {
+    width: 90%;
+    margin: auto;
+  }
+  main section {
+    width: 100%;
+  }
+}
+
+.page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media only screen and (max-width: 1200px) {
+  .page {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+/*# sourceMappingURL=boite_outils.css.map */

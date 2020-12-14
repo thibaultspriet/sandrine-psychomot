@@ -1,0 +1,141 @@
+.intro{
+    padding: 2rem 0;
+    /* box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.45); */
+    margin-bottom: 2rem;
+    h2{
+        text-transform: uppercase;
+        text-align: center;
+        position: relative;
+        font-weight: lighter;
+        &::after{
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            width: 20%;
+            height: 1px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: black;
+        }
+    }
+}
+
+.yoga, .sophro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .card{
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        padding: 5rem 0;
+        position: relative;
+        h3,p{
+            width: 70%;
+            margin: auto;
+            margin-bottom: 2rem;
+        }
+        .btn-yoga{
+            width: 30%;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 1rem;
+            border-radius: 20px;
+            background-color: #464174;
+            transition: all .3s ease-out;
+            &:hover{
+                transform: scale(1.1);
+                box-shadow:0px 4px 10px rgba(0, 0, 0, 0.5);
+            }
+            a{
+                display: block;
+                color: white; 
+            }
+        }
+        h3{
+            text-align: center;
+            font-size: 1.5em;
+        }
+        .description{
+            text-align: center;
+            font-style: italic;
+        }
+    }
+    .illustration{
+        width: 55%;
+        overflow: hidden;
+        &:hover img{
+            width: 150%;
+        }
+        img{
+            transition: all .5s ease;
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+    }
+}
+
+
+.transition{
+    margin: 2rem 0;
+    overflow: hidden;
+    img{
+        width: 100%;
+        height: 60vh;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
+@media only screen and (max-width:900px){
+    .yoga,.sophro{
+        .card{
+            padding: 3rem 0;
+            h3,p{
+                width: 90%;
+            }
+            .btn-yoga{
+                width: 70%;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:580px){
+    .yoga,.sophro{
+        .card{
+            width: 60%;
+        }
+        .illustration{
+            width: 40%;
+        }
+    }
+    .yoga{
+        margin-bottom: 2rem;
+    }
+}
+
+
+@media only screen and (max-width:500px){
+    .yoga,.sophro{
+        flex-direction: column;
+        .card,.illustration{
+            width: 100%;
+            margin: 0;
+        }
+        .card{
+            margin-bottom: 0.5rem;
+        }
+        .yoga{
+            margin-bottom: 1rem;
+        }
+    }
+    .sophro .card{
+        order: -1;
+    }
+}
+
+

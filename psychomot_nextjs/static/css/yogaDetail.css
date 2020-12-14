@@ -1,0 +1,353 @@
+#bienfaitsEnfant {
+  margin-top: 2rem;
+}
+
+#bienfaitsEnfant .subsectionTitle {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+}
+
+#bienfaitsEnfant .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#bienfaitsEnfant .card {
+  min-height: 200px;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  padding: 1rem 0;
+  width: 30%;
+}
+
+#bienfaitsEnfant .card:first-child {
+  background-color: white;
+  background-position: left;
+}
+
+#bienfaitsEnfant .cardTitle {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+#bienfaitsEnfant .items {
+  width: 70%;
+  margin: auto;
+}
+
+#bienfaitsEnfant .items li {
+  margin-bottom: .5rem;
+  list-style-type: circle;
+}
+
+@media only screen and (max-width: 990px) {
+  #bienfaitsEnfant .card {
+    width: 45%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  #bienfaitsEnfant .cards {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #bienfaitsEnfant .card {
+    width: 60%;
+  }
+  #bienfaitsEnfant .card:first-child {
+    margin-bottom: 1rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  #bienfaitsEnfant .card {
+    width: 80%;
+  }
+}
+
+#initierEnfant {
+  width: 80%;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+#initierEnfant .description {
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+#initierEnfant ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#initierEnfant li {
+  background-color: #EAD1AA;
+  border-radius: 10px;
+  padding: .5rem;
+  margin-bottom: 0.5rem;
+  width: 100%;
+}
+
+#initierEnfant li::before {
+  content: '\2192';
+  color: white;
+  margin-right: 1rem;
+}
+
+#enfant .intro {
+  width: 80%;
+  margin: auto;
+}
+
+#particulariteEnfant {
+  margin-top: 2rem;
+}
+
+#particulariteEnfant .description {
+  width: 80%;
+  margin: auto;
+}
+
+#deroulementEnfant .subsectionTitle {
+  margin-top: 2rem;
+}
+
+#deroulementEnfant .subsectionIntro {
+  width: 80%;
+  margin: auto;
+}
+
+#deroulementEnfant .introPosture {
+  width: 80%;
+  margin: auto;
+  margin-top: 1rem;
+}
+
+#deroulementEnfant .introPosture h3 {
+  font-size: 1.5rem;
+  color: #FF5151;
+}
+
+#deroulementEnfant .cards {
+  width: 90%;
+  margin: auto;
+  margin-top: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#deroulementEnfant .card {
+  -webkit-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  width: 33%;
+}
+
+#deroulementEnfant .illustrationContainer {
+  width: 100%;
+  height: 350px;
+}
+
+#deroulementEnfant .illustrationContainer .illustration {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#deroulementEnfant .illustrationContainer .illustration.chat {
+  -o-object-position: 20% bottom;
+     object-position: 20% bottom;
+}
+
+#deroulementEnfant .postureTitle {
+  text-align: center;
+  padding: .5rem 0;
+  background-color: #8981E5;
+  color: white;
+}
+
+#deroulementEnfant .legend {
+  width: 90%;
+  margin: auto;
+  font-style: italic;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1000px) {
+  #deroulementEnfant .cards {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  #deroulementEnfant .cards {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #deroulementEnfant .card {
+    width: 60%;
+    margin-bottom: 1rem;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  #deroulementEnfant .card {
+    width: 90%;
+  }
+}
+
+#relaxation,
+#respiration {
+  width: 80%;
+  margin: auto;
+  margin-top: 1rem;
+}
+
+#relaxation h3,
+#respiration h3 {
+  font-size: 1.5rem;
+}
+
+#relaxation h3 {
+  color: #FFA41B;
+}
+
+#respiration h3 {
+  color: #FF896B;
+}
+
+#adulte .bienfaits {
+  margin-top: 2rem;
+}
+
+#adulte .bienfaits .items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#adulte .bienfaits .items li {
+  padding: .5rem 0;
+  margin-bottom: 0.5rem;
+  border-radius: 10px;
+  background-color: #EAD1AA;
+  text-align: center;
+  width: 40%;
+  -webkit-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+@media only screen and (max-width: 500px) {
+  #adulte .bienfaits .items {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #adulte .bienfaits .items li {
+    width: 80%;
+  }
+}
+
+#historique {
+  margin-top: 2rem;
+}
+
+#historique p {
+  text-align: justify;
+  margin-bottom: 1.5rem;
+}
+
+#historique .separateur {
+  color: #FFA41B;
+  text-align: center;
+  font-size: 2rem;
+}
+
+#adulte .pourqui {
+  margin-top: 2rem;
+}
+
+.pageContent {
+  background-color: #D2CFE5;
+  padding: 2rem 0;
+  margin: 2rem 0;
+}
+
+.pageTitle {
+  text-align: center;
+  font-family: "Dancing Script";
+  font-size: 3em;
+  margin-bottom: 3rem;
+}
+
+.sectionTitle {
+  font-size: 2em;
+}
+
+.sectionTitle::before {
+  content: '\2756';
+  color: white;
+  margin-right: 2rem;
+}
+
+.subsectionTitle {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+}
+
+#conclusion {
+  width: 70%;
+  margin: auto;
+  margin-top: 2rem;
+  font-style: italic;
+}
+
+#adulte {
+  width: 80%;
+  margin: auto;
+  margin-top: 4rem;
+}
+/*# sourceMappingURL=yogaDetail.css.map */

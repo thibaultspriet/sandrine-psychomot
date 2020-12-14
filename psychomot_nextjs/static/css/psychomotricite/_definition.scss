@@ -1,0 +1,36 @@
+.titleContainer{
+    margin: auto;
+    padding: 1rem 0;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+main{
+    width: 50%;
+    margin: auto;
+    margin-top: -10px;
+    margin-bottom: 5rem;
+    img{
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+    p{
+        padding: 3rem 0;
+        width: 80%;
+        margin: auto;
+        text-align: justify;
+    }
+}
+
+@media only screen and (max-width : 850px){
+    main{
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width : 500px){
+    main{
+        margin-top: 1em;
+    }
+}

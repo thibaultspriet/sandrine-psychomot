@@ -1,0 +1,34 @@
+/* Global variables */
+/* Global default settings */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Montserrat";
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+}
+
+.btn {
+  padding: .5em;
+  background-color: #8981E5;
+  color: white;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  background-color: rgba(137, 129, 229, 0.315);
+  color: black;
+}
+/*# sourceMappingURL=globals.css.map */
