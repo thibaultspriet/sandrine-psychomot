@@ -146,7 +146,7 @@
   padding: 1em;
 }
 
-#page-rdv input[type="submit"] {
+#page-rdv button[type="submit"] {
   border: none;
   border-radius: 27px;
   background-color: #8981E5;
@@ -160,7 +160,7 @@
   transition: all .3s ease;
 }
 
-#page-rdv input[type="submit"]:hover {
+#page-rdv button[type="submit"]:hover {
   background-color: rgba(137, 129, 229, 0.315);
   color: black;
 }

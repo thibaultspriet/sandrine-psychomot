@@ -27,7 +27,7 @@ export default function Contact() {
                                 alors au plus vite. Vous pouvez également prendre contact directement par téléphone ou en ligne.
                     </p>
 
-                            <form name="contact" method="POST" data-netlify="true" id="contactForm" enctype="application/x-www-form-urlencoded">
+                            <form action="/contact#contactForm" name="contact" method="POST" data-netlify="true" id="contactForm" enctype="application/x-www-form-urlencoded">
                                 <input type="hidden" name="contact" value="contact" />
 
                                 <label htmlFor="nom_prenom">Nom & Prénom</label>

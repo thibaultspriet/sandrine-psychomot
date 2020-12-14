@@ -52,7 +52,7 @@
   margin: 1em 0;
 }
 
-#page-contact form input {
+#page-contact form input, #page-contact form button {
   border: none;
   height: 2em;
   font-size: 1.5em;
@@ -68,13 +68,13 @@
   font-size: 1.5em;
 }
 
-#page-contact form input[type="submit"] {
+#page-contact form button[type="submit"] {
   margin: 1em 0;
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
 }
 
-#page-contact form input[type="submit"]:hover {
+#page-contact form button[type="submit"]:hover {
   background-color: rgba(137, 129, 229, 0.315);
   color: black;
   -webkit-transform: scale(1.1);
