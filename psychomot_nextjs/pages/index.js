@@ -45,8 +45,7 @@ function tlIcon(icon) {
 
 }
 
-export default function Home() {
-
+export default function Home({API_KEY}) {
     const iconContainer = useRef()
     useEffect(() => {
         Array.from(iconContainer.current.children).forEach(icon => {
@@ -274,13 +273,22 @@ export default function Home() {
                 </section>
                 <section className="map">
                     <h1>Me situer</h1>
-                    {/* <iframe width="100%" height="450" frameBorder="0"
-                    src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJB4Kp5ezZwkcRdMtn6AKhNkQ&key=AIzaSyAr1FvQn5YNoRkrlR_7vJLtYsnQHGZdNsY"
+                    <iframe width="100%" height="450" frameBorder="0"
+                    src={"https://www.google.com/maps/embed/v1/place?q=place_id:ChIJN3LGuLHRwkcR_wlYqQG5vg0&key="+API_KEY}
                     allowFullScreen>
-                </iframe> */}
+                    </iframe>
                 </section>
             </div>
 
         </Base>
     )
+}
+
+export async function getStaticProps(){
+    const key = await process.env.MAP_API_KEY
+    return {
+        props : {
+            API_KEY : key
+        }
+    }
 }
