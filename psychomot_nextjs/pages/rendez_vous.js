@@ -30,7 +30,7 @@ export default function RendezVous({services}){
             </header>
 
             <div className="form-container">
-                <form method="POST" data-netlify="true" id="rdvForm">
+                <form name="rendez vous" method="POST" data-netlify="true" id="rdvForm" enctype="application/x-www-form-urlencoded">
 
 
                     <div className="select-service">
