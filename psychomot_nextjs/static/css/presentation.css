@@ -434,6 +434,8 @@
 @media only screen and (max-width: 500px) {
   #page-presentation .main-wrapper {
     border: none;
+    margin-left: 0;
+    margin-right: 0;
   }
   #page-presentation .presentation-header {
     margin: 0.5em;
@@ -442,6 +444,27 @@
   #page-presentation .presentation-container {
     width: 95%;
     margin: auto;
+  }
+  #page-presentation .formation-container-cover,
+  #page-presentation .experience-container-cover,
+  #page-presentation .cabinet-container-cover {
+    background-attachment: scroll;
+    margin: 2rem 0;
+    min-height: 300px;
+  }
+  #page-presentation .formation-container-cover h2 {
+    top: 20px;
+    left: 20px;
+  }
+  #page-presentation .experience-container-cover h2 {
+    top: unset;
+    left: unset;
+    bottom: 20px;
+    right: 20px;
+  }
+  #page-presentation .cabinet-container {
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 /*# sourceMappingURL=presentation.css.map */

@@ -105,9 +105,9 @@
   color: white;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 700px) {
   #page-psychomotricite .list-items {
-    width: 60%;
+    width: 90%;
   }
 }
 
@@ -211,6 +211,12 @@
   }
 }
 
+@media only screen and (max-width: 580px) {
+  #page-psychomotricite .aides .aide {
+    width: 70%;
+  }
+}
+
 #page-psychomotricite .enTheorieContainer {
   margin: auto;
   margin-bottom: 2rem;
@@ -246,6 +252,12 @@
 #page-psychomotricite .enTheorieContainer .items li::before {
   content: "\2192";
   margin-right: 1rem;
+}
+
+@media only screen and (max-width: 500px) {
+  #page-psychomotricite .enTheorieContainer .description {
+    width: 90%;
+  }
 }
 
 #page-psychomotricite .background {

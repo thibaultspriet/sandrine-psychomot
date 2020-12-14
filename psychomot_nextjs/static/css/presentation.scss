@@ -23,7 +23,7 @@
     }
 
     .container-portrait,
-    .presentation-container { 
+    .presentation-container {
         width: 50%;
         display: flex;
         flex-direction: column;
@@ -286,7 +286,7 @@
     }
 
 
-   
+
 
     @media only screen and (max-width:1170px) {
 
@@ -316,7 +316,7 @@
 
     }
 
-    
+
 
     @media only screen and (max-width:925px) {
 
@@ -338,7 +338,7 @@
             width: 90%;
         }
 
-        
+
 
         .cabinet-container {
             display: block;
@@ -371,7 +371,7 @@
 
     }
 
-    
+
     @media only screen and (max-width:780px) {
         .locaux .container-item {
             flex-direction: column;
@@ -404,7 +404,7 @@
     }
 
 
-    
+
 
     @media only screen and (max-width:500px) {
 
@@ -412,6 +412,8 @@
 
         .main-wrapper {
             border: none;
+            margin-left: 0;
+            margin-right: 0;
         }
 
         .presentation-header {
@@ -422,6 +424,31 @@
         .presentation-container {
             width: 95%;
             margin: auto;
+        }
+
+        .formation-container-cover,
+        .experience-container-cover,
+        .cabinet-container-cover {
+            background-attachment: scroll;
+            margin: 2rem 0;
+            min-height: 300px;
+        }
+
+        .formation-container-cover h2{
+            top: 20px;
+            left: 20px;
+        }
+
+        .experience-container-cover h2{
+            top: unset;
+            left: unset;
+            bottom: 20px;
+            right: 20px;
+        }
+
+        .cabinet-container{
+            margin-left: 0;
+            margin-right: 0;
         }
 
 

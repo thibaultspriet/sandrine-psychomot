@@ -84,7 +84,7 @@ export default function Base({ children, route }) {
                     </ul>
 
                     <ul ref={rubriques_mobile} className="list-rubriques-mobile">
-                        <li><a href="/index">Accueil</a></li>
+                        <li><a href="/">Accueil</a></li>
                         <li><a href="/presentation">Présentation</a></li>
                         <li><a href="/psychomotricite">Psychomotricité</a></li>
                         <li><a href="/yoga-sophro">Sophrologie-Yoga</a></li>

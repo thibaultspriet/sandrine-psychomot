@@ -261,11 +261,11 @@ export default function Home({API_KEY}) {
                     <div className="yoga-sophrologie-container">
                         <div className="vertical-separator"></div>
                         <div className="yoga">
-                            <h3 className="yoga-soprologie-title"><a href="/yoga-detail">Le Yoga</a></h3>
+                            <h3 className="yoga-soprologie-title"><a href="/yoga">Le Yoga</a></h3>
 
                         </div>
                         <div className="sophrologie">
-                            <h3 className="yoga-soprologie-title"><a href="/sophro-detail">La Sophrologie</a></h3>
+                            <h3 className="yoga-soprologie-title"><a href="/sophroba">La Sophrologie</a></h3>
 
                         </div>
                     </div>

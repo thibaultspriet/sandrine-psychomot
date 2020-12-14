@@ -1,35 +1,43 @@
-.enTheorieContainer{
+.enTheorieContainer {
     margin: auto;
     margin-bottom: 2rem;
     padding: 2rem 0;
     background-color: #D2CFE5;
 
-    .title{
+    .title {
         text-align: center;
         margin-bottom: 1rem;
     }
 
-    .description{
+    .description {
         width: 80%;
         margin: auto;
     }
 
-    .intro{
+    .intro {
         margin-bottom: 1rem;
     }
 
-    .items{
+    .items {
         margin-bottom: 1rem;
     }
 
-    .items li{
+    .items li {
         background-color: white;
         margin-bottom: 0.5rem;
         padding: 0.5rem;
         border-radius: 10px;
-        &::before{
+
+        &::before {
             content: "\2192";
             margin-right: 1rem;
         }
     }
+
+    @media only screen and (max-width:500px) {
+        .description {
+            width: 90%;
+        }
+    }
+
 }

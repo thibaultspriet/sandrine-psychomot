@@ -86,15 +86,13 @@ export default function Bilan() {
                     </div>
                     <div className="card background shadow">
                         <h2 className="title" data-title="Restitution"></h2>
-                        <p>En fonction des résultats du bilan, peuvent être proposés :
-                            <ul>
+                        <p>En fonction des résultats du bilan, peuvent être proposés :</p>
+                            <ul className="list">
                                 <li>une prise en charge, explicitant les différents axes de rééducation</li>
                                 <li>des préconisations pour l’école et/ou le quotidien</li>
                                 <li>une réorientation éventuelle vers un autre professionnel</li>
                                 <li>Une réévaluation pourra être effectuée selon la nécessité.</li>
                             </ul>
-
-                        </p>
                     </div>
                 </div>
             </div>    

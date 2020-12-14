@@ -1,1 +1,1 @@
-self.__BUILD_MANIFEST = {__rewrites:[],"/_error":["static\u002Fchunks\u002Fpages\u002F_error.js"],sortedPages:["\u002F_app","\u002F_error"]};self.__BUILD_MANIFEST_CB && self.__BUILD_MANIFEST_CB()
+self.__BUILD_MANIFEST = {__rewrites:[],"/_error":["static\u002Fchunks\u002Fpages\u002F_error.js"],"/rendez_vous":["static\u002Fchunks\u002Fpages\u002Frendez_vous.js"],"/yoga-sophro":["static\u002Fchunks\u002Fpages\u002Fyoga-sophro.js"],sortedPages:["\u002F_app","\u002F_error","\u002Frendez_vous","\u002Fyoga-sophro"]};self.__BUILD_MANIFEST_CB && self.__BUILD_MANIFEST_CB()

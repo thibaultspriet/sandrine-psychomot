@@ -94,6 +94,11 @@
   width: 70%;
 }
 
+#page-bilan .list li::before {
+  content: "\2192";
+  margin-right: .5rem;
+}
+
 @media only screen and (max-width: 500px) {
   #page-bilan .pourquoiContainer,
   #page-bilan .grid {
