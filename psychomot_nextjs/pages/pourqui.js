@@ -5,7 +5,7 @@ import Image from 'next/image'
 import Base from "../components/Base"
 import SubNav from "../components/SubNav"
 
-import "../styles.css/pourqui.css"
+import "../static/css/pourqui.css"
 
 export default function PourQui() {
     return (
