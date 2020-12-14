@@ -52,7 +52,7 @@ export default function Base({ children, route }) {
     return (
         <div>
             <Head>
-                <link rel="stylesheet" href="static/css/base.css" />
+                <link rel="stylesheet" href="/style/base.css" />
             </Head>
             <header className="base-header">
                 <nav className="coordinates">
