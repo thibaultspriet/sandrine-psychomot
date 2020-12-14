@@ -1,0 +1,16 @@
+{
+  "/api/hello": "pages/api/hello.js",
+  "/bilan": "pages/bilan.html",
+  "/boiteOutils": "pages/boiteOutils.html",
+  "/contact": "pages/contact.html",
+  "/": "pages/index.html",
+  "/pourqui": "pages/pourqui.html",
+  "/presentation": "pages/presentation.html",
+  "/psychomotricite": "pages/psychomotricite.html",
+  "/rendez_vous": "pages/rendez_vous.js",
+  "/sophro": "pages/sophro.html",
+  "/yoga-sophro": "pages/yoga-sophro.html",
+  "/yoga": "pages/yoga.html",
+  "/_error": "pages/_error.js",
+  "/404": "pages/404.html"
+}
