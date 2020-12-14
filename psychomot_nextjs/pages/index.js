@@ -9,6 +9,7 @@ import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 
+
 /* if (typeof window !== "undefined") {
   gsap.registerPlugin(ScrollTrigger);
 } */
@@ -82,7 +83,7 @@ export default function Home() {
             <div>
                 <Head>
                     <title>Accueil</title>
-                    <link href="/static/css/index.css" rel="stylesheet" />
+                    <link href="static/css/index.css" rel="stylesheet" />
                 </Head>
                 <main className="presentation">
                     <div className="container-portrait">
