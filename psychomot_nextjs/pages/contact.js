@@ -29,6 +29,7 @@ export default function Contact() {
 
                             <form action="/contact#contactForm" name="contact" method="POST" data-netlify="true" id="contactForm" enctype="application/x-www-form-urlencoded">
                                 <input type="hidden" name="contact" value="contact" />
+                                <input type="hidden" id="subject" name="subject" value="Psychomot : prise de contact"/>
 
                                 <label htmlFor="nom_prenom">Nom & Prénom</label>
                                 <input type="text" name="nom_prenom" required />
