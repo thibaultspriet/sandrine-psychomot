@@ -8,6 +8,8 @@ import {gsap,Power2} from "gsap"
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
+import "../static/css/presentation.css"
+
 
 
 import {useRef,useEffect} from "react"
@@ -48,7 +50,6 @@ export default function Presentation() {
         <div>
             <Head>
                 <title>Présentation</title>
-                <link href="/static/css/presentation.css" rel="stylesheet" />
             </Head>
             <div className="main-wrapper">
                 <header className="presentation-header">

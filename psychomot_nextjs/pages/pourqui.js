@@ -5,13 +5,14 @@ import Image from 'next/image'
 import Base from "../components/Base"
 import SubNav from "../components/SubNav"
 
+import "../styles.css/pourqui.css"
+
 export default function PourQui() {
     return (
         <Base route="index">
         <div>
             <Head>
                 <title>Pourqui</title>
-                <link href="/static/css/pourqui.css" rel="stylesheet" />
             </Head>
             <SubNav slugRoute="psychomotricite" route="Psychomotricité" subRoute="Pour qui ?" />
             <main id="years">

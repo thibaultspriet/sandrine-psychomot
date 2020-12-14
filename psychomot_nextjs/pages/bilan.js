@@ -13,6 +13,8 @@ import {TextPlugin} from "gsap/dist/TextPlugin"
 gsap.registerPlugin(ScrollTrigger);
 gsap.registerPlugin(TextPlugin)
 
+import "../static/css/bilan.css"
+
 export default function Bilan() {
 
     const cover = useRef()
@@ -45,7 +47,6 @@ export default function Bilan() {
             <div>
                 <Head>
                     <title>Pourqui</title>
-                    <link href="/static/css/bilan.css" rel="stylesheet" />
                 </Head>
 
                 <header className="containerCover">

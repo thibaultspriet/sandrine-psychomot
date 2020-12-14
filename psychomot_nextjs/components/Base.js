@@ -11,11 +11,11 @@ export default function Base({ children, route }) {
     const rubriques = useRef(null);
     const rubriques_mobile = useRef(null);
 
-   
+
     const menuTL = gsap.timeline({
         defaults: {
-            duration : 1,
-            ease : Power2.easeOut
+            duration: 1,
+            ease: Power2.easeOut
         },
         paused: true
     })
@@ -27,18 +27,18 @@ export default function Base({ children, route }) {
                 right: 0,
             })
             .to(rubriques.current, {
-                    height: "auto",
-                }, "-=1")
+                height: "auto",
+            }, "-=1")
             .to(rubriques_mobile.current, {
-                    transform: "translateX(0)",
-                }, "-=1")
+                transform: "translateX(0)",
+            }, "-=1")
             .from(rubriques_mobile.current.children, {
-                    transform: "translateX(-100%)",
-                    opacity: 0,
-                    delay: (index, element, all) => {
-                        return index * 0.2
-                    }
-                }, '-=1')
+                transform: "translateX(-100%)",
+                opacity: 0,
+                delay: (index, element, all) => {
+                    return index * 0.2
+                }
+            }, '-=1')
             .reverse()
     }, [])
 
@@ -53,9 +53,6 @@ export default function Base({ children, route }) {
 
     return (
         <div>
-            <Head>
-                {/* <link rel="stylesheet" href="/style/base.css" /> */}
-            </Head>
             <header className="base-header">
                 <nav className="coordinates">
                     <ul className="list-coordinates">

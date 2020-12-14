@@ -5,13 +5,14 @@ import Image from 'next/image'
 import Base from "../components/Base"
 import SubNav from "../components/SubNav"
 
+import "../static/css/yogaDetail.css"
+
 export default function Yoga() {
     return (
         <Base route="yoga-sophro">
         <div>
             <Head>
                 <title>Pourqui</title>
-                <link href="/static/css/yogaDetail.css" rel="stylesheet" />
             </Head>
             
             <SubNav slugRoute="yoga-sophro" route="Yoga & Sophrologie" subRoute="Yoga" />

@@ -4,13 +4,14 @@ import Image from 'next/image'
 
 import Base from "../components/Base"
 
+import "../static/css/yoga.css"
+
 export default function YogaSophro() {
     return (
         <Base route="yoga-sophro">
         <div>
             <Head>
                 <title>Accueil</title>
-                <link href="/static/css/yoga.css" rel="stylesheet" />
             </Head>
             <header className="containerCover background-secondary">
                 <img src="/main/home-yoga-cover.png" alt="positions de yoga" className="cover" />

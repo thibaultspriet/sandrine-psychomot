@@ -4,6 +4,8 @@ import Image from "next/image"
 
 import {useState,useEffect} from "react"
 
+import "../static/css/rendez_vous.css"
+
 export default function RendezVous({services}){
 
     const [serviceSelected,setServiceSelected] = useState(services[0])
@@ -18,7 +20,7 @@ export default function RendezVous({services}){
         <div>
         <Base route="rendez_vous">
             <Head>
-                <link rel="stylesheet" href="/static/css/rendez_vous.css"/>
+                <title>Rendez-vous</title>
             </Head>
 
             <header className='rdv-header' style={{backgroundImage: "url('/main/plaque_cabinet.jpg')"}}>

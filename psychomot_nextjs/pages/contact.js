@@ -2,13 +2,15 @@ import Head from "next/head"
 import Base from "../components/Base"
 import Image from "next/image"
 
+import "../static/css/contact.css"
+
 export default function Contact(){
 
     return(
         <div>
         <Base route="contact">
             <Head>
-                <link rel="stylesheet" href="/static/css/contact.css"/>
+                <title>Contact</title>
             </Head>
 
             <header className="cover-container">

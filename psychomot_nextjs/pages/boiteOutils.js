@@ -8,6 +8,7 @@ import SubNav from "../components/SubNav"
 import {useRef,useEffect} from "react"
 import {gsap} from "gsap"
 
+import "../static/css/boite_outils.css"
 
 export default function BoiteOutils() {
 
@@ -34,7 +35,6 @@ export default function BoiteOutils() {
         <div>
             <Head>
                 <title>Ma boîte à outils</title>
-                <link href="/static/css/boite_outils.css" rel="stylesheet" />
             </Head>
 
             <SubNav slugRoute="psychomotricite" route="Psychomotricité" subRoute="Ma boîte à outils"/>

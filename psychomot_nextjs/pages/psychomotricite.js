@@ -10,6 +10,8 @@ gsap.registerPlugin(ScrollTrigger);
 
 import {useRef,useEffect} from "react"
 
+import "../static/css/psychomotricite.css"
+
 function linkAppear(link){
     link.tl = gsap.timeline({
         scrollTrigger : {
@@ -110,7 +112,6 @@ export default function Home() {
         <div>
             <Head>
                 <title>Psychomotricité</title>
-                <link href="/static/css/psychomotricite.css" rel="stylesheet" />
             </Head>
             
         </div>

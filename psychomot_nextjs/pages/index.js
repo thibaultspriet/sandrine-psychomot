@@ -8,6 +8,8 @@ import { gsap, Power2, Elastic, TweenMax } from "gsap"
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
+import "../static/css/index.css"
+
 
 
 /* if (typeof window !== "undefined") {
@@ -83,7 +85,6 @@ export default function Home() {
             <div>
                 <Head>
                     <title>Accueil</title>
-                    <link href="/static/css/index.css" rel="stylesheet" />
                 </Head>
                 <main className="presentation">
                     <div className="container-portrait">
