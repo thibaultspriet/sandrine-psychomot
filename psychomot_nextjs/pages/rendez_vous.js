@@ -62,7 +62,7 @@ export default function RendezVous({ services }) {
                                     <label htmlFor="message">Message</label>
                                     <textarea name="message" cols="30" rows="10" required></textarea>
                                 </div>
-                                <input name="submit" type="submit" value="Envoyer" />
+                                <button type="submit">Envoyer</button>
                             </main>
                         </form>
                     </div>
