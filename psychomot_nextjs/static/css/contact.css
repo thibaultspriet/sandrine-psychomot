@@ -52,7 +52,8 @@
   margin: 1em 0;
 }
 
-#page-contact form input, #page-contact form button {
+#page-contact form input,
+#page-contact form button {
   border: none;
   height: 2em;
   font-size: 1.5em;
@@ -178,6 +179,9 @@
   }
   #page-contact aside {
     margin-top: 1em;
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1;
   }
   #page-contact textarea {
     height: 100px;

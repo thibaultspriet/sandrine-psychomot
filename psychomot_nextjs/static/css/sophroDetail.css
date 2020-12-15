@@ -96,6 +96,17 @@
   #page-sophro section.personne .illustrationContainer {
     width: 100%;
   }
+  #page-sophro section.personne .descriptionContainer {
+    padding: 1rem;
+  }
+  #page-sophro #enfant ul li::before {
+    content: "\2192";
+    color: white;
+    margin-right: .3rem;
+  }
+  #page-sophro #adulte .descriptionContainer ul {
+    width: 90%;
+  }
 }
 
 #page-sophro .transiContainer {
@@ -194,7 +205,7 @@
             align-items: center;
   }
   #page-sophro #seances .card {
-    width: 80%;
+    width: 100%;
   }
   #page-sophro #seances .card:first-child {
     margin-bottom: 1rem;
@@ -234,5 +245,16 @@
   color: #FFA41B;
   text-align: center;
   font-size: 1.3rem;
+}
+
+@media only screen and (max-width: 500px) {
+  #page-sophro #intro,
+  #page-sophro #seances,
+  #page-sophro #enfant,
+  #page-sophro #adolescent,
+  #page-sophro #adulte,
+  #page-sophro #conclu {
+    width: 90%;
+  }
 }
 /*# sourceMappingURL=sophroDetail.css.map */

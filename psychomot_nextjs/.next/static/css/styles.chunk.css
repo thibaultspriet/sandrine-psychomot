@@ -217,305 +217,364 @@ li {
   }
 }
 /*# sourceMappingURL=base.css.map */
-#page-yoga-sophro header.containerCover {
-  margin-bottom: 1rem;
-  height: 85vh;
+#page-contact .cover-container {
+  width: 100%;
+  background-color: #EAD1AA;
+}
+
+#page-contact .cover-container img {
+  width: 100%;
+}
+
+#page-contact main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
-#page-yoga-sophro header.containerCover img {
-  width: 50%;
-  display: block;
-  margin: 0 auto;
+#page-contact .main-content {
+  width: 80%;
+  background-color: #EAD1AA;
+  padding-left: 2em;
+  padding-right: 20%;
 }
 
-#page-yoga-sophro header.containerCover h1 {
-  font-weight: bold;
-  text-align: center;
-  font-size: 3em;
-  padding-top: 2rem;
-}
-
-#page-yoga-sophro .intro {
-  padding: 2rem 0;
-  /* box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.45); */
-  margin-bottom: 2rem;
-}
-
-#page-yoga-sophro .intro h2 {
-  text-transform: uppercase;
-  text-align: center;
-  position: relative;
-  font-weight: lighter;
-}
-
-#page-yoga-sophro .intro h2::after {
-  content: '';
-  position: absolute;
-  bottom: -10px;
-  width: 20%;
-  height: 1px;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-  background-color: black;
-}
-
-#page-yoga-sophro .yoga, #page-yoga-sophro .sophro {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-#page-yoga-sophro .yoga .card, #page-yoga-sophro .sophro .card {
-  width: 30%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  padding: 5rem 0;
-  position: relative;
-}
-
-#page-yoga-sophro .yoga .card h3, #page-yoga-sophro .yoga .card p, #page-yoga-sophro .sophro .card h3, #page-yoga-sophro .sophro .card p {
-  width: 70%;
-  margin: auto;
-  margin-bottom: 2rem;
-}
-
-#page-yoga-sophro .yoga .card .btn-yoga, #page-yoga-sophro .sophro .card .btn-yoga {
-  width: 30%;
-  margin: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 1rem;
-  border-radius: 20px;
-  background-color: #464174;
-  -webkit-transition: all .3s ease-out;
-  transition: all .3s ease-out;
-}
-
-#page-yoga-sophro .yoga .card .btn-yoga:hover, #page-yoga-sophro .sophro .card .btn-yoga:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-  -webkit-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
-          box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
-}
-
-#page-yoga-sophro .yoga .card .btn-yoga a, #page-yoga-sophro .sophro .card .btn-yoga a {
-  display: block;
-  color: white;
-}
-
-#page-yoga-sophro .yoga .card h3, #page-yoga-sophro .sophro .card h3 {
-  text-align: center;
-  font-size: 1.5em;
-}
-
-#page-yoga-sophro .yoga .card .description, #page-yoga-sophro .sophro .card .description {
-  text-align: center;
+#page-contact .main-content h3 {
+  margin-top: 3em;
   font-style: italic;
 }
 
-#page-yoga-sophro .yoga .illustration, #page-yoga-sophro .sophro .illustration {
-  width: 55%;
-  overflow: hidden;
+#page-contact .main-content .hs {
+  width: 15%;
+  height: 1px;
+  margin-top: 1em;
+  background-color: #a79477;
 }
 
-#page-yoga-sophro .yoga .illustration:hover img, #page-yoga-sophro .sophro .illustration:hover img {
-  width: 150%;
+#page-contact .main-content p {
+  margin-top: 3em;
+  margin-bottom: 2em;
+  width: 60%;
 }
 
-#page-yoga-sophro .yoga .illustration img, #page-yoga-sophro .sophro .illustration img {
-  -webkit-transition: all .5s ease;
-  transition: all .5s ease;
-  width: 100%;
-  height: 300px;
-  -o-object-fit: cover;
-     object-fit: cover;
+#page-contact form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
-#page-yoga-sophro .transition {
-  margin: 2rem 0;
-  overflow: hidden;
+#page-contact form label {
+  margin: 1em 0;
 }
 
-#page-yoga-sophro .transition img {
-  width: 100%;
-  height: 60vh;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: center;
-     object-position: center;
+#page-contact form input,
+#page-contact form button {
+  border: none;
+  height: 2em;
+  font-size: 1.5em;
+  background-color: #8981E5;
+  color: white;
+  outline: none;
 }
 
-@media only screen and (max-width: 900px) {
-  #page-yoga-sophro .yoga .card, #page-yoga-sophro .sophro .card {
-    padding: 3rem 0;
-  }
-  #page-yoga-sophro .yoga .card h3, #page-yoga-sophro .yoga .card p, #page-yoga-sophro .sophro .card h3, #page-yoga-sophro .sophro .card p {
-    width: 90%;
-  }
-  #page-yoga-sophro .yoga .card .btn-yoga, #page-yoga-sophro .sophro .card .btn-yoga {
-    width: 70%;
-  }
+#page-contact form textarea {
+  background-color: #8981E5;
+  color: white;
+  resize: none;
+  font-size: 1.5em;
 }
 
-@media only screen and (max-width: 580px) {
-  #page-yoga-sophro .yoga .card, #page-yoga-sophro .sophro .card {
-    width: 60%;
-  }
-  #page-yoga-sophro .yoga .illustration, #page-yoga-sophro .sophro .illustration {
+#page-contact form button[type="submit"] {
+  margin: 1em 0;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+#page-contact form button[type="submit"]:hover {
+  background-color: rgba(137, 129, 229, 0.315);
+  color: black;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#page-contact aside {
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#page-contact aside h1 {
+  font-family: 'Dancing Script';
+  font-size: 2em;
+}
+
+#page-contact aside .hs {
+  width: 50%;
+  height: 1px;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  background-color: black;
+}
+
+#page-contact aside .tel {
+  font-size: 1.5em;
+}
+
+#page-contact aside .adresse {
+  margin-top: 2em;
+  text-align: center;
+  font-size: 1.2em;
+  margin-bottom: 2em;
+}
+
+#page-contact aside .horaires {
+  text-align: center;
+}
+
+#page-contact aside .horaires h3 {
+  margin-bottom: 1.5em;
+}
+
+#page-contact aside .horaires p {
+  margin-bottom: 1em;
+}
+
+#page-contact aside span {
+  font-style: italic;
+  font-size: 1.5em;
+}
+
+#page-contact .secondary {
+  color: #8981E5;
+}
+
+@media only screen and (max-width: 1100px) {
+  #page-contact aside {
     width: 40%;
   }
-  #page-yoga-sophro .yoga {
-    margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 960px) {
+  #page-contact .main-content {
+    width: 60%;
+    padding-right: 5%;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  #page-contact .main-content p {
+    width: 100%;
+  }
+  #page-contact aside h1 {
+    font-size: 1.8em;
   }
 }
 
 @media only screen and (max-width: 500px) {
-  #page-yoga-sophro .yoga, #page-yoga-sophro .sophro {
+  #page-contact main {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  #page-yoga-sophro .yoga .card, #page-yoga-sophro .yoga .illustration, #page-yoga-sophro .sophro .card, #page-yoga-sophro .sophro .illustration {
+  #page-contact aside,
+  #page-contact .main-content {
     width: 100%;
-    margin: 0;
   }
-  #page-yoga-sophro .yoga .card, #page-yoga-sophro .sophro .card {
-    margin-bottom: 0.5rem;
-  }
-  #page-yoga-sophro .yoga .yoga, #page-yoga-sophro .sophro .yoga {
-    margin-bottom: 1rem;
-  }
-  #page-yoga-sophro .sophro .card {
+  #page-contact aside {
+    margin-top: 1em;
     -webkit-box-ordinal-group: 0;
         -ms-flex-order: -1;
             order: -1;
   }
+  #page-contact textarea {
+    height: 100px;
+  }
+}
+/*# sourceMappingURL=contact.css.map */
+#page-presentation .cover {
+  width: 100%;
 }
 
-#page-yoga-sophro .detailTitleContainer {
-  padding: 2.5rem 0;
+#page-presentation .main-wrapper {
+  margin: 1.5em;
+  border: thin black solid;
+  overflow: hidden;
+}
+
+#page-presentation .presentation-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 80vh;
+  margin: 1.5em;
+}
+
+#page-presentation .container-portrait,
+#page-presentation .presentation-container {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#page-presentation .container-portrait-img {
+  width: 50%;
+  height: auto;
+}
+
+#page-presentation .portrait {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 100% 40%;
+     object-position: 100% 40%;
+  -webkit-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.64);
+          box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.64);
+}
+
+#page-presentation .presentation-container h1 {
+  font-family: 'Dancing Script';
+  font-size: 2em;
+  margin-top: 1em;
   text-align: center;
+}
+
+#page-presentation .presentation-container .presentation {
+  text-align: justify;
+  width: 80%;
+  margin: auto;
+  margin-top: 3em;
+}
+
+#page-presentation .locaux {
+  width: 70%;
+  margin: auto;
+  margin-top: 1em;
+}
+
+#page-presentation .locaux img {
+  width: 200px;
+}
+
+#page-presentation .locaux .container-item {
+  margin: 4em 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#page-presentation .locaux .container-item p {
+  text-align: justify;
+}
+
+#page-presentation .locaux .container-item .right {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+  margin-left: 2em;
+}
+
+#page-presentation .locaux .container-item .left {
+  margin-right: 2em;
+}
+
+#page-presentation .formation-container-cover,
+#page-presentation .experience-container-cover,
+#page-presentation .cabinet-container-cover {
+  position: relative;
+  min-height: 400px;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#page-presentation .formation-container-cover .cover,
+#page-presentation .experience-container-cover .cover,
+#page-presentation .cabinet-container-cover .cover {
+  position: absolute;
+  top: -200px;
+}
+
+#page-presentation .formation-container-cover h2,
+#page-presentation .experience-container-cover h2,
+#page-presentation .cabinet-container-cover h2 {
+  position: absolute;
+  top: 70px;
+  left: 70px;
+  font-family: 'Dancing Script';
+  font-size: 3em;
+}
+
+#page-presentation .formation-container-cover {
+  background-position: center;
+}
+
+#page-presentation .formation-container {
   width: 90%;
   margin: auto;
 }
 
-#page-yoga-sophro .detailTitleContainer .title {
-  font-size: 2.5em;
-}
-
-#page-yoga-sophro .tarifContainer {
-  padding: 1rem;
+#page-presentation .psychomotricite,
+#page-presentation .sophrologie {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 60%;
-  margin: 2rem auto;
-  z-index: 10;
+  margin: 2em 0;
 }
 
-#page-yoga-sophro .tarifContainer p {
+#page-presentation .description-container {
+  width: 50%;
   text-align: center;
-  padding: 0 2rem;
 }
 
-#page-yoga-sophro .tarifContainer h3 {
-  margin: 3rem 0;
-  text-transform: uppercase;
-  font-weight: bold;
-  position: relative;
+#page-presentation .description-container h3 {
+  font-family: 'Dancing Script';
+  font-size: 3em;
 }
 
-#page-yoga-sophro .tarifContainer h3::after {
-  content: '';
-  position: absolute;
-  width: 30%;
-  height: 1px;
-  background-color: black;
-  bottom: -10px;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+#page-presentation .description-container p {
+  margin: auto;
+  margin-top: 3em;
+  text-align: justify;
+  width: 80%;
 }
 
-#page-yoga-sophro .tarifDetailContainer {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-}
-
-#page-yoga-sophro .tarifDetailContainer li.title {
-  text-align: center;
-  padding: .5rem;
-  margin-bottom: 1rem;
-  border-radius: 10px;
-  background-color: #8981E5;
-  color: white;
-  font-size: 1.3em;
-}
-
-#page-yoga-sophro .more {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-  padding: 2rem 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-}
-
-#page-yoga-sophro .more img {
-  width: 100%;
-  height: 300px;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-#page-yoga-sophro .more .enfant, #page-yoga-sophro .more .adulte {
-  width: 40%;
+#page-presentation .diplomes {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -523,182 +582,301 @@ li {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  width: 50%;
 }
 
-#page-yoga-sophro .more .card {
-  width: 80%;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-  margin-top: -30px;
-  padding: 1rem 2rem;
-  -webkit-transform-origin: top;
-          transform-origin: top;
+#page-presentation .diplomes.order {
+  -webkit-box-ordinal-group: 0;
+      -ms-flex-order: -1;
+          order: -1;
 }
 
-#page-yoga-sophro .more .card h3 {
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 2em;
-  font-weight: lighter;
-}
-
-#page-yoga-sophro .more .card p {
-  margin: 1rem 0;
-  text-align: justify;
-}
-
-#page-yoga-sophro .more .card .btn-yoga {
+#page-presentation .diplome .container-intitule {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 100%;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+#page-presentation .diplome .intitule {
+  width: 90%;
+  font-weight: bold;
+}
+
+#page-presentation .diplome span {
+  padding: .5em;
+  background-color: #3f3f3f;
+  color: white;
+  display: block;
+  font-size: 1em;
+  border-radius: 15px;
+}
+
+#page-presentation .diplome .container-anim {
+  width: 100%;
+  height: 30px;
+  background-color: #b9b9b9;
+  margin: 0.5em 0;
+}
+
+#page-presentation .diplome .anim {
+  width: 0;
+  height: 30px;
+}
+
+#page-presentation .diplome .anim.violet {
+  background-color: #8981E5;
+}
+
+#page-presentation .diplome .anim.rouge {
+  background-color: #FF5151;
+}
+
+#page-presentation .diplome .anim.saumon {
+  background-color: #FF896B;
+}
+
+#page-presentation .diplome .anim.orange {
+  background-color: #FFA41B;
+}
+
+#page-presentation .experience-container-cover {
+  background-position: bottom;
+}
+
+#page-presentation .experience-container-cover .cover {
+  z-index: -1;
+}
+
+#page-presentation .experience-container-cover h2 {
+  text-align: right;
+  right: 70px;
+}
+
+#page-presentation .experiences-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#page-presentation .experience-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-color: #8981E5;
+  padding: 2em;
   width: 40%;
-  margin: auto;
+  margin-top: -40px;
+  -webkit-box-shadow: 0px 10px 7px 0px rgba(0, 0, 0, 0.64);
+  box-shadow: 0px 10px 7px 0px rgba(0, 0, 0, 0.64);
+  position: relative;
 }
 
-#page-yoga-sophro .more .card .btn-yoga a {
+#page-presentation .experience-container .experience-title {
+  margin-bottom: 1rem;
+  font-family: "Dancing Script";
+}
+
+#page-presentation .experience-container li:not(:last-child) {
+  margin-bottom: 2em;
+}
+
+#page-presentation .experience-container .periode {
+  font-weight: bold;
+}
+
+#page-presentation .experience-container .explication {
+  color: white;
+}
+
+#page-presentation .cabinet-container-cover {
+  margin: 5em 0;
+  background-position: right;
+}
+
+#page-presentation .cabinet-container-cover h2 {
+  text-align: right;
+  right: 50px;
+  top: 50px;
+}
+
+#page-presentation .cabinet-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 2em;
+}
+
+#page-presentation .cabinet-container img {
   display: block;
+  width: 25%;
+  margin-right: 1em;
 }
 
-@media only screen and (max-width: 1000px) {
-  #page-yoga-sophro .more .card {
-    width: 100%;
-    margin-top: 1rem;
-  }
-  #page-yoga-sophro .more .card h3 {
-    font-size: 1.3em;
-  }
-  #page-yoga-sophro .more .card .btn-yoga {
-    width: 70%;
-  }
+#page-presentation .cabinet-container p {
+  width: 25%;
 }
 
-@media only screen and (max-width: 785px) {
-  #page-yoga-sophro .tarifDetailContainer {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+@media only screen and (max-width: 1170px) {
+  #page-presentation .presentation-header {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
   }
-  #page-yoga-sophro .tarifDetailContainer .tarifAdulte {
-    margin-bottom: 2rem;
-  }
-}
-
-@media only screen and (max-width: 750px) {
-  #page-yoga-sophro .more {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  #page-yoga-sophro .more .enfant, #page-yoga-sophro .more .adulte {
+  #page-presentation .presentation-container .presentation {
     width: 90%;
-    margin-bottom: 1rem;
+  }
+  #page-presentation .portrait {
+    display: block;
+    width: 70%;
+    margin: auto;
+  }
+  #page-presentation .experiences-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #page-presentation .experience-container {
+    width: 70%;
+    margin: 2rem 0;
+  }
+}
+
+@media only screen and (max-width: 925px) {
+  #page-presentation .presentation-header {
+    display: block;
+  }
+  #page-presentation .container-portrait,
+  #page-presentation .presentation-container {
+    width: 80%;
+    margin: auto;
+  }
+  #page-presentation .presentation-container .presentation {
+    margin-top: 1.5em;
+  }
+  #page-presentation .locaux {
+    width: 90%;
+  }
+  #page-presentation .cabinet-container {
+    display: block;
+  }
+  #page-presentation .cabinet-container img,
+  #page-presentation .cabinet-container p {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 1em;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #page-presentation .psychomotricite,
+  #page-presentation .sophrologie {
+    display: block;
+    width: 90%;
+    margin: auto;
+  }
+  #page-presentation .psychomotricite .description-container,
+  #page-presentation .psychomotricite .diplomes,
+  #page-presentation .sophrologie .description-container,
+  #page-presentation .sophrologie .diplomes {
+    width: 100%;
+    margin-bottom: 2em;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  #page-presentation .locaux .container-item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #page-presentation .locaux .container-item .container-img {
+    margin-bottom: 1em;
+  }
+  #page-presentation .locaux .container-item .right {
+    margin-left: 0;
+    -webkit-box-ordinal-group: 1;
+        -ms-flex-order: 0;
+            order: 0;
+  }
+  #page-presentation .locaux .container-item .left {
+    margin-right: 0;
+  }
+  #page-presentation .experience-container {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  #page-presentation .experience-container {
+    padding: 1em;
   }
 }
 
 @media only screen and (max-width: 500px) {
-  #page-yoga-sophro .tarifContainer {
-    width: 100%;
-    margin-top: 1rem;
+  #page-presentation .main-wrapper {
+    border: none;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  #page-presentation .presentation-header {
+    margin: 0.5em;
+  }
+  #page-presentation .container-portrait,
+  #page-presentation .presentation-container {
+    width: 95%;
+    margin: auto;
+  }
+  #page-presentation .formation-container-cover,
+  #page-presentation .experience-container-cover,
+  #page-presentation .cabinet-container-cover {
+    background-attachment: scroll;
+    margin: 2rem 0;
+    min-height: 300px;
+  }
+  #page-presentation .formation-container-cover h2 {
+    top: 20px;
+    left: 20px;
+  }
+  #page-presentation .experience-container-cover h2 {
+    top: unset;
+    left: unset;
+    bottom: 20px;
+    right: 20px;
+  }
+  #page-presentation .cabinet-container {
+    margin-left: 0;
+    margin-right: 0;
   }
 }
-
-#page-yoga-sophro .pratique {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding-top: 2rem;
-  padding-bottom: 6rem;
-  margin-bottom: 2rem;
-}
-
-#page-yoga-sophro .pratique h2 {
-  font-size: 2rem;
-  margin-bottom: 2rem;
-  font-weight: lighter;
-}
-
-#page-yoga-sophro .pratique .second {
-  width: 80%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 2rem 1rem;
-  background-color: #E1CBAA;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-#page-yoga-sophro .pratique .second div {
-  width: 30%;
-  padding: 1rem;
-  margin: 0rem 0.5rem;
-  min-height: 100px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-@media only screen and (max-width: 840px) {
-  #page-yoga-sophro .pratique .second {
-    overflow: hidden;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  #page-yoga-sophro .pratique .second div {
-    width: 100%;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  #page-yoga-sophro .pratique .second img {
-    margin: 1rem 0;
-  }
-}
-
-#page-yoga-sophro .background {
-  background-color: #8981E5;
-}
-
-#page-yoga-sophro .background-secondary {
-  background-color: #EAD1AA;
-}
-
-#page-yoga-sophro .shadow {
-  -webkit-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
-          box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
-}
-/*# sourceMappingURL=yoga.css.map */
+/*# sourceMappingURL=presentation.css.map */
 #page-rdv .rdv-header {
   min-height: 500px;
   background-size: cover;
@@ -750,7 +928,7 @@ li {
 #page-rdv .select-service select {
   position: relative;
   background-color: #8981E5;
-  width: 50%;
+  width: auto;
   padding: 1em;
   border-radius: 27px;
   color: white;
@@ -760,8 +938,8 @@ li {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
-  font-size: 1.1em;
-  background-position: 90% center;
+  font-size: 1em;
+  background-position: 100% center;
   background-size: 20px;
   background-repeat: no-repeat;
 }
@@ -884,6 +1062,7 @@ li {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    margin-top: 3em;
   }
   #page-rdv .select-service label {
     margin-bottom: 1em;
@@ -892,21 +1071,34 @@ li {
     margin-left: 0;
     width: auto;
   }
+  #page-rdv .rdv-header {
+    background-attachment: scroll;
+  }
   #page-rdv .rdv-header p {
-    -webkit-transform: translateY(20px);
-            transform: translateY(20px);
+    top: unset;
+    left: 0;
+    bottom: -50px;
+    width: 100%;
+    font-size: .8rem;
+  }
+  #page-rdv .rdv-header h1 {
+    top: unset;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
   }
   #page-rdv .recap {
     width: 90%;
   }
-  #page-rdv .rdv-header p {
-    width: 50%;
-  }
 }
 
 @media only screen and (max-width: 500px) {
-  #page-rdv .rdv-header p {
-    width: 80%;
+  #page-rdv .recap {
+    width: 95%;
+  }
+  #page-rdv .infos {
+    padding: 0 .3em;
   }
 }
 /*# sourceMappingURL=rendez_vous.css.map */
