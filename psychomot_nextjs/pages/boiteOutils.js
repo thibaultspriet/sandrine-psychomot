@@ -37,7 +37,7 @@ export default function BoiteOutils() {
                 <title>Ma boîte à outils</title>
             </Head>
 
-            <SubNav slugRoute="psychomotricite" route="Psychomotricité" subRoute="Ma boîte à outils"/>
+            <SubNav slugRoute="psychomotricite#pratique" route="Psychomotricité" subRoute="Ma boîte à outils"/>
             <div className="page">
                 <section className="cover" ref={cover}>
                     <img src="main/kid_playing.jpg" alt="Enfant jouant avec des boîtes" />

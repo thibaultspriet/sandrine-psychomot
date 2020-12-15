@@ -14,7 +14,7 @@ export default function PourQui() {
             <Head>
                 <title>Pourqui</title>
             </Head>
-            <SubNav slugRoute="psychomotricite" route="Psychomotricité" subRoute="Pour qui ?" />
+            <SubNav slugRoute="psychomotricite#pratique" route="Psychomotricité" subRoute="Pour qui ?" />
             <main id="years">
                 <section id="0-3">
                     <h2 className="sectionTitle violet">Le tout petit (0 à 3 ans)</h2>

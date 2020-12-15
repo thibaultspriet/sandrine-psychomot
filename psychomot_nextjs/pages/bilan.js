@@ -43,7 +43,7 @@ export default function Bilan() {
 
     return (
         <Base route="psychomotricite">
-            <SubNav slugRoute="psychomotricite" route="Psychomotricité" subRoute="Le Bilan" />
+            <SubNav slugRoute="psychomotricite#pratique" route="Psychomotricité" subRoute="Le Bilan" />
             <div id="page-bilan">
                 <Head>
                     <title>Pourqui</title>

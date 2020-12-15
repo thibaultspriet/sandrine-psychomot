@@ -2,8 +2,9 @@
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
-  "/": "pages/index.js",
   "/psychomotricite": "pages/psychomotricite.js",
-  "/next/dist/pages/_error": "pages/next/dist/pages/_error.js",
+  "/bilan": "pages/bilan.js",
+  "/rendez_vous": "pages/rendez_vous.js",
+  "/contact": "pages/contact.js",
   "/presentation": "pages/presentation.js"
 }
