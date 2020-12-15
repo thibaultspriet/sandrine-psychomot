@@ -86,12 +86,19 @@
 }
 
 .copyright {
+    position: relative;
     background-color: #EAD1AA;
     padding: 1em;
     text-align: center;
 
     p::before {
         content: '©';
+    }
+    .scrollTopContainer{
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
     }
 }
 

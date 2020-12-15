@@ -1,0 +1,15 @@
+.scrollTopContainer {
+  width: 40px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: center;
+  cursor: pointer;
+}
+
+.scrollTopContainer img {
+  width: 50%;
+  z-index: 10;
+}
+/*# sourceMappingURL=goTop.css.map */

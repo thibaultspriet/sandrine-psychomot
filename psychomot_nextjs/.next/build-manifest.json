@@ -14,6 +14,13 @@
     "static/development/_ssgManifest.js"
   ],
   "pages": {
+    "/": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/css/styles.chunk.css",
+      "static/chunks/styles.js",
+      "static/chunks/pages/index.js"
+    ],
     "/_app": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
@@ -25,13 +32,6 @@
       "static/chunks/main.js",
       "static/chunks/webpack.js",
       "static/chunks/pages/_error.js"
-    ],
-    "/contact": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/css/styles.chunk.css",
-      "static/chunks/styles.js",
-      "static/chunks/pages/contact.js"
     ],
     "/next/dist/pages/_error": [
       "static/chunks/main.js",
@@ -45,12 +45,12 @@
       "static/chunks/styles.js",
       "static/chunks/pages/presentation.js"
     ],
-    "/rendez_vous": [
+    "/psychomotricite": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
       "static/css/styles.chunk.css",
       "static/chunks/styles.js",
-      "static/chunks/pages/rendez_vous.js"
+      "static/chunks/pages/psychomotricite.js"
     ]
   },
   "ampFirstPages": []

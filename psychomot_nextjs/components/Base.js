@@ -4,6 +4,8 @@ import { useRef, useEffect } from "react"
 
 import "../static/css/base.css"
 
+import GoTop from "./GoTop"
+
 
 export default function Base({ children, route }) {
 
@@ -123,6 +125,7 @@ export default function Base({ children, route }) {
                 </div>
                 <div className="copyright">
                     <p>2020 par Thibault SPRIET</p>
+                    <GoTop/>
                 </div>
 
             </footer>

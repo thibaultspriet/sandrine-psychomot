@@ -109,6 +109,7 @@
 }
 
 .copyright {
+  position: relative;
   background-color: #EAD1AA;
   padding: 1em;
   text-align: center;
@@ -116,6 +117,14 @@
 
 .copyright p::before {
   content: '©';
+}
+
+.copyright .scrollTopContainer {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 
 @media only screen and (max-width: 800px) {
