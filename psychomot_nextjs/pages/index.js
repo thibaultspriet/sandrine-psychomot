@@ -265,7 +265,7 @@ export default function Home({API_KEY}) {
 
                         </div>
                         <div className="sophrologie">
-                            <h3 className="yoga-soprologie-title"><a href="/sophroba">La Sophrologie</a></h3>
+                            <h3 className="yoga-soprologie-title"><a href="/sophro">La Sophrologie</a></h3>
 
                         </div>
                     </div>
