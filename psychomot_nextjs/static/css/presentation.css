@@ -38,8 +38,9 @@
 }
 
 #page-presentation .container-portrait-img {
-  width: 50%;
-  height: auto;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
 }
 
 #page-presentation .portrait {
@@ -47,8 +48,8 @@
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  -o-object-position: 100% 40%;
-     object-position: 100% 40%;
+  background-position: top;
+  border-radius: 50%;
   -webkit-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.64);
           box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.64);
 }
@@ -328,17 +329,18 @@
 }
 
 @media only screen and (max-width: 1170px) {
+  #page-presentation {
+    /* .presentation-container .presentation {
+            width: 90%;
+        } */
+  }
   #page-presentation .presentation-header {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
   }
-  #page-presentation .presentation-container .presentation {
-    width: 90%;
-  }
   #page-presentation .portrait {
     display: block;
-    width: 70%;
     margin: auto;
   }
   #page-presentation .experiences-container {
@@ -364,6 +366,10 @@
   #page-presentation .presentation-container {
     width: 80%;
     margin: auto;
+  }
+  #page-presentation .container-portrait-img {
+    width: 200px;
+    height: 200px;
   }
   #page-presentation .presentation-container .presentation {
     margin-top: 1.5em;

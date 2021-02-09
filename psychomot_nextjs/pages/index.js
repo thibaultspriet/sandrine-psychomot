@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 
 import Base from "../components/Base"
+import IndexSlider from "../components/IndexSlider"
 
 import { gsap, Power2, Elastic, TweenMax } from "gsap"
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
@@ -80,6 +81,7 @@ export default function Home({API_KEY}) {
                 <Head>
                     <title>Accueil</title>
                 </Head>
+                <IndexSlider/>
                 <main className="presentation">
                     <div className="container-portrait">
                         <img src="/main/home_portrait.jpg" alt="portrait" />
@@ -127,7 +129,7 @@ export default function Home({API_KEY}) {
                 <section className="psychomotricienne">
                     <div className="separateur-vertical"></div>
                     <div className="psychomotricite">
-                        <h1>Psychomotricienne Mérignies</h1>
+                        <h2>Psychomotricienne Mérignies</h2>
                         <div className="content">
                             <p>Premièrement, la psychomotricité s’intéresse à l’individu dans sa globalité. Elle s’appuie en
                             effet sur
@@ -163,7 +165,9 @@ export default function Home({API_KEY}) {
 
                     </div>
                     <div className="role">
-                        <h1>Le rôle de la psychomotricienne</h1>
+                        <h2>Le rôle de la psychomotricienne</h2>
+                        <p>c’est d’accompagner chaque personne dans la prise de conscience de :</p>
+
                         <ul ref={iconContainer}>
                             <li><img src="main/sensations.svg" alt="icon" className="icon" />
                                 <p><span>Mes sensations</span></p>

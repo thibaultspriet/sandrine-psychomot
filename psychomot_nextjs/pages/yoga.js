@@ -17,7 +17,7 @@ export default function Yoga() {
             
             <SubNav slugRoute="yoga-sophro" route="Yoga & Sophrologie" subRoute="Yoga" />
             <div className="pageContent">
-                <h1 className="pageTitle">Le Yoga,<br/> une pratice douce accessible pour tous</h1>
+                <h1 className="pageTitle">Le Yoga,<br/> une pratique douce accessible pour tous</h1>
 
                 <section id="enfant">
                     <div className="intro">
@@ -50,7 +50,7 @@ export default function Yoga() {
                             <div className="card" style={{backgroundImage: "url('/main/enfant-yoga.jpg')"}}>
                                 <h3 className="cardTitle">Favoriser un équilibre émotionnel</h3>
                                 <ul className="items">
-                                    <li>se concentrer et développer ses capacité d’attention</li>
+                                    <li>se concentrer et développer ses capacités d’attention</li>
                                     <li>canaliser et gérer ses émotions</li>
                                     <li>apaiser et réduire le stress</li>
                                     <li>gagner en confiance en soi et en estime de soi</li>

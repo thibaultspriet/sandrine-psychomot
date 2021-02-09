@@ -1,3 +1,75 @@
+#page-index .slider {
+  height: 90vh;
+}
+
+#page-index .slider .previousButton {
+  left: 5px;
+}
+
+#page-index .slider .nextButton {
+  right: 5px;
+}
+
+#page-index .slider .text {
+  position: absolute;
+}
+
+#page-index .slider .text h2 {
+  font-family: "Dancing Script";
+  font-size: 2.5em;
+}
+
+#page-index .slider .text p {
+  font-style: italic;
+}
+
+#page-index .slider .text h2, #page-index .slider .text p {
+  color: white;
+}
+
+#page-index .slider .linkContainer {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  border-radius: 17px;
+  background-color: #8981e5;
+  padding: 0.5rem 1rem;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#page-index .slider .linkContainer a {
+  color: white;
+}
+
+#page-index .slider .linkContainer:hover {
+  background-color: rgba(137, 129, 229, 0.315);
+}
+
+#page-index .slider .psychomotricite_slide .text {
+  bottom: 15%;
+  left: 10%;
+}
+
+#page-index .slider .yoga_slide .text {
+  left: 10%;
+  top: 15%;
+}
+
+#page-index .slider .sophro_slide .text {
+  bottom: 15%;
+  right: 10%;
+  text-align: right;
+}
+
+@media only screen and (min-width: 800px) {
+  #page-index .slider .text h2 {
+    font-size: 4em;
+  }
+}
+
 #page-index .violet {
   color: #8981E5;
 }
@@ -119,9 +191,10 @@
           align-items: center;
 }
 
-#page-index .psychomotricienne .psychomotricite h1 {
+#page-index .psychomotricienne .psychomotricite h2 {
   margin-top: 1em;
   font-size: 2em;
+  font-family: "Dancing Script";
 }
 
 #page-index .psychomotricienne .psychomotricite p,
@@ -168,10 +241,15 @@
           align-items: center;
 }
 
-#page-index .psychomotricienne .role h1 {
+#page-index .psychomotricienne .role h2 {
   margin-top: 1em;
-  margin-bottom: 1em;
+  margin-bottom: .5rem;
   font-size: 2em;
+  font-family: "Dancing Script";
+}
+
+#page-index .psychomotricienne .role p {
+  margin-bottom: 0.5rem;
 }
 
 #page-index .psychomotricienne .role ul {

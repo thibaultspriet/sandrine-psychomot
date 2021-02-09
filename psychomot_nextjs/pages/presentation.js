@@ -28,7 +28,8 @@ function timeline(section){
             }
         })
         .to(anim,1.5,{
-            width : (90 - index*10)+'%',
+            //width : (90 - index*10)+'%',
+            width:'100%',
             ease : Power2.easeOut,
         })
     });

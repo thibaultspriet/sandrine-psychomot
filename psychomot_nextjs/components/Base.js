@@ -119,7 +119,6 @@ export default function Base({ children, route }) {
                     </ul>
                     <div className="footer-rdv footer-infos-item">
                         <h2 className="footer-title">Rendez-vous</h2>
-                        <p>Jours de consultation :<br />Lundi, Mardi, Jeudi, Vendredi</p>
                         <a href="/rendez_vous" className="btn footer-btn">Prendre rendez-vous</a>
                     </div>
                 </div>

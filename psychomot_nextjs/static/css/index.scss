@@ -1,4 +1,8 @@
+
+
 #page-index {
+    @import "./index/slider";
+    
     $primary: #EAD1AA;
     $primary-background: rgba(227, 197, 148, 0.37);
     $secondary: #8981E5;
@@ -109,9 +113,10 @@
             flex-direction: column;
             align-items: center;
 
-            h1 {
+            h2 {
                 margin-top: 1em;
                 font-size: 2em;
+                font-family: "Dancing Script";
             }
 
             p,
@@ -146,10 +151,14 @@
             flex-direction: column;
             align-items: center;
 
-            h1 {
+            h2 {
                 margin-top: 1em;
-                margin-bottom: 1em;
+                margin-bottom: .5rem;
                 font-size: 2em;
+                font-family: "Dancing Script";
+            }
+            p{
+                margin-bottom: 0.5rem;
             }
 
             ul {
