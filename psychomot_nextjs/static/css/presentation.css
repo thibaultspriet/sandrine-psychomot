@@ -46,12 +46,9 @@
 #page-presentation .portrait {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  -o-object-fit: contain;
+     object-fit: contain;
   background-position: top;
-  border-radius: 50%;
-  -webkit-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.64);
-          box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.64);
 }
 
 #page-presentation .presentation-container h1 {
