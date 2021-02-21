@@ -39,7 +39,7 @@ const IndexSlider = () => {
     },
   ];
   return (
-    <Slider infinite={true}>
+    <Slider infinite={true} autoplay={5000}>
       {slides.map((slide, index) => (
         <div
           key={index}
