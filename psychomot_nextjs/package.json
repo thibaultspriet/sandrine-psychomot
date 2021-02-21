@@ -10,10 +10,12 @@
   },
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
+    "dotenv": "^8.2.0",
     "gsap": "^3.5.1",
-    "jquerry": "^2.0.0",
+    "jquerry": "0.0.1-security",
     "next": "10.0.3",
     "react": "17.0.1",
+    "react-animated-slider": "^2.0.0",
     "react-dom": "17.0.1",
     "sass": "^1.30.0"
   }

@@ -1,7 +1,7 @@
 @charset "UTF-8";
 .base-header {
   background-color: rgba(227, 197, 148, 0.37);
-  padding: .5em;
+  padding: 0.5em;
 }
 
 .base-header .coordinates {
@@ -19,7 +19,6 @@
 
 .base-header .list-coordinates,
 .base-header .list-rubriques {
-  background-color: #EAD1AA;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -34,19 +33,38 @@
       justify-content: space-around;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  min-height: 50px;
 }
 
 .base-header .list-coordinates li,
 .base-header .list-rubriques li {
-  min-height: 50px;
-  line-height: 50px;
   padding: 0em 0.5em;
-  -webkit-transition: all .5s ease;
-  transition: all .5s ease;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 
-.base-header .list-coordinates li:hover,
+.base-header .list-coordinates {
+  min-height: 30px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.base-header .list-coordinates li {
+  font-size: 0.8em;
+}
+
+.base-header .list-coordinates li a {
+  color: white;
+}
+
+.base-header .list-rubriques {
+  min-height: 50px;
+  background-color: #ead1aa;
+}
+
+.base-header .list-rubriques li {
+  min-height: 50px;
+  line-height: 50px;
+}
+
 .base-header .list-rubriques li:hover {
   background-color: #eebc6c;
 }
@@ -110,13 +128,13 @@
 
 .copyright {
   position: relative;
-  background-color: #EAD1AA;
+  background-color: #ead1aa;
   padding: 1em;
   text-align: center;
 }
 
 .copyright p::before {
-  content: '©';
+  content: "©";
 }
 
 .copyright .scrollTopContainer {
@@ -181,7 +199,7 @@
             align-items: center;
     -webkit-transform: translateX(-150%);
             transform: translateX(-150%);
-    background-color: #EAD1AA;
+    background-color: #ead1aa;
   }
   .rubriques .list-rubriques-mobile li {
     font-size: 1.5em;

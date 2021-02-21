@@ -1,30 +1,127 @@
 {
   "polyfillFiles": [
-    "static/chunks/polyfills.js"
+    "static/chunks/polyfills-0a2dccd2aa0d7ea1a89f.js"
   ],
-  "devFiles": [
-    "static/chunks/react-refresh.js"
-  ],
-  "ampDevFiles": [
-    "static/chunks/webpack.js",
-    "static/chunks/amp.js"
-  ],
+  "devFiles": [],
+  "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/development/_buildManifest.js",
-    "static/development/_ssgManifest.js"
+    "static/suuFWxli1Jg-_c_2TsLuJ/_buildManifest.js",
+    "static/suuFWxli1Jg-_c_2TsLuJ/_ssgManifest.js"
   ],
   "pages": {
+    "/": [
+      "static/chunks/main-bfe4c4a1dd510211e0e6.js",
+      "static/chunks/webpack-d7b2fb72fb7257504a38.js",
+      "static/chunks/framework.9116e7bff2bfccdffa19.js",
+      "static/chunks/8b64c723bbc0cc0a1e72da776722151c8b518abe.12298599414ab8409172.js",
+      "static/css/styles.274488f9.chunk.css",
+      "static/chunks/styles.d0a08b746662867b8e94.js",
+      "static/chunks/pages/index-34efc12763af2cc995c0.js"
+    ],
     "/_app": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/css/styles.chunk.css",
-      "static/chunks/styles.js",
-      "static/chunks/pages/_app.js"
+      "static/chunks/main-bfe4c4a1dd510211e0e6.js",
+      "static/chunks/webpack-d7b2fb72fb7257504a38.js",
+      "static/chunks/framework.9116e7bff2bfccdffa19.js",
+      "static/chunks/f6078781a05fe1bcb0902d23dbbb2662c8d200b3.e45307bcdae6f43cc440.js",
+      "static/css/styles.274488f9.chunk.css",
+      "static/chunks/styles.d0a08b746662867b8e94.js",
+      "static/chunks/pages/_app-73ea01d738ebcbcb5b1e.js"
     ],
     "/_error": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/_error.js"
+      "static/chunks/main-bfe4c4a1dd510211e0e6.js",
+      "static/chunks/webpack-d7b2fb72fb7257504a38.js",
+      "static/chunks/framework.9116e7bff2bfccdffa19.js",
+      "static/chunks/pages/_error-0042d2c9c079141dc09c.js"
+    ],
+    "/bilan": [
+      "static/chunks/main-bfe4c4a1dd510211e0e6.js",
+      "static/chunks/webpack-d7b2fb72fb7257504a38.js",
+      "static/chunks/framework.9116e7bff2bfccdffa19.js",
+      "static/chunks/8b64c723bbc0cc0a1e72da776722151c8b518abe.12298599414ab8409172.js",
+      "static/css/styles.274488f9.chunk.css",
+      "static/chunks/styles.d0a08b746662867b8e94.js",
+      "static/chunks/pages/bilan-a813cfd68d7447beefd7.js"
+    ],
+    "/boiteOutils": [
+      "static/chunks/main-bfe4c4a1dd510211e0e6.js",
+      "static/chunks/webpack-d7b2fb72fb7257504a38.js",
+      "static/chunks/framework.9116e7bff2bfccdffa19.js",
+      "static/chunks/8b64c723bbc0cc0a1e72da776722151c8b518abe.12298599414ab8409172.js",
+      "static/css/styles.274488f9.chunk.css",
+      "static/chunks/styles.d0a08b746662867b8e94.js",
+      "static/chunks/pages/boiteOutils-907423d633d91e6b28ea.js"
+    ],
+    "/contact": [
+      "static/chunks/main-bfe4c4a1dd510211e0e6.js",
+      "static/chunks/webpack-d7b2fb72fb7257504a38.js",
+      "static/chunks/framework.9116e7bff2bfccdffa19.js",
+      "static/chunks/8b64c723bbc0cc0a1e72da776722151c8b518abe.12298599414ab8409172.js",
+      "static/css/styles.274488f9.chunk.css",
+      "static/chunks/styles.d0a08b746662867b8e94.js",
+      "static/chunks/pages/contact-883112389e0bf52c3c43.js"
+    ],
+    "/pourqui": [
+      "static/chunks/main-bfe4c4a1dd510211e0e6.js",
+      "static/chunks/webpack-d7b2fb72fb7257504a38.js",
+      "static/chunks/framework.9116e7bff2bfccdffa19.js",
+      "static/chunks/8b64c723bbc0cc0a1e72da776722151c8b518abe.12298599414ab8409172.js",
+      "static/css/styles.274488f9.chunk.css",
+      "static/chunks/styles.d0a08b746662867b8e94.js",
+      "static/chunks/pages/pourqui-4e81fa07dae24d5984e2.js"
+    ],
+    "/presentation": [
+      "static/chunks/main-bfe4c4a1dd510211e0e6.js",
+      "static/chunks/webpack-d7b2fb72fb7257504a38.js",
+      "static/chunks/framework.9116e7bff2bfccdffa19.js",
+      "static/chunks/8b64c723bbc0cc0a1e72da776722151c8b518abe.12298599414ab8409172.js",
+      "static/css/styles.274488f9.chunk.css",
+      "static/chunks/styles.d0a08b746662867b8e94.js",
+      "static/chunks/pages/presentation-8e3578d07fcc5dd68245.js"
+    ],
+    "/psychomotricite": [
+      "static/chunks/main-bfe4c4a1dd510211e0e6.js",
+      "static/chunks/webpack-d7b2fb72fb7257504a38.js",
+      "static/chunks/framework.9116e7bff2bfccdffa19.js",
+      "static/chunks/8b64c723bbc0cc0a1e72da776722151c8b518abe.12298599414ab8409172.js",
+      "static/css/styles.274488f9.chunk.css",
+      "static/chunks/styles.d0a08b746662867b8e94.js",
+      "static/chunks/pages/psychomotricite-b5ab88fdde2565de352d.js"
+    ],
+    "/rendez_vous": [
+      "static/chunks/main-bfe4c4a1dd510211e0e6.js",
+      "static/chunks/webpack-d7b2fb72fb7257504a38.js",
+      "static/chunks/framework.9116e7bff2bfccdffa19.js",
+      "static/chunks/8b64c723bbc0cc0a1e72da776722151c8b518abe.12298599414ab8409172.js",
+      "static/css/styles.274488f9.chunk.css",
+      "static/chunks/styles.d0a08b746662867b8e94.js",
+      "static/chunks/pages/rendez_vous-a2bbb0e9568ae6097e82.js"
+    ],
+    "/sophro": [
+      "static/chunks/main-bfe4c4a1dd510211e0e6.js",
+      "static/chunks/webpack-d7b2fb72fb7257504a38.js",
+      "static/chunks/framework.9116e7bff2bfccdffa19.js",
+      "static/chunks/8b64c723bbc0cc0a1e72da776722151c8b518abe.12298599414ab8409172.js",
+      "static/css/styles.274488f9.chunk.css",
+      "static/chunks/styles.d0a08b746662867b8e94.js",
+      "static/chunks/pages/sophro-d05fa0e15aadd17acf55.js"
+    ],
+    "/yoga": [
+      "static/chunks/main-bfe4c4a1dd510211e0e6.js",
+      "static/chunks/webpack-d7b2fb72fb7257504a38.js",
+      "static/chunks/framework.9116e7bff2bfccdffa19.js",
+      "static/chunks/8b64c723bbc0cc0a1e72da776722151c8b518abe.12298599414ab8409172.js",
+      "static/css/styles.274488f9.chunk.css",
+      "static/chunks/styles.d0a08b746662867b8e94.js",
+      "static/chunks/pages/yoga-3f3eeff960f23ab33fc9.js"
+    ],
+    "/yoga-sophro": [
+      "static/chunks/main-bfe4c4a1dd510211e0e6.js",
+      "static/chunks/webpack-d7b2fb72fb7257504a38.js",
+      "static/chunks/framework.9116e7bff2bfccdffa19.js",
+      "static/chunks/8b64c723bbc0cc0a1e72da776722151c8b518abe.12298599414ab8409172.js",
+      "static/css/styles.274488f9.chunk.css",
+      "static/chunks/styles.d0a08b746662867b8e94.js",
+      "static/chunks/pages/yoga-sophro-abbb232f130b38548dd3.js"
     ]
   },
   "ampFirstPages": []

@@ -1,0 +1,63 @@
+.slider {
+  height: 90vh;
+
+  .previousButton {
+    left: 5px;
+  }
+
+  .nextButton {
+    right: 5px;
+  }
+
+  .text {
+    position: absolute;
+    h2{
+      font-family: "Dancing Script";
+      font-size: 2.5em;
+    }
+    p{
+      font-style: italic;
+    }
+    h2, p {
+      color: white;
+    }
+  }
+
+  .linkContainer {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 17px;
+    background-color: #8981e5;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s ease;
+    a {
+      color: white;
+    }
+    &:hover {
+      background-color: rgba(137, 129, 229, 0.315);
+    }
+  }
+
+  .psychomotricite_slide .text {
+    bottom: 15%;
+    left: 10%;
+  }
+  .yoga_slide .text{
+      left: 10%;
+      top: 15%;
+    }
+  
+  .sophro_slide .text{
+    bottom : 15%;
+    right: 10%;
+    text-align: right;
+  } 
+}
+
+@media only screen and (min-width:800px){
+  .slider .text h2{
+    font-size: 4em;
+  }
+}
