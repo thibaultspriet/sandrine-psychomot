@@ -32,3 +32,909 @@ li {
   color: black;
 }
 /*# sourceMappingURL=globals.css.map */
+@charset "UTF-8";
+.base-header {
+  background-color: rgba(227, 197, 148, 0.37);
+  padding: 0.5em;
+}
+
+.base-header .coordinates {
+  margin-bottom: 0.5em;
+}
+
+.base-header .rubriques {
+  width: 70%;
+  margin: auto;
+}
+
+.base-header .list-rubriques li.active {
+  background-color: #eebc6c;
+}
+
+.base-header .list-coordinates,
+.base-header .list-rubriques {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.base-header .list-coordinates li,
+.base-header .list-rubriques li {
+  padding: 0em 0.5em;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.base-header .list-coordinates {
+  min-height: 30px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.base-header .list-coordinates li {
+  font-size: 0.8em;
+}
+
+.base-header .list-coordinates li a {
+  color: white;
+}
+
+.base-header .list-rubriques {
+  min-height: 50px;
+  background-color: #ead1aa;
+}
+
+.base-header .list-rubriques li {
+  min-height: 50px;
+  line-height: 50px;
+}
+
+.base-header .list-rubriques li:hover {
+  background-color: #eebc6c;
+}
+
+.base-header .list-rubriques-mobile {
+  display: none;
+}
+
+.hamburger {
+  display: none;
+  width: 50px;
+  height: 50px;
+}
+
+.tel,
+.mail,
+.location {
+  width: 15px;
+  height: 15px;
+  margin-right: 0.5em;
+}
+
+.footer-infos {
+  background-color: rgba(227, 197, 148, 0.37);
+  padding: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.footer-infos .footer-title {
+  font-weight: bold;
+  font-size: 1.3em;
+  margin-bottom: 1em;
+}
+
+.footer-infos .footer-rdv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-infos .footer-rdv p {
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.footer-infos .footer-rdv h1 {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.copyright {
+  position: relative;
+  background-color: #ead1aa;
+  padding: 1em;
+  text-align: center;
+}
+
+.copyright p::before {
+  content: "\A9";
+}
+
+.copyright .scrollTopContainer {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+@media only screen and (max-width: 800px) {
+  .base-header .rubriques {
+    width: 100%;
+  }
+  .footer-infos {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .footer-infos .footer-rdv h1 {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .footer-infos .footer-title {
+    margin-bottom: 0.5em;
+  }
+  .footer-infos-item {
+    margin-bottom: 1em;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .rubriques {
+    position: relative;
+    height: 50px;
+    overflow: hidden;
+  }
+  .rubriques .hamburger {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    display: block;
+    cursor: pointer;
+  }
+  .rubriques .list-rubriques-mobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-transform: translateX(-150%);
+            transform: translateX(-150%);
+    background-color: #ead1aa;
+  }
+  .rubriques .list-rubriques-mobile li {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+  }
+  .rubriques .list-rubriques {
+    display: none;
+  }
+}
+/*# sourceMappingURL=base.css.map */
+.scrollTopContainer {
+  width: 40px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: center;
+  cursor: pointer;
+}
+
+.scrollTopContainer img {
+  width: 50%;
+  z-index: 10;
+}
+/*# sourceMappingURL=goTop.css.map */
+.slider {
+	position: relative;
+	width: 100%;
+	height: 400px;
+	overflow: hidden
+}
+
+.slider a.previousButton, .slider a.nextButton {
+	font-size: 22px;
+	line-height: 0;
+	display: block;
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	        transform: translateY(-50%);
+	-webkit-transition: all .3s linear;
+	transition: all .3s linear;
+	z-index: 1;
+	color: #333;
+	padding: 10px;
+	text-decoration: none;
+	-webkit-backface-visibility: hidden;
+	        backface-visibility: hidden
+	/* prevent jump effect when scaling */
+}
+
+.slider a.previousButton:not(.disabled):hover, .slider a.nextButton:not(.disabled):hover {
+	-webkit-transform: translateY(-50%) scale(1.25);
+	        transform: translateY(-50%) scale(1.25);
+	cursor: pointer;
+}
+
+.slider a.previousButton {
+	left: 20px;
+}
+
+.slider a.nextButton {
+	right: 20px;
+}
+
+.slide {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	overflow: hidden
+}
+
+.slide.hidden {
+	visibility: hidden;
+}
+
+.slide.previous {
+	left: -100%;
+}
+
+.slide.current {
+	left: 0;
+}
+
+.slide.next {
+	left: 100%;
+}
+
+.slide.animateIn,
+	.slide.animateOut {
+	-webkit-transition: all 2s ease;
+	transition: all 2s ease;
+}
+
+.slide.animateIn.previous,
+		.slide.animateIn.next {
+	left: 0;
+	visibility: visible;
+}
+
+.slide.animateOut.previous {
+	left: 100%;
+}
+
+.slide.animateOut.next {
+	left: -100%;
+}
+
+
+#page-index .slider {
+  height: 90vh;
+}
+
+#page-index .slider .previousButton {
+  left: 5px;
+}
+
+#page-index .slider .nextButton {
+  right: 5px;
+}
+
+#page-index .slider .text {
+  position: absolute;
+}
+
+#page-index .slider .text h2 {
+  font-family: "Dancing Script";
+  font-size: 2.5em;
+}
+
+#page-index .slider .text p {
+  font-style: italic;
+}
+
+#page-index .slider .text h2, #page-index .slider .text p {
+  color: white;
+}
+
+#page-index .slider .linkContainer {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  border-radius: 17px;
+  background-color: #8981e5;
+  padding: 0.5rem 1rem;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#page-index .slider .linkContainer a {
+  color: white;
+}
+
+#page-index .slider .linkContainer:hover {
+  background-color: rgba(137, 129, 229, 0.315);
+}
+
+#page-index .slider .psychomotricite_slide .text {
+  bottom: 15%;
+  left: 10%;
+}
+
+#page-index .slider .yoga_slide .text {
+  left: 10%;
+  top: 15%;
+}
+
+#page-index .slider .sophro_slide .text {
+  bottom: 15%;
+  right: 10%;
+  text-align: right;
+}
+
+@media only screen and (min-width: 800px) {
+  #page-index .slider .text h2 {
+    font-size: 4em;
+  }
+}
+
+#page-index .violet {
+  color: #8981E5;
+}
+
+#page-index .rouge {
+  color: #FF5151;
+}
+
+#page-index .rose {
+  color: #FF896B;
+}
+
+#page-index .jaune {
+  color: #FFA41B;
+}
+
+#page-index .primary {
+  color: #EAD1AA;
+}
+
+#page-index h1 {
+  font-family: 'Dancing Script';
+}
+
+#page-index .presentation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#page-index .presentation .container-portrait,
+#page-index .presentation .container-presentation {
+  width: 50%;
+}
+
+#page-index .presentation .container-portrait {
+  height: 100vh;
+}
+
+#page-index .presentation .container-portrait [alt="portrait"] {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#page-index .presentation .container-presentation {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  text-align: center;
+}
+
+#page-index .presentation .container-presentation h1 {
+  font-size: 4em;
+  margin-bottom: .5em;
+}
+
+#page-index .presentation .container-presentation h2 {
+  font-size: 1.2em;
+  margin-bottom: 1rem;
+  opacity: .7;
+  font-style: italic;
+}
+
+#page-index .presentation .container-presentation p {
+  text-align: justify;
+  width: 70%;
+  margin: auto;
+  margin-top: 1rem;
+  opacity: .7;
+}
+
+#page-index .presentation .container-presentation p.highlight {
+  background-color: #8981E5;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+
+#page-index .psychomotricienne {
+  background-color: rgba(227, 197, 148, 0.37);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+#page-index .psychomotricienne .psychomotricite,
+#page-index .psychomotricienne .role {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#page-index .psychomotricienne .separateur-vertical {
+  position: absolute;
+  width: 1px;
+  top: 6em;
+  bottom: 70px;
+  left: 50%;
+  background-color: gray;
+}
+
+#page-index .psychomotricienne .psychomotricite {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#page-index .psychomotricienne .psychomotricite h2 {
+  margin-top: 1em;
+  font-size: 2em;
+  font-family: "Dancing Script";
+}
+
+#page-index .psychomotricienne .psychomotricite p,
+#page-index .psychomotricienne .psychomotricite ul {
+  width: 70%;
+  margin: auto;
+  margin: .5rem 0;
+  text-align: justify;
+}
+
+#page-index .psychomotricienne .psychomotricite .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#page-index .psychomotricienne .psychomotricite #psychomotricite-list li {
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  background-color: #EAD1AA;
+  border-radius: 10px;
+}
+
+#page-index .psychomotricienne .role {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#page-index .psychomotricienne .role h2 {
+  margin-top: 1em;
+  margin-bottom: .5rem;
+  font-size: 2em;
+  font-family: "Dancing Script";
+}
+
+#page-index .psychomotricienne .role p {
+  margin-bottom: 0.5rem;
+}
+
+#page-index .psychomotricienne .role ul {
+  margin: auto;
+}
+
+#page-index .psychomotricienne .role li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 1em;
+}
+
+#page-index .psychomotricienne .role li .icon {
+  opacity: 0;
+  width: 60px;
+  margin-right: 2em;
+  margin-left: 2em;
+}
+
+#page-index .pourqui h1 {
+  text-align: center;
+  font-size: 3em;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+#page-index .pourqui .card-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 2em;
+}
+
+#page-index .pourqui .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 45%;
+  position: relative;
+}
+
+#page-index .pourqui .card .container-cover {
+  height: 300px;
+  overflow: hidden;
+  margin-bottom: 1em;
+  -webkit-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+}
+
+#page-index .pourqui .card .container-cover img {
+  display: block;
+  margin: auto;
+}
+
+#page-index .pourqui .front,
+#page-index .pourqui .back {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+#page-index .pourqui .back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+
+#page-index .pourqui .back section {
+  margin: 2rem 0;
+}
+
+#page-index .pourqui .card.card-center {
+  position: relative;
+}
+
+#page-index .pourqui .card.card-center .separateur-gauche,
+#page-index .pourqui .card.card-center .separateur-droite {
+  position: absolute;
+  width: 1px;
+  background-color: #EAD1AA;
+  top: 200px;
+  bottom: 0;
+}
+
+#page-index .pourqui .card.card-center .separateur-gauche {
+  left: 0;
+}
+
+#page-index .pourqui .card.card-center .separateur-droite {
+  right: 0;
+}
+
+#page-index .pourqui h3 {
+  margin-bottom: 0.5em;
+}
+
+#page-index .pourqui .separateur-horizontal {
+  width: 90%;
+  height: 1px;
+  margin: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: #EAD1AA;
+}
+
+#page-index .pourqui h3,
+#page-index .pourqui p {
+  margin-left: 1em;
+}
+
+#page-index .yoga-sophrologie .yoga-sophro-cover {
+  width: 100%;
+  overflow: hidden;
+  background-color: #EAD1AA;
+}
+
+#page-index .yoga-sophrologie .yoga-sophro-cover img {
+  width: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
+  margin: auto;
+  background-color: #EAD1AA;
+}
+
+#page-index .yoga-sophrologie .yoga-sophrologie-container {
+  background-color: #EAD1AA;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2em 0;
+}
+
+#page-index .yoga-sophrologie .yoga-sophrologie-container .vertical-separator {
+  position: absolute;
+  background-color: black;
+  width: 1px;
+  height: 80%;
+  bottom: 10px;
+}
+
+#page-index .yoga-sophrologie .yoga-sophrologie-container .yoga,
+#page-index .yoga-sophrologie .yoga-sophrologie-container .sophrologie {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50%;
+}
+
+#page-index .yoga-sophrologie .yoga-sophrologie-container .yoga .yoga-soprologie-description,
+#page-index .yoga-sophrologie .yoga-sophrologie-container .sophrologie .yoga-soprologie-description {
+  text-align: justify;
+  width: 60%;
+  margin-top: 3em;
+}
+
+#page-index .yoga-sophrologie .yoga-sophrologie-container .yoga-soprologie-title {
+  font-family: 'Dancing Script';
+  font-size: 2em;
+  font-weight: bold;
+}
+
+#page-index .map {
+  margin-top: 2rem;
+}
+
+#page-index .map h1 {
+  text-align: center;
+  font-size: 2em;
+}
+
+@media only screen and (max-width: 1060px) {
+  #page-index .presentation .container-presentation {
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  #page-index .psychomotricienne .separateur-vertical {
+    display: none;
+  }
+  #page-index .psychomotricienne .psychomotricite ul {
+    width: 100%;
+  }
+  #page-index .psychomotricienne .description p {
+    width: 100%;
+  }
+  #page-index .yoga-sophrologie .yoga-sophrologie-container {
+    background-color: #EAD1AA;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #page-index .yoga-sophrologie .yoga-sophrologie-container .vertical-separator {
+    display: none;
+  }
+  #page-index .yoga-sophrologie .yoga-sophrologie-container .yoga {
+    margin-bottom: 3em;
+  }
+  #page-index .yoga-sophrologie .yoga-sophrologie-container .yoga,
+  #page-index .yoga-sophrologie .yoga-sophrologie-container .sophrologie {
+    width: 70%;
+  }
+  #page-index .yoga-sophrologie .yoga-pourqui .card-container {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #page-index .presentation .container-presentation p {
+    margin-top: 1em;
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  #page-index .presentation {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #page-index .presentation .container-portrait {
+    height: auto;
+  }
+  #page-index .presentation .container-presentation {
+    width: 90%;
+    margin: auto;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  #page-index .presentation .container-presentation h1 {
+    font-size: 2em;
+    white-space: nowrap;
+    margin: auto;
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  #page-index .psychomotricienne {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #page-index .psychomotricienne .psychomotricite {
+    width: 80%;
+    margin: auto;
+  }
+  #page-index .psychomotricienne .psychomotricite p {
+    width: 100%;
+  }
+  #page-index .psychomotricienne .role {
+    width: 80%;
+  }
+  #page-index .psychomotricienne .role li .icon {
+    margin-left: 0;
+  }
+  #page-index .yoga-sophrologie .yoga-sophrologie-container .yoga,
+  #page-index .yoga-sophrologie .yoga-sophrologie-container .sophrologie {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #page-index .pourqui .card-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #page-index .pourqui .card-container .card {
+    width: 70%;
+    margin-bottom: 1em;
+    text-align: center;
+  }
+  #page-index .pourqui .card-container .separateur-gauche,
+  #page-index .pourqui .card-container .separateur-droite {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #page-index .yoga-sophrologie .card-container .horizontal-sep {
+    display: none;
+  }
+  #page-index .pourqui .card-container .card {
+    min-height: 400px;
+  }
+  #page-index .yoga-sophrologie .card-container .card-title {
+    min-height: 56px;
+  }
+}
+/*# sourceMappingURL=index.css.map */
