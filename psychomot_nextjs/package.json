@@ -12,6 +12,7 @@
     "@zeit/next-css": "^1.0.1",
     "dotenv": "^8.2.0",
     "gsap": "^3.5.1",
+    "html-react-parser": "^1.2.4",
     "jquerry": "0.0.1-security",
     "next": "10.0.3",
     "react": "17.0.1",

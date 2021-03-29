@@ -4,6 +4,7 @@
     $secondary: #8981E5;
     $secondary-hover: rgba(137, 129, 229, 0.315);
 
+
     .rdv-header {
         min-height: 500px;
         background-size: cover;
@@ -89,6 +90,14 @@
     .description {
         padding: 1em;
         text-align: justify;
+        .pad{
+            padding: 0.5rem;
+        }
+        li.disc{
+            list-style: disc;
+            list-style-position: inside;
+            text-align: left;
+        }
     }
 
 
@@ -136,6 +145,7 @@
     }
 
     button[type="submit"] {
+        cursor: pointer;
         border: none;
         border-radius: 27px;
         background-color: $secondary;
@@ -154,8 +164,16 @@
     }
 
 
-
-
+    .note{
+        width: 70%;
+        margin: auto;
+        text-align: justify;
+        p{
+            color: #494949;
+            font-style: italic;
+            margin-bottom: 0.5rem;
+        }
+    }
 
     // 790 px
     // largeur sélection service
@@ -203,13 +221,13 @@
             }
         }
 
-        .recap {
+        .recap, .note {
             width: 90%;
         }
     }
 
     @media only screen and (max-width:500px){
-        .recap{
+        .recap, .note{
             width: 95%;
         }
         .infos{

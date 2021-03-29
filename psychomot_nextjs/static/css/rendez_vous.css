@@ -92,6 +92,16 @@
   text-align: justify;
 }
 
+#page-rdv .description .pad {
+  padding: 0.5rem;
+}
+
+#page-rdv .description li.disc {
+  list-style: disc;
+  list-style-position: inside;
+  text-align: left;
+}
+
 #page-rdv .email,
 #page-rdv .message {
   width: 90%;
@@ -147,6 +157,7 @@
 }
 
 #page-rdv button[type="submit"] {
+  cursor: pointer;
   border: none;
   border-radius: 27px;
   background-color: #8981E5;
@@ -163,6 +174,18 @@
 #page-rdv button[type="submit"]:hover {
   background-color: rgba(137, 129, 229, 0.315);
   color: black;
+}
+
+#page-rdv .note {
+  width: 70%;
+  margin: auto;
+  text-align: justify;
+}
+
+#page-rdv .note p {
+  color: #494949;
+  font-style: italic;
+  margin-bottom: 0.5rem;
 }
 
 @media only screen and (max-width: 790px) {
@@ -209,13 +232,13 @@
     width: 100%;
     text-align: center;
   }
-  #page-rdv .recap {
+  #page-rdv .recap, #page-rdv .note {
     width: 90%;
   }
 }
 
 @media only screen and (max-width: 500px) {
-  #page-rdv .recap {
+  #page-rdv .recap, #page-rdv .note {
     width: 95%;
   }
   #page-rdv .infos {

@@ -76,12 +76,12 @@ export default function PourQui() {
                     <div className="sectionDescription">
                         <ul>
                             <li>Troubles des apprentissages : dyspraxie, dysgraphie, troubles de l’attention et des fonctions
-                                exécutives.</li>
-                            <li>Maladresse motrice et gestuelle (TAC, dyspraxie).</li>
-                            <li>Trouble Déficitaire de l’attention (TDAH), hyperactivité, impulsivité.</li>
-                            <li>Troubles du comportement (instabilité, inhibition, perturbation des habiletés sociales…).</li>
-                            <li>Trouble du Spectre Autistique (TSA), Autisme, Trouble Envahissant du Développement (TED).</li>
-                            <li>Maladie génétique, asthme, obésité.</li>
+                                exécutives...</li>
+                            <li>Maladresse motrice et gestuelle (TAC, dyspraxie)...</li>
+                            <li>Trouble Déficitaire de l’attention (TDAH), hyperactivité, impulsivité...</li>
+                            <li>Troubles du comportement (instabilité, inhibition, perturbation des habiletés sociales)...</li>
+                            <li>Trouble du Spectre Autistique (TSA), Autisme, Trouble Envahissant du Développement (TED)...</li>
+                            <li>Maladie génétique, asthme, obésité...</li>
                         </ul>
                     </div>
                 </section>

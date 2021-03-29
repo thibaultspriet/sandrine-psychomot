@@ -90,7 +90,7 @@ export default function Home({API_KEY}) {
                         <h1>Sandrine Dubois</h1>
                         <h2>Psychomotricité<br />Yoga - Sophrologie</h2>
                         <p>
-                            Psychomotricienne DE , j'accompagne toute personne adulte, adolescent et enfant
+                            Psychomotricienne diplômée d'Etat (D.E) , j'accompagne toute personne adulte, adolescent et enfant
                             dans sa singularité.
                     </p>
 
@@ -170,25 +170,25 @@ export default function Home({API_KEY}) {
 
                         <ul ref={iconContainer}>
                             <li><img src="main/sensations.svg" alt="icon" className="icon" />
-                                <p><span>Mes sensations</span></p>
+                                <p><span>Ses sensations</span></p>
                             </li>
                             <li><img src="main/tonus.svg" alt="icon" className="icon" />
 
-                                <p><span>Mon tonus</span></p>
+                                <p><span>Son tonus</span></p>
                             </li>
                             <li><img src="main/axe.svg" alt="icon" className="icon" />
 
-                                <p><span>Mon axe corporel</span></p>
+                                <p><span>Son axe corporel</span></p>
                             </li>
                             <li><img src="main/rythme.svg" alt="icon" className="icon" />
 
-                                <p><span>Mes rythmes</span></p>
+                                <p><span>Ses rythmes</span></p>
                             </li>
                             <li><img src="main/schemacorp.svg" alt="icon" className="icon" />
-                                <p><span>Mon schéma corporel & mon image du corps</span></p>
+                                <p><span>Son schéma corporel & son image du corps</span></p>
                             </li>
                             <li><img src="main/emotion.svg" alt="icon" className="icon" />
-                                <p><span>Mes émotions</span></p>
+                                <p><span>Ses émotions</span></p>
                             </li>
                         </ul>
                     </div>

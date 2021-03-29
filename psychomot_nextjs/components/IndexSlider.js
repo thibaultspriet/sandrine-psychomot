@@ -5,7 +5,7 @@ import "react-animated-slider/build/horizontal.css";
 
 const yogaBack = {
   backgroundPositionX : "center",
-  backgroundPositionY : "bottom"
+  backgroundPositionY : "70%"
 }
 
 const IndexSlider = () => {

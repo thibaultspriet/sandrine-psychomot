@@ -39,7 +39,7 @@ export default function Yoga() {
                         <ul>
                             <li>Troubles de l’attention et de l’anxiété</li>
                             <li>Sommeil perturbé et difficulté à s’endormir</li>
-                            <li>Alternative aux activités particulièrement stimulante et excitante comme la télévision, les jeux vidéos.</li>
+                            <li>Alternative aux activités particulièrement stimulantes et excitantes comme la télévision, les jeux vidéos.</li>
                         </ul>
                     </section>
                     
@@ -164,7 +164,7 @@ export default function Yoga() {
                 </section>
                 
                 <section id="adulte">
-                    <h2 className="sectionTitle">Les adultes</h2>
+                    <h2 className="sectionTitle">Pour les adultes</h2>
                     <div id="historique">
                         <p>
                             Évoqué pour la première fois au XVème siècle dans le texte Hatha Yoga Pradipika, attribué au sage Yogi
@@ -179,7 +179,7 @@ export default function Yoga() {
                             Constitué des termes sanskrits « ha » et « tha » qui signifient respectivement le soleil et la lune, le
                             Hatha est l’union de ces deux énergies complémentaires qui nous constituent. Les asanas allongent et
                             raffermissent nos muscles, notamment par des exercices de gainage, et confèrent une sensation de bien-être
-                            et de vitalité
+                            et de vitalité.
                             En outre, elles agissent sur nos organes internes et contribuent à stimuler directement notre système
                             endocrinien.
                         </p>
@@ -190,8 +190,8 @@ export default function Yoga() {
                             La face solaire du Hatha Yoga, aussi appelée yang, se traduit par la réalisation de postures qui, tenues,
                             permettent d’étirer, de renforcer et d’irriguer les tissus conjonctifs composant notre corps. Muscles,
                             tendons et fascias sont ainsi tonifiés et assouplis, contribuant à un meilleur fonctionnement des
-                            articulations.C’est la mobilité du corps dans son intégralité qui est impactée. Les mouvements sont plus
-                            aériens, libérés des tensions liées notamment aux mauvaises postures de la vie quotidienne qui sont, au fils
+                            articulations. C’est la mobilité du corps dans son intégralité qui est impactée. Les mouvements sont plus
+                            aériens, libérés des tensions liées notamment aux mauvaises postures de la vie quotidienne qui sont, au fil
                             des séances, peu à peu corrigées.
                         </p>
                         <p>

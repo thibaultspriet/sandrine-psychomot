@@ -2,6 +2,8 @@ import Head from "next/head"
 import Base from "../components/Base"
 import Image from "next/image"
 
+import parse from "html-react-parser"
+
 import { useState, useEffect } from "react"
 
 import "../static/css/rendez_vous.css"
@@ -49,11 +51,11 @@ export default function RendezVous({ services }) {
                             <main className="recap">
                                 <ul className="infos">
                                     <li className="name"><span id="name">{serviceSelected.label}</span></li>
-                                    <li className="price" >Prix : <span id="price">{serviceSelected.price}</span>€</li>
+                                    <li className="price" >{serviceSelected.label == "Bilan Psychomoteur" ? "Forfait : " : "Prix : "}<span id="price">{serviceSelected.price}</span>€</li>
                                     <li className="duration">Durée : <span id="duration">{serviceSelected.duration}</span></li>
                                 </ul>
                                 <div className="description">
-                                    <span id="description">{serviceSelected.description}</span>
+                                    <span id="description">{parse(serviceSelected.description)}</span>
                                 </div>
                                 <div className="email">
                                     <label htmlFor="email">Email</label>
@@ -67,6 +69,22 @@ export default function RendezVous({ services }) {
                             </main>
                         </form>
                     </div>
+
+                    <div className="note">
+                        <p>
+                            Le réglement se fait par chèques ou en espèces.
+                        </p>
+                        <p>
+                            Une facture pourra être délivrée si besoin
+                        </p>
+                        <p>
+                            En cas d'empéchement, l'annulation du rendez-vous doit être effectuée, au plus tard 24h avant la consultation, dans le cas contraire la séance vous sera facturée.
+                        </p>
+                        <p>
+                            Par respect pour votre psychomotricienne et les autres patients, je vous remercie de respecter les horaires de vos rendez-vous.
+                        </p>
+                    </div>
+
                 </div>
 
             </Base>
@@ -81,15 +99,23 @@ export async function getStaticProps() {
             services: [
                 {
                     label: "Bilan Psychomoteur",
-                    price: "150",
+                    price: "165",
                     duration: "1h30",
-                    description: "Lors du premier rendez-vous, le psychomotricien r\u00e9alise un entretien qui permet de mieux comprendre la demande initiale en reprenant l\u2019histoire de vie, les diff\u00e9rentes \u00e9tapes de son d\u00e9veloppement, les difficult\u00e9s rencontr\u00e9es, les particularit\u00e9s comportementales"
+                    description: `
+                    <ul>
+                    <li>Forfait comprenant :</li>
+                    <ul className="pad" >
+                        <li className="disc">1 entretien préalable d'une heure</li>
+                        <li className="disc">2 séances de bilan de 1h environ</li>
+                        <li className="disc">1 restitution orale de l'analyse des résultats</li>
+                    </ul>
+                    <li>Entretien préalable : 50€ seul</li>`
                 },
                 {
                     label: "Séance de psychomotricité",
-                    price: "50",
-                    duration: "1h",
-                    description: "Ateliers de psychomotricité"
+                    price: "42",
+                    duration: "45min",
+                    description: ""
                 },
                 {
                     label: "Yoga / Sophrologie adultes",

@@ -193,7 +193,7 @@ export default function Home() {
                 <h3>Déroulement d'une prise en charge :</h3>
                 <ul>
                     <li>Le premier contact avec le patient (et sa famille) consiste à réaliser un <strong>bilan
-                            psychomoteur</strong>(entretien,
+                            psychomoteur</strong> (entretien,
                         tests et épreuves) qui fait l’objet d’une <strong>prescription médicale</strong>.
                     </li>
                     <li>Au regard des conclusions du bilan, si cela est nécessaire, il est proposé au patient <strong>une prise
@@ -201,7 +201,7 @@ export default function Home() {
                             charge</strong> avec des objectifs et des dispositifs de rééducation adaptés.
                     </li>
                     <li>Le <strong>projet thérapeutique</strong> s’adapte tout au long des séances en fonction des
-                        <strong>souhaits du patient</strong> et de ses
+                        <strong> souhaits du patient</strong> et de ses
                         progrès. Les séances individuelles durent entre 30 et 45 minutes. Sur RDV uniquement.
                     </li>
                     <li>Les prises en charge s’effectuent en <strong>individuel</strong> ou en <strong>groupe</strong> selon les

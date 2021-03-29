@@ -69,7 +69,7 @@ export default function Sophro() {
                                 <p>
                                     Elle vous permet d'expérimenter quelques exercices dynamiques alliés à une respiration contrôlée
                                     et
-                                    une visualisation.C'est à la suite de votre première expérience sophrologique que commencera
+                                    une visualisation. C'est à la suite de votre première expérience sophrologique que commencera
                                     votre
                                     démarche thérapeutique. Elle dure 1h30.
                                 </p>

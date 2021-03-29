@@ -40,6 +40,12 @@
     }
   }
 
+  .text{
+    background-color: rgba(0, 0, 0, 0.034);
+    backdrop-filter: blur(10px);
+    padding: 0.5rem;
+    border-radius: 20px;
+  }
   .psychomotricite_slide .text {
     bottom: 15%;
     left: 10%;
@@ -56,8 +62,29 @@
   } 
 }
 
+@media only screen and (max-width:500px){
+  .slider{
+    .psychomotricite_slide .text {
+    bottom: 15%;
+      left: unset;
+    }
+    .yoga_slide .text{
+        right: 0%;
+        top: 0%;
+        left: 0%;
+      }
+    
+    .sophro_slide .text{
+      bottom : 15%;
+      right: unset;
+      text-align: center;
+    } 
+  }
+}
+
 @media only screen and (min-width:800px){
   .slider .text h2{
     font-size: 4em;
   }
 }
+
