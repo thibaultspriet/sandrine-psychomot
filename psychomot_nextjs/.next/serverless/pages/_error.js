@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "oRXg");
+/******/ 	return __webpack_require__(__webpack_require__.s = "pWyh");
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -4041,7 +4041,7 @@ exports.__esModule=true;exports.setRevalidateHeaders=setRevalidateHeaders;export
 /***/ "LZ9C":
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"polyfillFiles\":[\"static/chunks/polyfills-0a2dccd2aa0d7ea1a89f.js\"],\"devFiles\":[],\"ampDevFiles\":[],\"lowPriorityFiles\":[\"static/UaFHH5FS83fUVw9nSFfgJ/_buildManifest.js\",\"static/UaFHH5FS83fUVw9nSFfgJ/_ssgManifest.js\"],\"pages\":{\"/\":[\"static/chunks/main-bfe4c4a1dd510211e0e6.js\",\"static/chunks/webpack-d7b2fb72fb7257504a38.js\",\"static/chunks/framework.9116e7bff2bfccdffa19.js\",\"static/chunks/8b64c723bbc0cc0a1e72da776722151c8b518abe.12298599414ab8409172.js\",\"static/css/styles.e98cbc4e.chunk.css\",\"static/chunks/styles.d0a08b746662867b8e94.js\",\"static/chunks/pages/index-9ef412cecf740c7a2340.js\"],\"/_app\":[\"static/chunks/main-bfe4c4a1dd510211e0e6.js\",\"static/chunks/webpack-d7b2fb72fb7257504a38.js\",\"static/chunks/framework.9116e7bff2bfccdffa19.js\",\"static/chunks/f6078781a05fe1bcb0902d23dbbb2662c8d200b3.e45307bcdae6f43cc440.js\",\"static/css/styles.e98cbc4e.chunk.css\",\"static/chunks/styles.d0a08b746662867b8e94.js\",\"static/chunks/pages/_app-73ea01d738ebcbcb5b1e.js\"],\"/_error\":[\"static/chunks/main-bfe4c4a1dd510211e0e6.js\",\"static/chunks/webpack-d7b2fb72fb7257504a38.js\",\"static/chunks/framework.9116e7bff2bfccdffa19.js\",\"static/chunks/pages/_error-0042d2c9c079141dc09c.js\"],\"/bilan\":[\"static/chunks/main-bfe4c4a1dd510211e0e6.js\",\"static/chunks/webpack-d7b2fb72fb7257504a38.js\",\"static/chunks/framework.9116e7bff2bfccdffa19.js\",\"static/chunks/8b64c723bbc0cc0a1e72da776722151c8b518abe.12298599414ab8409172.js\",\"static/css/styles.e98cbc4e.chunk.css\",\"static/chunks/styles.d0a08b746662867b8e94.js\",\"static/chunks/pages/bilan-b8325bd5209c061de912.js\"],\"/boiteOutils\":[\"static/chunks/main-bfe4c4a1dd510211e0e6.js\",\"static/chunks/webpack-d7b2fb72fb7257504a38.js\",\"static/chunks/framework.9116e7bff2bfccdffa19.js\",\"static/chunks/8b64c723bbc0cc0a1e72da776722151c8b518abe.12298599414ab8409172.js\",\"static/css/styles.e98cbc4e.chunk.css\",\"static/chunks/styles.d0a08b746662867b8e94.js\",\"static/chunks/pages/boiteOutils-907423d633d91e6b28ea.js\"],\"/contact\":[\"static/chunks/main-bfe4c4a1dd510211e0e6.js\",\"static/chunks/webpack-d7b2fb72fb7257504a38.js\",\"static/chunks/framework.9116e7bff2bfccdffa19.js\",\"static/chunks/8b64c723bbc0cc0a1e72da776722151c8b518abe.12298599414ab8409172.js\",\"static/css/styles.e98cbc4e.chunk.css\",\"static/chunks/styles.d0a08b746662867b8e94.js\",\"static/chunks/pages/contact-883112389e0bf52c3c43.js\"],\"/pourqui\":[\"static/chunks/main-bfe4c4a1dd510211e0e6.js\",\"static/chunks/webpack-d7b2fb72fb7257504a38.js\",\"static/chunks/framework.9116e7bff2bfccdffa19.js\",\"static/chunks/8b64c723bbc0cc0a1e72da776722151c8b518abe.12298599414ab8409172.js\",\"static/css/styles.e98cbc4e.chunk.css\",\"static/chunks/styles.d0a08b746662867b8e94.js\",\"static/chunks/pages/pourqui-fd0e568292bb9f02908a.js\"],\"/presentation\":[\"static/chunks/main-bfe4c4a1dd510211e0e6.js\",\"static/chunks/webpack-d7b2fb72fb7257504a38.js\",\"static/chunks/framework.9116e7bff2bfccdffa19.js\",\"static/chunks/8b64c723bbc0cc0a1e72da776722151c8b518abe.12298599414ab8409172.js\",\"static/css/styles.e98cbc4e.chunk.css\",\"static/chunks/styles.d0a08b746662867b8e94.js\",\"static/chunks/pages/presentation-8e3578d07fcc5dd68245.js\"],\"/psychomotricite\":[\"static/chunks/main-bfe4c4a1dd510211e0e6.js\",\"static/chunks/webpack-d7b2fb72fb7257504a38.js\",\"static/chunks/framework.9116e7bff2bfccdffa19.js\",\"static/chunks/8b64c723bbc0cc0a1e72da776722151c8b518abe.12298599414ab8409172.js\",\"static/css/styles.e98cbc4e.chunk.css\",\"static/chunks/styles.d0a08b746662867b8e94.js\",\"static/chunks/pages/psychomotricite-9eeae2d4e9b013fad43e.js\"],\"/rendez_vous\":[\"static/chunks/main-bfe4c4a1dd510211e0e6.js\",\"static/chunks/webpack-d7b2fb72fb7257504a38.js\",\"static/chunks/framework.9116e7bff2bfccdffa19.js\",\"static/chunks/8b64c723bbc0cc0a1e72da776722151c8b518abe.12298599414ab8409172.js\",\"static/css/styles.e98cbc4e.chunk.css\",\"static/chunks/styles.d0a08b746662867b8e94.js\",\"static/chunks/pages/rendez_vous-26723a7c590b8a6982c3.js\"],\"/sophro\":[\"static/chunks/main-bfe4c4a1dd510211e0e6.js\",\"static/chunks/webpack-d7b2fb72fb7257504a38.js\",\"static/chunks/framework.9116e7bff2bfccdffa19.js\",\"static/chunks/8b64c723bbc0cc0a1e72da776722151c8b518abe.12298599414ab8409172.js\",\"static/css/styles.e98cbc4e.chunk.css\",\"static/chunks/styles.d0a08b746662867b8e94.js\",\"static/chunks/pages/sophro-e831171de41cc809b312.js\"],\"/yoga\":[\"static/chunks/main-bfe4c4a1dd510211e0e6.js\",\"static/chunks/webpack-d7b2fb72fb7257504a38.js\",\"static/chunks/framework.9116e7bff2bfccdffa19.js\",\"static/chunks/8b64c723bbc0cc0a1e72da776722151c8b518abe.12298599414ab8409172.js\",\"static/css/styles.e98cbc4e.chunk.css\",\"static/chunks/styles.d0a08b746662867b8e94.js\",\"static/chunks/pages/yoga-f37a5b11a03fe72ce707.js\"],\"/yoga-sophro\":[\"static/chunks/main-bfe4c4a1dd510211e0e6.js\",\"static/chunks/webpack-d7b2fb72fb7257504a38.js\",\"static/chunks/framework.9116e7bff2bfccdffa19.js\",\"static/chunks/8b64c723bbc0cc0a1e72da776722151c8b518abe.12298599414ab8409172.js\",\"static/css/styles.e98cbc4e.chunk.css\",\"static/chunks/styles.d0a08b746662867b8e94.js\",\"static/chunks/pages/yoga-sophro-abbb232f130b38548dd3.js\"]},\"ampFirstPages\":[]}");
+module.exports = JSON.parse("{\"polyfillFiles\":[\"static/chunks/polyfills-0a2dccd2aa0d7ea1a89f.js\"],\"devFiles\":[],\"ampDevFiles\":[],\"lowPriorityFiles\":[\"static/U-JW9Kfq-IWWHaL8zrbQN/_buildManifest.js\",\"static/U-JW9Kfq-IWWHaL8zrbQN/_ssgManifest.js\"],\"pages\":{\"/\":[\"static/chunks/main-bfe4c4a1dd510211e0e6.js\",\"static/chunks/webpack-d7b2fb72fb7257504a38.js\",\"static/chunks/framework.9116e7bff2bfccdffa19.js\",\"static/chunks/8b64c723bbc0cc0a1e72da776722151c8b518abe.12298599414ab8409172.js\",\"static/css/styles.e98cbc4e.chunk.css\",\"static/chunks/styles.d0a08b746662867b8e94.js\",\"static/chunks/pages/index-9ef412cecf740c7a2340.js\"],\"/_app\":[\"static/chunks/main-bfe4c4a1dd510211e0e6.js\",\"static/chunks/webpack-d7b2fb72fb7257504a38.js\",\"static/chunks/framework.9116e7bff2bfccdffa19.js\",\"static/chunks/f6078781a05fe1bcb0902d23dbbb2662c8d200b3.e45307bcdae6f43cc440.js\",\"static/css/styles.e98cbc4e.chunk.css\",\"static/chunks/styles.d0a08b746662867b8e94.js\",\"static/chunks/pages/_app-73ea01d738ebcbcb5b1e.js\"],\"/_error\":[\"static/chunks/main-bfe4c4a1dd510211e0e6.js\",\"static/chunks/webpack-d7b2fb72fb7257504a38.js\",\"static/chunks/framework.9116e7bff2bfccdffa19.js\",\"static/chunks/pages/_error-0042d2c9c079141dc09c.js\"],\"/bilan\":[\"static/chunks/main-bfe4c4a1dd510211e0e6.js\",\"static/chunks/webpack-d7b2fb72fb7257504a38.js\",\"static/chunks/framework.9116e7bff2bfccdffa19.js\",\"static/chunks/8b64c723bbc0cc0a1e72da776722151c8b518abe.12298599414ab8409172.js\",\"static/css/styles.e98cbc4e.chunk.css\",\"static/chunks/styles.d0a08b746662867b8e94.js\",\"static/chunks/pages/bilan-b8325bd5209c061de912.js\"],\"/boiteOutils\":[\"static/chunks/main-bfe4c4a1dd510211e0e6.js\",\"static/chunks/webpack-d7b2fb72fb7257504a38.js\",\"static/chunks/framework.9116e7bff2bfccdffa19.js\",\"static/chunks/8b64c723bbc0cc0a1e72da776722151c8b518abe.12298599414ab8409172.js\",\"static/css/styles.e98cbc4e.chunk.css\",\"static/chunks/styles.d0a08b746662867b8e94.js\",\"static/chunks/pages/boiteOutils-907423d633d91e6b28ea.js\"],\"/contact\":[\"static/chunks/main-bfe4c4a1dd510211e0e6.js\",\"static/chunks/webpack-d7b2fb72fb7257504a38.js\",\"static/chunks/framework.9116e7bff2bfccdffa19.js\",\"static/chunks/8b64c723bbc0cc0a1e72da776722151c8b518abe.12298599414ab8409172.js\",\"static/css/styles.e98cbc4e.chunk.css\",\"static/chunks/styles.d0a08b746662867b8e94.js\",\"static/chunks/pages/contact-883112389e0bf52c3c43.js\"],\"/pourqui\":[\"static/chunks/main-bfe4c4a1dd510211e0e6.js\",\"static/chunks/webpack-d7b2fb72fb7257504a38.js\",\"static/chunks/framework.9116e7bff2bfccdffa19.js\",\"static/chunks/8b64c723bbc0cc0a1e72da776722151c8b518abe.12298599414ab8409172.js\",\"static/css/styles.e98cbc4e.chunk.css\",\"static/chunks/styles.d0a08b746662867b8e94.js\",\"static/chunks/pages/pourqui-fd0e568292bb9f02908a.js\"],\"/presentation\":[\"static/chunks/main-bfe4c4a1dd510211e0e6.js\",\"static/chunks/webpack-d7b2fb72fb7257504a38.js\",\"static/chunks/framework.9116e7bff2bfccdffa19.js\",\"static/chunks/8b64c723bbc0cc0a1e72da776722151c8b518abe.12298599414ab8409172.js\",\"static/css/styles.e98cbc4e.chunk.css\",\"static/chunks/styles.d0a08b746662867b8e94.js\",\"static/chunks/pages/presentation-8e3578d07fcc5dd68245.js\"],\"/psychomotricite\":[\"static/chunks/main-bfe4c4a1dd510211e0e6.js\",\"static/chunks/webpack-d7b2fb72fb7257504a38.js\",\"static/chunks/framework.9116e7bff2bfccdffa19.js\",\"static/chunks/8b64c723bbc0cc0a1e72da776722151c8b518abe.12298599414ab8409172.js\",\"static/css/styles.e98cbc4e.chunk.css\",\"static/chunks/styles.d0a08b746662867b8e94.js\",\"static/chunks/pages/psychomotricite-9eeae2d4e9b013fad43e.js\"],\"/rendez_vous\":[\"static/chunks/main-bfe4c4a1dd510211e0e6.js\",\"static/chunks/webpack-d7b2fb72fb7257504a38.js\",\"static/chunks/framework.9116e7bff2bfccdffa19.js\",\"static/chunks/8b64c723bbc0cc0a1e72da776722151c8b518abe.12298599414ab8409172.js\",\"static/css/styles.e98cbc4e.chunk.css\",\"static/chunks/styles.d0a08b746662867b8e94.js\",\"static/chunks/pages/rendez_vous-26723a7c590b8a6982c3.js\"],\"/sophro\":[\"static/chunks/main-bfe4c4a1dd510211e0e6.js\",\"static/chunks/webpack-d7b2fb72fb7257504a38.js\",\"static/chunks/framework.9116e7bff2bfccdffa19.js\",\"static/chunks/8b64c723bbc0cc0a1e72da776722151c8b518abe.12298599414ab8409172.js\",\"static/css/styles.e98cbc4e.chunk.css\",\"static/chunks/styles.d0a08b746662867b8e94.js\",\"static/chunks/pages/sophro-e831171de41cc809b312.js\"],\"/yoga\":[\"static/chunks/main-bfe4c4a1dd510211e0e6.js\",\"static/chunks/webpack-d7b2fb72fb7257504a38.js\",\"static/chunks/framework.9116e7bff2bfccdffa19.js\",\"static/chunks/8b64c723bbc0cc0a1e72da776722151c8b518abe.12298599414ab8409172.js\",\"static/css/styles.e98cbc4e.chunk.css\",\"static/chunks/styles.d0a08b746662867b8e94.js\",\"static/chunks/pages/yoga-f37a5b11a03fe72ce707.js\"],\"/yoga-sophro\":[\"static/chunks/main-bfe4c4a1dd510211e0e6.js\",\"static/chunks/webpack-d7b2fb72fb7257504a38.js\",\"static/chunks/framework.9116e7bff2bfccdffa19.js\",\"static/chunks/8b64c723bbc0cc0a1e72da776722151c8b518abe.12298599414ab8409172.js\",\"static/css/styles.e98cbc4e.chunk.css\",\"static/chunks/styles.d0a08b746662867b8e94.js\",\"static/chunks/pages/yoga-sophro-abbb232f130b38548dd3.js\"]},\"ampFirstPages\":[]}");
 
 /***/ }),
 
@@ -12206,7 +12206,150 @@ function flushToHTML(options) {
 
 /***/ }),
 
-/***/ "oRXg":
+/***/ "onlc":
+/***/ (function(module, exports, __webpack_require__) {
+
+var conversions = __webpack_require__("t1N5");
+
+/*
+	this function routes a model to all other models.
+
+	all functions that are routed have a property `.conversion` attached
+	to the returned synthetic function. This property is an array
+	of strings, each with the steps in between the 'from' and 'to'
+	color models (inclusive).
+
+	conversions that are not possible simply are not included.
+*/
+
+function buildGraph() {
+	var graph = {};
+	// https://jsperf.com/object-keys-vs-for-in-with-closure/3
+	var models = Object.keys(conversions);
+
+	for (var len = models.length, i = 0; i < len; i++) {
+		graph[models[i]] = {
+			// http://jsperf.com/1-vs-infinity
+			// micro-opt, but this is simple.
+			distance: -1,
+			parent: null
+		};
+	}
+
+	return graph;
+}
+
+// https://en.wikipedia.org/wiki/Breadth-first_search
+function deriveBFS(fromModel) {
+	var graph = buildGraph();
+	var queue = [fromModel]; // unshift -> queue -> pop
+
+	graph[fromModel].distance = 0;
+
+	while (queue.length) {
+		var current = queue.pop();
+		var adjacents = Object.keys(conversions[current]);
+
+		for (var len = adjacents.length, i = 0; i < len; i++) {
+			var adjacent = adjacents[i];
+			var node = graph[adjacent];
+
+			if (node.distance === -1) {
+				node.distance = graph[current].distance + 1;
+				node.parent = current;
+				queue.unshift(adjacent);
+			}
+		}
+	}
+
+	return graph;
+}
+
+function link(from, to) {
+	return function (args) {
+		return to(from(args));
+	};
+}
+
+function wrapConversion(toModel, graph) {
+	var path = [graph[toModel].parent, toModel];
+	var fn = conversions[graph[toModel].parent][toModel];
+
+	var cur = graph[toModel].parent;
+	while (graph[cur].parent) {
+		path.unshift(graph[cur].parent);
+		fn = link(conversions[graph[cur].parent][cur], fn);
+		cur = graph[cur].parent;
+	}
+
+	fn.conversion = path;
+	return fn;
+}
+
+module.exports = function (fromModel) {
+	var graph = deriveBFS(fromModel);
+	var conversion = {};
+
+	var models = Object.keys(graph);
+	for (var len = models.length, i = 0; i < len; i++) {
+		var toModel = models[i];
+		var node = graph[toModel];
+
+		if (node.parent === null) {
+			// no possible conversion, or this node is the source model.
+			continue;
+		}
+
+		conversion[toModel] = wrapConversion(toModel, graph);
+	}
+
+	return conversion;
+};
+
+
+
+/***/ }),
+
+/***/ "oxjq":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var matchOperatorsRe = /[|\\{}()[\]^$+*?.]/g;
+
+module.exports = function (str) {
+	if (typeof str !== 'string') {
+		throw new TypeError('Expected a string');
+	}
+
+	return str.replace(matchOperatorsRe, '\\$&');
+};
+
+
+/***/ }),
+
+/***/ "oyvS":
+/***/ (function(module, exports) {
+
+module.exports = require("path");
+
+/***/ }),
+
+/***/ "pV7Z":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+if (true) {
+  module.exports = __webpack_require__("FDah");
+} else {}
+
+
+/***/ }),
+
+/***/ "pWyh":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12361,10 +12504,10 @@ __webpack_require__.r(__webpack_exports__);
         getStaticPaths,
         reactLoadableManifest,
         canonicalBase: "",
-        buildId: "UaFHH5FS83fUVw9nSFfgJ",
+        buildId: "U-JW9Kfq-IWWHaL8zrbQN",
         assetPrefix: "",
         runtimeConfig: runtimeConfig.publicRuntimeConfig || {},
-        previewProps: {previewModeId:"6c7d34aa027d756233ce33bd0a8744d3",previewModeSigningKey:"a3e81187c3acb003a2f90f0ca1792d3cc114655d3f558372adfb437528c3034e",previewModeEncryptionKey:"9cca1e62117f79c8af1f079ded4fce097e8532f42172c30c0560fb8c3f368a80"},
+        previewProps: {previewModeId:"93ee3231ec57a188fd39fd5fffba24c2",previewModeSigningKey:"b5e153626741e58197c34a04e6fac2506b40dcec6d6dd37114e67a09f808c4d9",previewModeEncryptionKey:"f4f959cd4be624b8a746d011b900732d5d9bf01afb40709e3e37a7170085b4f8"},
         env: process.env,
         basePath: "",
         ..._renderOpts
@@ -12403,7 +12546,7 @@ __webpack_require__.r(__webpack_exports__);
           _nextData = false;
           parsedUrl.pathname = getRouteNoAssetPath(
             parsedUrl.pathname.replace(
-              new RegExp('/_next/data/UaFHH5FS83fUVw9nSFfgJ/'),
+              new RegExp('/_next/data/U\-JW9Kfq\-IWWHaL8zrbQN/'),
               '/'
             ),
             '.json'
@@ -12617,149 +12760,6 @@ __webpack_require__.r(__webpack_exports__);
       }
     }
   
-
-/***/ }),
-
-/***/ "onlc":
-/***/ (function(module, exports, __webpack_require__) {
-
-var conversions = __webpack_require__("t1N5");
-
-/*
-	this function routes a model to all other models.
-
-	all functions that are routed have a property `.conversion` attached
-	to the returned synthetic function. This property is an array
-	of strings, each with the steps in between the 'from' and 'to'
-	color models (inclusive).
-
-	conversions that are not possible simply are not included.
-*/
-
-function buildGraph() {
-	var graph = {};
-	// https://jsperf.com/object-keys-vs-for-in-with-closure/3
-	var models = Object.keys(conversions);
-
-	for (var len = models.length, i = 0; i < len; i++) {
-		graph[models[i]] = {
-			// http://jsperf.com/1-vs-infinity
-			// micro-opt, but this is simple.
-			distance: -1,
-			parent: null
-		};
-	}
-
-	return graph;
-}
-
-// https://en.wikipedia.org/wiki/Breadth-first_search
-function deriveBFS(fromModel) {
-	var graph = buildGraph();
-	var queue = [fromModel]; // unshift -> queue -> pop
-
-	graph[fromModel].distance = 0;
-
-	while (queue.length) {
-		var current = queue.pop();
-		var adjacents = Object.keys(conversions[current]);
-
-		for (var len = adjacents.length, i = 0; i < len; i++) {
-			var adjacent = adjacents[i];
-			var node = graph[adjacent];
-
-			if (node.distance === -1) {
-				node.distance = graph[current].distance + 1;
-				node.parent = current;
-				queue.unshift(adjacent);
-			}
-		}
-	}
-
-	return graph;
-}
-
-function link(from, to) {
-	return function (args) {
-		return to(from(args));
-	};
-}
-
-function wrapConversion(toModel, graph) {
-	var path = [graph[toModel].parent, toModel];
-	var fn = conversions[graph[toModel].parent][toModel];
-
-	var cur = graph[toModel].parent;
-	while (graph[cur].parent) {
-		path.unshift(graph[cur].parent);
-		fn = link(conversions[graph[cur].parent][cur], fn);
-		cur = graph[cur].parent;
-	}
-
-	fn.conversion = path;
-	return fn;
-}
-
-module.exports = function (fromModel) {
-	var graph = deriveBFS(fromModel);
-	var conversion = {};
-
-	var models = Object.keys(graph);
-	for (var len = models.length, i = 0; i < len; i++) {
-		var toModel = models[i];
-		var node = graph[toModel];
-
-		if (node.parent === null) {
-			// no possible conversion, or this node is the source model.
-			continue;
-		}
-
-		conversion[toModel] = wrapConversion(toModel, graph);
-	}
-
-	return conversion;
-};
-
-
-
-/***/ }),
-
-/***/ "oxjq":
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var matchOperatorsRe = /[|\\{}()[\]^$+*?.]/g;
-
-module.exports = function (str) {
-	if (typeof str !== 'string') {
-		throw new TypeError('Expected a string');
-	}
-
-	return str.replace(matchOperatorsRe, '\\$&');
-};
-
-
-/***/ }),
-
-/***/ "oyvS":
-/***/ (function(module, exports) {
-
-module.exports = require("path");
-
-/***/ }),
-
-/***/ "pV7Z":
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-if (true) {
-  module.exports = __webpack_require__("FDah");
-} else {}
-
 
 /***/ }),
 

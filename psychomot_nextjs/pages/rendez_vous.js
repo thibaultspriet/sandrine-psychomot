@@ -100,7 +100,7 @@ export async function getStaticProps() {
                 {
                     label: "Bilan Psychomoteur",
                     price: "165",
-                    duration: "1h30",
+                    duration: "",
                     description: `
                     <ul>
                     <li>Forfait comprenant :</li>
@@ -108,7 +108,7 @@ export async function getStaticProps() {
                         <li className="disc">1 entretien préalable d'une heure</li>
                         <li className="disc">2 séances de bilan de 1h environ</li>
                         <li className="disc">1 restitution orale de l'analyse des résultats</li>
-                    </ul>
+                    </ul></br>
                     <li>Entretien préalable : 50€ seul</li>`
                 },
                 {
@@ -121,11 +121,11 @@ export async function getStaticProps() {
                     label: "Yoga / Sophrologie adultes",
                     price: "50",
                     duration: "1h",
-                    description: "Séance pour adultes"
+                    description: "<p>La première séance consiste en un entretien individuel que nous menons ensemble. A cette occasion, j'identifie vos attentes et vos besoins pour parvenir à l'objectif que vous vous êtes fixé.</br>Une fois ce bilan effectué, je vous propose de pratiquer et d'expérimenter quelques exercices. (durée : 1h30 prix : 60€)</p>"
                 },
                 {
                     label: "Yoga / Sophrologie enfants",
-                    price: "40",
+                    price: "42",
                     duration: "45min",
                     description: "Séances enfants"
                 }
