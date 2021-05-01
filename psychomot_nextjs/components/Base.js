@@ -58,9 +58,9 @@ export default function Base({ children, route }) {
             <header className="base-header">
                 <nav className="coordinates">
                     <ul className="list-coordinates">
-                        <li><a href="tel:0615742382"><img src="main/phone-call.svg" alt="phone"
+                        <li><a href="tel:0608302897"><img src="main/phone-call.svg" alt="phone"
                             className="tel" />06 08 30 28 97</a></li>
-                        <li><a href="mailto:thibaultspriet@hotmail.fr"><img src="main/email.svg"
+                        <li><a href="mailto:sandrine.dubois.psychomot@sfr.fr"><img src="main/email.svg"
                             alt="email" className="mail" />sandrine.dubois.psychomot@sfr.fr</a></li>
                         <li><a href="#"><img src="main/location.svg" alt="location"
                             className="location" />548, rue de la Verderie 59710 Mérignies</a></li>

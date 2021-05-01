@@ -19,8 +19,7 @@ class MyDocument extends Document {
             <link rel="apple-touch-icon" sizes="180x180" href="/main/site_icon/apple-touch-icon.png" />
             <link rel="manifest" href="/main/site_icon/site.webmanifest" />
             <link rel="mask-icon" href="/main/site_icon/safari-pinned-tab.svg"/>
-            <meta name="theme-color" content="#ffffff" />
-      
+            <meta name="theme-color" content="#ffffff" />      
         </Head>
         <body>
           <Main />

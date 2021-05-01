@@ -246,14 +246,14 @@ export default function Presentation() {
                 </div>
 
                 <div className="cabinet-container">
-                    <img src="/main/sample-int.jpg" alt="sample" />
+                    <img src="/main/cabinet1.png" alt="sample" />
                     <p>Mon cabinet de psychomotricité se situe: au 548 rue de la Verderie à Mérignies (59710).
                         Après une expérience en libéral à Valenciennes puis à Rosult, j’ai choisi de m’installer à
                         Mérignies.
                         Je reçois des patients pour dépister, traiter et rééduquer les troubles psychomoteurs à tous les
                         âges de la
                         vie (du nouveau né à la personne âgée).</p>
-                    <img src="/main/sample-int.jpg" alt="sample" />
+                    <img src="/main/cabinet2.png" alt="sample" />
                     <p>Les prises en charge s’effectuent en individuel ou en groupe selon les besoins du patient.
                         Je travaille en collaboration avec des médecins spécialistes (pédiatre, pédopsychiatre,
                         neuropédiatre) ainsi
