@@ -5,7 +5,7 @@ You can visit the website [here](https://sandrine-dubois-psychomotricienne.fr)
 
 ## The website.  
 
-![video](https://github.com/thibaultspriet/sandrine-psychomot/blob/main/landingpage-2.mp4)
+![video](https://media.giphy.com/media/FBRUgUtuVLVVsPLzzZ/giphy.gif)
 
 ## About the website ❓  
 
