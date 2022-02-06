@@ -2,6 +2,6 @@
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
-  "/presentation": "pages/presentation.js",
-  "/next/dist/pages/_error": "pages/next/dist/pages/_error.js"
+  "/sophro": "pages/sophro.js",
+  "/rendez_vous": "pages/rendez_vous.js"
 }
