@@ -99,7 +99,7 @@ export async function getStaticProps() {
             services: [
                 {
                     label: "Bilan Psychomoteur",
-                    price: "200",
+                    price: "165",
                     duration: "",
                     description: `
                     <ul>
@@ -108,7 +108,6 @@ export async function getStaticProps() {
                         <li className="disc">1 entretien préalable d'une heure</li>
                         <li className="disc">2 séances de bilan de 1h environ</li>
                         <li className="disc">rédaction du bilan & analyse des résultats</li>
-                        <li className="disc">restitution du bilan</li>
                     </ul></br>
                     <li>Entretien préalable : 50€ seul</li>`
                 },
