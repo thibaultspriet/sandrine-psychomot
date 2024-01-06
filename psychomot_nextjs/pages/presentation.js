@@ -99,6 +99,14 @@ export default function Presentation() {
                             <h3>Psychomotricienne</h3>
                         </div>
                         <div className="diplomes" ref={anim1}>
+                        <div className="diplome">
+                                <div className="container-intitule">
+                                    <p className="intitule"> « particularités psychomotrices et sensorielles chez la personne avec TSA » par le CRA de Lille</p><span className="annee">2023</span>
+                                </div>
+                                <div className="container-anim" >
+                                    <div className="anim orange"></div>
+                                </div>
+                            </div>
                             <div className="diplome">
                                 <div className="container-intitule">
                                     <p className="intitule"> « les dyspraxies développementales : de la représentation
