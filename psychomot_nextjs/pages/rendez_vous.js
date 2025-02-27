@@ -113,19 +113,25 @@ export async function getStaticProps() {
                 },
                 {
                     label: "Séance de psychomotricité",
-                    price: "43",
+                    price: "45",
                     duration: "45min",
                     description: ""
                 },
                 {
+                    label: "Séance hypnose Ericksonienne",
+                    price: "60",
+                    duration: "1h",
+                    description: ""
+                },
+                {
                     label: "Yoga / Sophrologie adultes",
-                    price: "50",
+                    price: "60",
                     duration: "1h",
                     description: "<p>La première séance consiste en un entretien individuel que nous menons ensemble. A cette occasion, j'identifie vos attentes et vos besoins pour parvenir à l'objectif que vous vous êtes fixé.</br>Une fois ce bilan effectué, je vous propose de pratiquer et d'expérimenter quelques exercices. (durée : 1h30 prix : 60€)</p>"
                 },
                 {
                     label: "Yoga / Sophrologie enfants",
-                    price: "42",
+                    price: "45",
                     duration: "45min",
                     description: "Séances enfants"
                 }

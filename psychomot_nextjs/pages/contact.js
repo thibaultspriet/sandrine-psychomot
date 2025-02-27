@@ -52,7 +52,7 @@ export default function Contact() {
                                 Sandrine Dubois <br /> Psychomotricienne
                     </h1>
                             <div className="hs"></div>
-                            <p><a className="tel secondary" href="tel:0615742382">06 08 30 28 97</a></p>
+                            <p><a className="tel secondary" href="tel:0608302897">06 08 30 28 97</a></p>
                             <div className="adresse">
                                 <p>
                                     Cabinet de Psychomotricité <br /> Mérignies

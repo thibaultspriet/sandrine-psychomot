@@ -154,6 +154,15 @@ export default function Presentation() {
                         <div className="diplomes order" ref={anim2}>
                             <div className="diplome">
                                 <div className="container-intitule">
+                                    <p className="intitule">Certifiée en hypnose Ericksonienne.</p><span
+                                        className="annee">2024</span>
+                                </div>
+                                <div className="container-anim">
+                                    <div className="anim orange"></div>
+                                </div>
+                            </div>
+                            <div className="diplome">
+                                <div className="container-intitule">
                                     <p className="intitule">formation aux techniques de yoga dans l’éducation (spécialité
                                         yoga pour
                                         adolescent) avec le RYE (relaxation et yoga dans l’éducation).</p><span
@@ -193,6 +202,7 @@ export default function Presentation() {
                     <div className="experience-container">
                         <h2 className="experience-title">Psychomotricienne</h2>
                         <ul className="experiences">
+                            <li><span className="periode">De septembre 2022 à juin 2023 : </span><span className="explication">Psychomotricienne dans une unité TSA avec des enfants de 3 à 12 ans</span></li>
                             <li><span className="periode">Depuis janvier 2019 : </span><span className="explication">Activité
                                     libérale à la
                                     maison médicale « Alène d’Or » de Rosult</span></li>
@@ -222,8 +232,10 @@ export default function Presentation() {
                         </ul>
                     </div>
                     <div className="experience-container">
-                        <h2 className="experience-title">Yoga - Sophrologie</h2>
+                        <h2 className="experience-title">Yoga - Sophrologie - Hypnose Ericksonienne</h2>
                         <ul className="experiences">
+                            <li><span className="periode">Depuis septembre 2024 : </span><span className="explication">Activité à temps plein en libéral au cabinet de Mérignies.
+                                </span></li>
                             <li><span className="periode">2020 : </span><span className="explication">Animation de yoga avec des
                                     enfants
                                     (CP, CE1, CE2) présentant des difficultés “d'attention-concentration en classe”, sur
